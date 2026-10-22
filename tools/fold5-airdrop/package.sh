@@ -67,12 +67,13 @@ echo "opendrop patched ($(echo $PATCHES | wc -w) patches)"
 
 tar --numeric-owner --owner=0 --group=0 -czf "$DIST/rootfs.tar.gz" -C "$R" .
 "$PY" "$ROOT/tools/build-radio-probe.py" --ndk "$NDK" --tool awdl-bridge --output "$DIST/awdl_bridge"
+"$PY" "$ROOT/tools/build-radio-probe.py" --ndk "$NDK" --tool monitor-session --output "$DIST/monitor_session"
 cp "$ROOT/tools/fold5-airdrop/fold5-airdrop.sh" "$ROOT/tools/fold5-airdrop/tidy.py" "$DIST/"
 ls -la "$DIST"
 
 if [ "${1:-}" = "--push" ]; then
 	"$ADB" "${ADB_ARGS[@]}" shell mkdir -p /data/local/tmp/fold5-airdrop
-	for f in rootfs.tar.gz awdl_bridge fold5-airdrop.sh tidy.py; do
+	for f in rootfs.tar.gz awdl_bridge monitor_session fold5-airdrop.sh tidy.py; do
 		"$ADB" "${ADB_ARGS[@]}" push "$(wslpath -w "$DIST/$f" 2>/dev/null || echo "$DIST/$f")" /data/local/tmp/fold5-airdrop/
 	done
 	echo "pushed. On the phone (root): sh /data/local/tmp/fold5-airdrop/fold5-airdrop.sh install"

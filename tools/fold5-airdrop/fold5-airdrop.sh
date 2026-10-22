@@ -23,6 +23,10 @@
 #   AIRDROP_HEIC     1 = advertise HEIF so the iPhone sends HEIC as is (smaller files),
 #                    0 = old behaviour, iPhone converts to JPEG (default: 1)
 #   AIRDROP_TAP_ONLY=1 diagnostics without the ESP32: awdl0 + opendrop only
+#   AIRDROP_SNIFF=5220 built-in Wi-Fi as a receive-only monitor on that MHz; counts AWDL frames
+#                    into $BASE/sniff.log. Sends nothing. Empty = off (default)
+#   AIRDROP_SNIFF_WIDTH  channel width for AIRDROP_SNIFF: 20, 40 or 80 (default: 80)
+#   AIRDROP_SNIFF_PCAP=1 also keep the radiotap frames in $BASE/sniff.pcap (default: 0)
 
 BASE=${AIRDROP_BASE:-/data/local/airdrop}
 ROOTFS=$BASE/rootfs
@@ -34,6 +38,9 @@ CHANSEQ=${AIRDROP_CHANSEQ:-intersect}
 BAUD=${AIRDROP_BAUD:-2000000,1500000,1000000}
 STAGING=/var/airdrop/staging   # inside the rootfs
 OUT=mediaprovider:Pictures/AirDrop   # tidy.py resolves this through MediaProvider's namespace
+SNIFF=${AIRDROP_SNIFF:-}
+SNIFF_WIDTH=${AIRDROP_SNIFF_WIDTH:-80}
+SNIFF_PCAP=${AIRDROP_SNIFF_PCAP:-0}
 
 die() { echo "fold5-airdrop: $*" >&2; exit 1; }
 [ "$(id -u)" = 0 ] || die "run as root (su)"
@@ -58,6 +65,9 @@ do_install() {
 	mkdir -p "$ROOTFS$STAGING" "$ROOTFS/root" "$ROOTFS/opt"
 	cp "$here/tidy.py" "$ROOTFS/opt/tidy.py"
 	cp "$here/awdl_bridge" "$BASE/awdl_bridge" && chmod 755 "$BASE/awdl_bridge"
+	if [ -f "$here/monitor_session" ]; then
+		cp "$here/monitor_session" "$BASE/monitor_session" && chmod 755 "$BASE/monitor_session"
+	fi
 	chmod 755 "$ROOTFS/opt/tidy.py"
 	# Android has no /etc/hosts entry for localhost inside the chroot otherwise.
 	[ -f "$ROOTFS/etc/hosts" ] || echo "127.0.0.1 localhost" > "$ROOTFS/etc/hosts"
@@ -87,6 +97,10 @@ in_chroot() {
 do_start() {
 	[ -x "$BASE/awdl_bridge" ] && [ -d "$ROOTFS/usr" ] || die "not installed; run install first"
 	pid_alive "$BASE/bridge.pid" && die "already running"
+	if [ -n "$SNIFF" ]; then
+		case "$SNIFF" in *[!0-9]*) die "AIRDROP_SNIFF must be a frequency in MHz, e.g. 5220" ;; esac
+		[ -x "$BASE/monitor_session" ] || die "monitor_session not found; put it next to $0 and run install"
+	fi
 	mount_chroot
 
 	if [ "${AIRDROP_TAP_ONLY:-0}" = 1 ]; then
@@ -107,6 +121,18 @@ do_start() {
 		sleep 0.5
 	done
 
+	if [ -n "$SNIFF" ]; then
+		mac=$(cat /sys/class/net/awdl0/address 2>/dev/null)
+		[ -n "$mac" ] || { do_stop; die "no awdl0 address for sniff"; }
+		secs=1800
+		if [ "$MINUTES" -gt 0 ] 2>/dev/null; then secs=$((MINUTES * 60)); fi
+		[ "$secs" -gt 1800 ] && secs=1800
+		pcap_arg=
+		[ "$SNIFF_PCAP" = 1 ] && pcap_arg="--pcap $BASE/sniff.pcap"
+		"$BASE/monitor_session" --sniff "$SNIFF" "$secs" --target "$mac" --width "$SNIFF_WIDTH" $pcap_arg > "$BASE/sniff.log" 2>&1 &
+		echo $! > "$BASE/sniff.pid"
+	fi
+
 	# OpenDrop announces gethostname() as the mDNS SRV target; Android's is
 	# "localhost". Give opendrop its own UTS namespace with a DNS-safe name.
 	host=$(echo "$NAME" | tr -c 'A-Za-z0-9-\n' '-')
@@ -121,11 +147,20 @@ do_start() {
 		echo $! > "$BASE/timer.pid"
 	fi
 	echo "receiving as \"$NAME\" for ${MINUTES} min. On the iPhone: AirDrop -> Everyone for 10 Minutes, then Share -> AirDrop."
-	echo "photos -> $DEST ; logs: $BASE/{bridge,opendrop,tidy}.log"
+	logs=bridge,opendrop,tidy
+	[ -n "$SNIFF" ] && logs=$logs,sniff
+	echo "photos -> $DEST ; logs: $BASE/{$logs}.log"
 }
 
 do_stop() {
 	kill_pidfile "$BASE/timer.pid"
+	# monitor_session removes its monitor interface on SIGTERM before it exits
+	if pid_alive "$BASE/sniff.pid"; then
+		kill "$(cat "$BASE/sniff.pid")" 2>/dev/null
+		i=0
+		while pid_alive "$BASE/sniff.pid" && [ $i -lt 6 ]; do sleep 0.5; i=$((i + 1)); done
+	fi
+	kill_pidfile "$BASE/sniff.pid"
 	kill_pidfile "$BASE/opendrop.pid"
 	kill_pidfile "$BASE/tidy.pid"
 	kill_pidfile "$BASE/bridge.pid"
@@ -144,6 +179,10 @@ do_status() {
 	for p in bridge opendrop tidy; do
 		if pid_alive "$BASE/$p.pid"; then echo "$p: running"; else echo "$p: stopped"; fi
 	done
+	if [ -f "$BASE/sniff.pid" ] || [ -f "$BASE/sniff.log" ]; then
+		if pid_alive "$BASE/sniff.pid"; then echo "sniff: running"; else echo "sniff: stopped"; fi
+		grep "^sniff " "$BASE/sniff.log" 2>/dev/null | tail -n 1
+	fi
 	ip -6 addr show dev awdl0 2>/dev/null | grep inet6
 	grep "stats:" "$BASE/bridge.log" 2>/dev/null | tail -n 1
 	grep "received:" "$BASE/tidy.log" 2>/dev/null | tail -n 5
