@@ -1,0 +1,2172 @@
+{
+  "source_workspace": "/mnt/c/users/1kkim/documents/codex/2026-10-19/g",
+  "destination_windows": "C:\\Users\\1kkim\\project\\dev\\andorid-airdorp",
+  "verified_files": 433,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 68,
+      "sha256": "58737e52b409b37d8bccbc014df7f9f354cdf307997d293fd01db6d691437099"
+    },
+    {
+      "path": "build.sh",
+      "size": 9227,
+      "sha256": "05a40676032d69ccbb66ea7d1a2a7454ef6e8225e8f7714da52c79e2fca737c2"
+    },
+    {
+      "path": "fold5-framework-probe.txt",
+      "size": 3356,
+      "sha256": "981fde460c3559e993056790cf2eefc77589f8c21e5f68cc31234cfbd7b8a722"
+    },
+    {
+      "path": "FOLD5-PORT.md",
+      "size": 26023,
+      "sha256": "6b8619723b164c19f13405f10d416c33911dc3db7bf90d162237865b862aaa70"
+    },
+    {
+      "path": "fold5-probe-extra.txt",
+      "size": 336,
+      "sha256": "394e0615289932bd7dee6bfbafd77cc0db9e23447a3034581e6bbac98b6808bb"
+    },
+    {
+      "path": "fold5-probe.txt",
+      "size": 39589,
+      "sha256": "2feb98e8aed2ac3cf65fd21a51d3f94ff87420f71641431e2c752040d0996962"
+    },
+    {
+      "path": "fold5-radio-probe.txt",
+      "size": 187,
+      "sha256": "8f11a66a5dc920d6f7649a990315a6d1b6fef9f9f1af5aee0580cf881a5db54f"
+    },
+    {
+      "path": "fold5-radio-sysfs.txt",
+      "size": 155,
+      "sha256": "fd2823d888118223697e4a82079affb19a1c7dedc836987aa155bd888feb72d5"
+    },
+    {
+      "path": "readme.md",
+      "size": 20170,
+      "sha256": "cc4c2c19d947b5e1109bc60790c93da65fd01b97db0647f1746adece6556090f"
+    },
+    {
+      "path": "SYSTEM-API-INVESTIGATION.md",
+      "size": 14572,
+      "sha256": "40a0d53addfef1c7d88d247bdb7cba7d8154eae1c0a6d99d7390697f72107f88"
+    },
+    {
+      "path": ".git/config",
+      "size": 283,
+      "sha256": "1eac697712107e2ac69554b71d6f46fe41e79c3af7b022c815064a80810067b1"
+    },
+    {
+      "path": ".git/description",
+      "size": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": ".git/HEAD",
+      "size": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": ".git/index",
+      "size": 6479,
+      "sha256": "dd9cdb57de8e9944bb8795005306ac5186e4bfcb8dea84d27b7d541a0cc61158"
+    },
+    {
+      "path": ".git/packed-refs",
+      "size": 112,
+      "sha256": "219a130b48b161055e89cb22a0663d4d9609ce43a2168da454af6dd0b29e7b06"
+    },
+    {
+      "path": "diagnostics/after-service-restart-state.txt",
+      "size": 45,
+      "sha256": "62dcb7b54af83d8b5a4d724951fb47abce3a4e0c8e9b8c53249333d37474e2e5"
+    },
+    {
+      "path": "diagnostics/corrected-overlay-reapply.txt",
+      "size": 698,
+      "sha256": "b5c716b6b51b5b7f99a633a29baca59b40f73d0b3b3df7b72d1ad641cdd0d720"
+    },
+    {
+      "path": "diagnostics/corrected-provider-live-log.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "diagnostics/dirtyfrag-attempt-2-log.txt",
+      "size": 3453,
+      "sha256": "d7825cc2c0aff74d2d68cd72a0597dab2618cde1908987162fa1f2cb92db93c0"
+    },
+    {
+      "path": "diagnostics/dirtyfrag-attempt-log.txt",
+      "size": 3569,
+      "sha256": "51cad670cb465ab0b5dae1a2bfcf2015e8c4f42e35b73c1d842ee4af540091f5"
+    },
+    {
+      "path": "diagnostics/dirtyfrag-attempt-result.json",
+      "size": 1786,
+      "sha256": "33cb393ee5d9ba2c2508acd495cbd3a9035a816277bb70ddb908d93c1e5b6120"
+    },
+    {
+      "path": "diagnostics/final-device-state.txt",
+      "size": 224,
+      "sha256": "c9b7b2bcccfc901fb9fcf799f0715bf52e6841fe817d2db8fead7f0da62a60c5"
+    },
+    {
+      "path": "diagnostics/fold5-binder-probe",
+      "size": 7616,
+      "sha256": "ba6569514da9bbf90ea77be6742d14d038ceeb7f2b5d90740bf727278ceeb45e"
+    },
+    {
+      "path": "diagnostics/fold5-driver-symbols.txt",
+      "size": 14003,
+      "sha256": "d94e7cd01dba46ba3df846812d4bd1f21f254a7fc927f0f9afa8d1a747cc944b"
+    },
+    {
+      "path": "diagnostics/fold5-monitor-session",
+      "size": 11544,
+      "sha256": "182b0c085d8c6d7d382ad0024eccfb36bfb8d343f2ccd90dcad6e02b093c712d"
+    },
+    {
+      "path": "diagnostics/fold5-monitor-session-result.txt",
+      "size": 188,
+      "sha256": "a4322f968bde64081753a5892871db93e5cee1adf3a28b62d3a2918a82ec2c8e"
+    },
+    {
+      "path": "diagnostics/fold5-monitor-tx-evidence.json",
+      "size": 759,
+      "sha256": "b748d129da2ebf4b74423e36c4a12a51f834ac346ba63956aecd1a9c954cbf31"
+    },
+    {
+      "path": "diagnostics/fold5-mosey-start-probe",
+      "size": 27504,
+      "sha256": "cfff4ea514a23df699b44ecb7f962ab8d3a4e31c344743c005e27fe9c961212d"
+    },
+    {
+      "path": "diagnostics/fold5-radio-probe",
+      "size": 11112,
+      "sha256": "c25d0ca2bd9c77172a6dda28d6f6b5639498275d8ed4dbb57d02d20663274e9d"
+    },
+    {
+      "path": "diagnostics/fold5-radio-probe-root.txt",
+      "size": 3280,
+      "sha256": "68c5a1100fbe99317db1f28caebcca873fc3c58151491f9529038089c1e2361c"
+    },
+    {
+      "path": "diagnostics/framework-probe.dex",
+      "size": 5736,
+      "sha256": "813a329d745ca231368fd336a3848bd0685516212a40b63fae2ed5dbe36c0bf8"
+    },
+    {
+      "path": "diagnostics/libmosey_path_redirect.so",
+      "size": 9696,
+      "sha256": "aac5f9860eb8d8df66fae09520e6e28d6a14e2a3be133ff67325f14545a58fc6"
+    },
+    {
+      "path": "diagnostics/mosey-apk-verification.txt",
+      "size": 11875,
+      "sha256": "2b0e90cd75b3d78c68f057857ad4432552418e6fb5a51246bf36c938932787b0"
+    },
+    {
+      "path": "diagnostics/mosey-backend-references.txt",
+      "size": 438,
+      "sha256": "32f06952ed8749fc8c4e39204d59c5d430620bb4e04c730c74a8e87ea2bb0982"
+    },
+    {
+      "path": "diagnostics/mosey-binder-failure.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "diagnostics/mosey-direct-start-log.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "diagnostics/mosey-direct-start-result.txt",
+      "size": 118,
+      "sha256": "3bd02b7acd280874b9bf968df8ed1fc052c186ff890060ae6851e9c4e5a3b677"
+    },
+    {
+      "path": "diagnostics/mosey-final-runtime-log.txt",
+      "size": 2361,
+      "sha256": "bfa925f8bd22d774811bb7a7622c7f16470fc607ed155abf3e9ae5099628f5b8"
+    },
+    {
+      "path": "diagnostics/mosey-framework-log.txt",
+      "size": 198,
+      "sha256": "98f8517a25f2a1d2e406f42376133459e8f3a27cafec3499db71c16a64b2658b"
+    },
+    {
+      "path": "diagnostics/mosey-install-result.json",
+      "size": 1589,
+      "sha256": "a085aae9d72f839a34b86f0bfd5aebf5598c00a62bb07dcb8c9932d37f510b69"
+    },
+    {
+      "path": "diagnostics/mosey-live-declaration-log.txt",
+      "size": 849,
+      "sha256": "f1fb16f503e2064cbac7ccf0726b178fe6f6557e051bba8823804f0db88ec514"
+    },
+    {
+      "path": "diagnostics/mosey-live-declaration-result.txt",
+      "size": 747,
+      "sha256": "0a93312c44b44eeefd82e38153b2dfa1b99469511ca627ca9c145df29c2e48fe"
+    },
+    {
+      "path": "diagnostics/mosey-live-registration-success.txt",
+      "size": 460,
+      "sha256": "2674d4397bcdba442776b6d2a6a73035a717e1cf419037271b9f85f1b8da9fe8"
+    },
+    {
+      "path": "diagnostics/mosey-native-log.txt",
+      "size": 2154,
+      "sha256": "1c2896b1e529f993ec9f9523bae03907e2838028ce489d429ca6ca586248b90f"
+    },
+    {
+      "path": "diagnostics/mosey-native-radio-diagnostic.txt",
+      "size": 1107,
+      "sha256": "8b76bf38b27a40fae91d6ea4d995a20a32ec9f4c88bd21e309501c316bd388c4"
+    },
+    {
+      "path": "diagnostics/mosey-native-start.txt",
+      "size": 167,
+      "sha256": "8be437f824396c164bfcfcfa7ace172170a412aa8706f6299243e2716bde0bce"
+    },
+    {
+      "path": "diagnostics/mosey-provider-test-state.txt",
+      "size": 113,
+      "sha256": "1cb8495473f0f3f6fdaf5402eb2b974de28bdd0caabb3a0e79e180316ce346cf"
+    },
+    {
+      "path": "diagnostics/mosey-quickshare-provider-live.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "diagnostics/mosey-radio-start-evidence.txt",
+      "size": 6053,
+      "sha256": "0e2f67638d69d9c3c338f2d592eebec88a879ed4d211edc426ebce02924509b7"
+    },
+    {
+      "path": "diagnostics/mosey-registration-adapter-log.txt",
+      "size": 1661,
+      "sha256": "d2f772516022372f07bb7f8ec99d834f5ca6dee9c60b78f2a4bccb4c38bb3e42"
+    },
+    {
+      "path": "diagnostics/mosey-registration-adapter-result.txt",
+      "size": 16,
+      "sha256": "117d011c5f065453a9ce2825bf26a6f335e9204c20591a9757fb7603ffdd4dc7"
+    },
+    {
+      "path": "diagnostics/mosey-runtime-overlay.txt",
+      "size": 429,
+      "sha256": "06ec609ccdd2610361fc2e1d1087fb4d6f1966bd88cecf6e9d7ac04deab87a3f"
+    },
+    {
+      "path": "diagnostics/mosey-service-declaration-result.txt",
+      "size": 621,
+      "sha256": "6d4de76f39d590a979e31f3e6bc7ae35f62abaa31f8bd0061220cfb08641913f"
+    },
+    {
+      "path": "diagnostics/mosey-service-start.txt",
+      "size": 330,
+      "sha256": "40fec2238a6528ab5e00dac0a731ca9decae013cc51540aeed8826322c049037"
+    },
+    {
+      "path": "diagnostics/mosey-start-detailed-result.txt",
+      "size": 818,
+      "sha256": "527eadd4d23730f46eca50c88c6d80d0e9fb87bdddffbce5cc79cd79d7845215"
+    },
+    {
+      "path": "diagnostics/mosey-startup-log.txt",
+      "size": 375,
+      "sha256": "b4d29765fd04c14ae636a42ead1b2fe044287db8ff05552cb2e720d5cc798e6a"
+    },
+    {
+      "path": "diagnostics/mosey-system-package.txt",
+      "size": 27526,
+      "sha256": "7a9f7e39544ce49b1346b2b65b86f845efb00f3590ff63e6bfe9509a360385e8"
+    },
+    {
+      "path": "diagnostics/mosey-system-reapply.txt",
+      "size": 113,
+      "sha256": "a646f2bd700b85ff5a299ae0802b2d0fd8f3ef2ea7b93885341dd69d46dc8325"
+    },
+    {
+      "path": "diagnostics/mosey-vintf-registration-final-log.txt",
+      "size": 120,
+      "sha256": "c1755ce45d9c790f54edbcc3e5681c3ca431c4c7aa1c3058868fb546b9ba62c6"
+    },
+    {
+      "path": "diagnostics/mosey-vintf-registration-final.txt",
+      "size": 191,
+      "sha256": "7173625b36d0927fc4741a6d408e2610212c36c2f5a94ca7d94120a97697874f"
+    },
+    {
+      "path": "diagnostics/mosey-vintf-registration-log.txt",
+      "size": 2052,
+      "sha256": "fe6be1b4ab067a835b2c1fecdc57acf343de0476620f0aebdf2b8ea112f10601"
+    },
+    {
+      "path": "diagnostics/mosey-vintf-registration-result.txt",
+      "size": 264,
+      "sha256": "e6fe62c38810399ee6069a4665c60fce84371483de85d4db947a4f856fc952e0"
+    },
+    {
+      "path": "diagnostics/overlay-recovery-result.txt",
+      "size": 179,
+      "sha256": "ed07a1aaa14ed6b5b4b479515c4355fc5e0a826068c744f8c91f2f1e9db0d842"
+    },
+    {
+      "path": "diagnostics/post-reboot-radio-state.txt",
+      "size": 220,
+      "sha256": "fde6ee8f05b1fb3dd1d32c2b2f38b721b1838d3718f9178bb77e3fcb48b5186b"
+    },
+    {
+      "path": "diagnostics/preserved-system-app-permissions.txt",
+      "size": 1104,
+      "sha256": "f56390f41b5f0134d06a81ce894c657102ebad7b0705638884f0a77057563604"
+    },
+    {
+      "path": "diagnostics/quickshare-receive-after-bluetooth.txt",
+      "size": 1484,
+      "sha256": "82c6d466c40e4f6f0aee121e079801d2f644fd665de44900905373b689e87534"
+    },
+    {
+      "path": "diagnostics/quickshare-receive-log.txt",
+      "size": 2276,
+      "sha256": "456dbf3673e32352f34aa06dc9ea529c3a5d5804f261ae9044a86d5b4189f2ec"
+    },
+    {
+      "path": "diagnostics/quickshare-with-mosey-log.txt",
+      "size": 5770,
+      "sha256": "92081d0fddd1f7cd7b09fc6d830099ede5d0747c09eddab99c74ce199627e264"
+    },
+    {
+      "path": "diagnostics/recursive-overlay-preflight.txt",
+      "size": 93,
+      "sha256": "6498a046fdbe170f3e7eb212908ca1223908a08e0349ce5e0fcb9bdaa3141f71"
+    },
+    {
+      "path": "diagnostics/results.json",
+      "size": 1311,
+      "sha256": "74b8cf50b5d75d06d0489cac4e5f94fb87fc2c0a4f3061a99f03d48089aa13ed"
+    },
+    {
+      "path": "diagnostics/root-driver-environment.txt",
+      "size": 4239,
+      "sha256": "013ba4159b335dc52b035084c00eaea8730163a06d60bf84104bb3a7be26ff07"
+    },
+    {
+      "path": "diagnostics/root-radio-and-mount-preflight.txt",
+      "size": 3885,
+      "sha256": "2e914ace832ed402a977a130a5d452b953b07dd9b7b75ce0a6e0b05e0c0fe308"
+    },
+    {
+      "path": "diagnostics/root-verification.txt",
+      "size": 80,
+      "sha256": "aef8f3eb1f16b84f18a5d64dfcf1304821a3b7ebe44e3dd3919df60e590307ba"
+    },
+    {
+      "path": "diagnostics/system-api-evidence.json",
+      "size": 865,
+      "sha256": "abded2001c5d05e68aa7babfa9ccc53198011017801c28a0939ce5f5762659bc"
+    },
+    {
+      "path": "module_mosey/action.sh",
+      "size": 118,
+      "sha256": "2e4d5152e64091c316bafa3757b09b549a994f7b5626e3086fd276e6a8783001"
+    },
+    {
+      "path": "module_mosey/boot-completed.sh",
+      "size": 975,
+      "sha256": "6be04d1ea7a8c8a59982d48a7f793217200577d517a39838cbb167532fcdcd05"
+    },
+    {
+      "path": "module_mosey/customize.sh",
+      "size": 9656,
+      "sha256": "9c6daf5c22de39803a217f9c338067e5a7d7c3fd4e727294296b39077414e741"
+    },
+    {
+      "path": "module_mosey/magic",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "module_mosey/module.prop",
+      "size": 236,
+      "sha256": "c27ee728a04185f4219b330ee6a8a997e6bdf19fe209c4b367f36ad087bc2099"
+    },
+    {
+      "path": "module_mosey/mosey-control.sh",
+      "size": 32757,
+      "sha256": "2984afad60c789abd6c8cfe4a7a33bf633746d556a4d0edf878644d398945260"
+    },
+    {
+      "path": "module_mosey/post-fs-data.sh",
+      "size": 2152,
+      "sha256": "e12fc63d29ac77a2e25d685da5f789910a00e94885b3423a5a178902ff59f24b"
+    },
+    {
+      "path": "module_mosey/post-mount.sh",
+      "size": 2511,
+      "sha256": "272f7f997065ae2caf9ffb31e0c0bd26b7479abe11fb77539982f00ad1dca8a9"
+    },
+    {
+      "path": "module_mosey/sepolicy.rule",
+      "size": 1506,
+      "sha256": "80c80840dccfbfe28d18bd3cd4d29ab3d4018cdf62c61d1d8edd16439ce3ae57"
+    },
+    {
+      "path": "module_mosey/service.sh",
+      "size": 1766,
+      "sha256": "1f57aaf6d74154e758072de624a4797eb97b85b431c2e02a224febaff7a1fdd1"
+    },
+    {
+      "path": "module_mosey/uninstall.sh",
+      "size": 2646,
+      "sha256": "b5da06c3a40a4f5e176b7927ae60bf9050a7deeeacb6a5c35001c38ee5848541"
+    },
+    {
+      "path": "tests/monitor_frame_test.c",
+      "size": 970,
+      "sha256": "9fd2ec072cd95a222f1fd5d2d210b54da9d59e8a2ffe7240a5692aa2d1338083"
+    },
+    {
+      "path": "tests/radio_probe_parser_test.c",
+      "size": 1416,
+      "sha256": "44cbb4f3942b1b68824ce0b12b9a83d414b5853b653793ca8dede8374352d0f5"
+    },
+    {
+      "path": "tools/build-radio-probe.py",
+      "size": 2483,
+      "sha256": "aadb5182c169c4ffd463e7f7cee39ee94162e9b6ec2384f92f32be66c691f335"
+    },
+    {
+      "path": "tools/fold5-mosey-runtime.sh",
+      "size": 3171,
+      "sha256": "14b0f7a50eb2c29f92ef04cc22eb681713be474e3371b88b359aa09b8281f75c"
+    },
+    {
+      "path": "tools/fold5-mosey-service-runtime.sh",
+      "size": 2764,
+      "sha256": "063a0f6b6190cce864e14d9b88cd2f1e568d2a569b905de8c20fc17e586b1088"
+    },
+    {
+      "path": "tools/fold5-probe.sh",
+      "size": 1553,
+      "sha256": "f1504fd1c1e53639dc104aa1706427724d52271817fd67e1947232d7e55c70d9"
+    },
+    {
+      "path": "tools/inspect-fold5-driver.py",
+      "size": 4105,
+      "sha256": "8c099c97efab9e652cf6eabc39e79c82373b8fb52c1030cadb074093412e7f2b"
+    },
+    {
+      "path": "tools/__pycache__/build-radio-probe.cpython-314.pyc",
+      "size": 3542,
+      "sha256": "a3f26ddff10b1bd545657d3b47ea5371dec569388187071fb8b33c14de4f6c27"
+    },
+    {
+      "path": "tools/__pycache__/inspect-fold5-driver.cpython-314.pyc",
+      "size": 7258,
+      "sha256": "45403f2e03d243c92edcdbd21a23e815ef9824736cdad6b41e1b2a71dcb1ab1f"
+    },
+    {
+      "path": "src/bridge/mosey_bridge.c",
+      "size": 26425,
+      "sha256": "f4783ac3e1343cdc6319b09b9a1ee9d19da672beb4c14d1075a78d5b9f8b6797"
+    },
+    {
+      "path": "src/bridge/mosey_launcher.c",
+      "size": 6822,
+      "sha256": "5c6a395b62576818c95785ef46c98b4672797f220eecd615e02ba9371836896f"
+    },
+    {
+      "path": "src/bridge/mosey_preload.c",
+      "size": 17587,
+      "sha256": "b64854793131ec6a349a65269a2cfb03bd14f23fdfd8726830736c32284e4765"
+    },
+    {
+      "path": "src/fold5/binder_probe.c",
+      "size": 888,
+      "sha256": "8da0b314936402c95b2f0d2bf92052fb21ca1ea8a834ebf8e34e25b4e4371db0"
+    },
+    {
+      "path": "src/fold5/FrameworkProbe.java",
+      "size": 4631,
+      "sha256": "71e02becc2a52f1080ee27506f066744bdfd4dcbfaab999ee655bf13c7b27a57"
+    },
+    {
+      "path": "src/fold5/monitor_session.c",
+      "size": 6920,
+      "sha256": "280c00ec16db8d0bd02300779c7a361ece8006c522226b863be819d819c98e0d"
+    },
+    {
+      "path": "src/fold5/mosey_path_redirect.c",
+      "size": 3958,
+      "sha256": "88410270e15b70966c6f544e66332965e1465eea0757fc6c4d88f26360fabb4f"
+    },
+    {
+      "path": "src/fold5/mosey_start_probe.c",
+      "size": 1138,
+      "sha256": "e9be2b345a464b05097933b1380dcba7daa625df50e881b02da14f18e06a2774"
+    },
+    {
+      "path": "src/fold5/radio_probe.c",
+      "size": 8013,
+      "sha256": "64987bab96e802d81a0476ae0d3c0208ae20cfc7293fbd188405f43a1c56b64d"
+    },
+    {
+      "path": "src/shim/dl_shim.c",
+      "size": 1373,
+      "sha256": "2163e76e6401d60d9ef89a546bd3797e84fc8971c6ca264db2979558c8bf65ea"
+    },
+    {
+      "path": "src/shim/app/AndroidManifest.xml",
+      "size": 2764,
+      "sha256": "002f1772e8afe3d09c04a0fb4250dfeaa38b77c44d6740f480fd76e347ea6dfe"
+    },
+    {
+      "path": "src/shim/java/MoseyShim.java",
+      "size": 21078,
+      "sha256": "9b421686cbbe3d4e7cc719db30fc0f71ba6d4d5c6fab589c77210af735e7440e"
+    },
+    {
+      "path": "src/shim/app/stubs/android/net/NetworkAgent.java",
+      "size": 513,
+      "sha256": "a0bef6b8ce4df28225fc8f0d3cb89939a680af0aaf7465078147d54a87bf54ff"
+    },
+    {
+      "path": "src/shim/app/stubs/android/net/NetworkAgentConfig.java",
+      "size": 63,
+      "sha256": "fe59b810361114b04461646c09a6c54a7745b2d1b446eed75844d6df2a4fcf48"
+    },
+    {
+      "path": "src/shim/app/stubs/android/net/NetworkProvider.java",
+      "size": 191,
+      "sha256": "7c88be158e4121c038bff3cf547ffac9a777c80e0d56a57a464b08f6272f7bbb"
+    },
+    {
+      "path": "src/shim/app/stubs/android/net/NetworkScore.java",
+      "size": 57,
+      "sha256": "f99477a8189b73617af0e10af499aa869b8b2238953dce9b3e2f4a8c41ea0c72"
+    },
+    {
+      "path": "src/shim/app/src/dev/bluehouse/moseyshim/MoseyShimService.java",
+      "size": 41338,
+      "sha256": "f02eb3ce7db58a8c1e86767c43a2c3eb0941f4aa3ca133d01f4d03f2cd19d9b0"
+    },
+    {
+      "path": "src/shim/app/src/dev/bluehouse/moseyshim/RawMdnsEngine.java",
+      "size": 17002,
+      "sha256": "bb66f81ed152440bda7df7db0e4e913092c5774da0117f3754fd2a1a0c3d3a4c"
+    },
+    {
+      "path": "src/shim/app/res/values/strings.xml",
+      "size": 73,
+      "sha256": "25a21a79ad9bc28decf60c7752a2904de27116e9f84acb411188cdf96998debd"
+    },
+    {
+      "path": "module_mosey/webroot/index.html",
+      "size": 10571,
+      "sha256": "27f76adbf4e663d9a634eeaf3f699edcc2690a2fca22d12213576cf2e6aa7f97"
+    },
+    {
+      "path": "module_mosey/system_ext/etc/default-permissions/default-permissions-com.google.android.mosey.xml",
+      "size": 1534,
+      "sha256": "b25fbf4d59df5fb794234c473cdb0c36fb4d76d3cd746545e665446b59b93e86"
+    },
+    {
+      "path": "module_mosey/system_ext/etc/default-permissions/default-permissions-dev.bluehouse.moseybridgeshim.xml",
+      "size": 696,
+      "sha256": "c9641dbce661a48e2168853ee22fef33e59827693f8bf0d2d1a4d97a676e880e"
+    },
+    {
+      "path": "module_mosey/system_ext/etc/permissions/privapp-permissions-com.google.android.mosey.xml",
+      "size": 1394,
+      "sha256": "1add90954c70167b5d6fcd3089031aba370c83cfa435bf5728ad1f75834a77dd"
+    },
+    {
+      "path": "module_mosey/system_ext/etc/permissions/privapp-permissions-dev.bluehouse.moseybridgeshim.xml",
+      "size": 600,
+      "sha256": "977dcf10144e8d073f8e2e4494750965ecece0a7379e09ec8ac1d0aa842ad5c7"
+    },
+    {
+      "path": "module_mosey/odm/bin/mosey_bridge",
+      "size": 25200,
+      "sha256": "213afcefa6fbec4d7c93c0545a28d6268b21a2dc70004289ab33a3f5e8f1b66b"
+    },
+    {
+      "path": "module_mosey/odm/bin/mosey_server",
+      "size": 1004464,
+      "sha256": "53aa112866da41f32de05efd91730a27f0f1a40a79ebe61be95bd8d1944a0326"
+    },
+    {
+      "path": "module_mosey/odm/framework/mosey-shim.jar",
+      "size": 9911,
+      "sha256": "4dab3f14f91c1eb623c553048df5582114f0baf5c76b00e1b7d1340bf4ac9dfe"
+    },
+    {
+      "path": "module_mosey/odm/lib64/libmosey_daemon_ffi.so",
+      "size": 2537696,
+      "sha256": "89c83ba82930696930968b5aa0d515983be96732697d2bf825e5bfb4ba549ea6"
+    },
+    {
+      "path": "module_mosey/odm/lib64/libmosey_preload.so",
+      "size": 17624,
+      "sha256": "35fc46cff98b1e21608fced17bf9a59fc03fae8ab51fc19ea9cbfe7c1ba51f58"
+    },
+    {
+      "path": "module_mosey/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
+      "size": 13743,
+      "sha256": "65b28a3639ce1c807618eff2b0e2c85a1f958acac495c0810cfbc00db588fb53"
+    },
+    {
+      "path": "module_mosey/odm/etc/init/lowi-server.rc",
+      "size": 339,
+      "sha256": "b5d810ff122040271b6c36428c1dbf9381e62518eae8d9fd4c3d074b24106318"
+    },
+    {
+      "path": "module_mosey/odm/etc/init/mosey.rc",
+      "size": 245,
+      "sha256": "1502dfffef2bc69747a9bd6aad9f799c9577ecd8eb5dcbf22e6b497f0aefb5ec"
+    },
+    {
+      "path": "module_mosey/odm/etc/mosey-shim/mosey-shim.p12",
+      "size": 2571,
+      "sha256": "78099bddb93bae56287766da4acac6a33b62e55fb2a7c07eb2990b792ac1fbd1"
+    },
+    {
+      "path": "module_mosey/odm/etc/permissions/android.hardware.wifi.aware.xml",
+      "size": 838,
+      "sha256": "00c217f6242bd197e49d273a1bba48aae82c03d3f1c83820a1802bdfe908e54f"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/bdwlan.b0a.txt",
+      "size": 6555067,
+      "sha256": "e6b3537749b9e7ca4f523cd549f0e7a2f9c797f9b80cf288ab5c826a56062d4e"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/bdwlan.b0e.txt",
+      "size": 6555060,
+      "sha256": "bc53677bd5c90c46c81af29566093d8d39257da623a2edd8c2ab88e771b15a27"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/bdwlan.b0i.txt",
+      "size": 6554172,
+      "sha256": "1ea60b4cda56aa65ff639bcecccbb40c6c01acd472d916542b51b72d0fd1e61d"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/peach/bdwlan.b0a",
+      "size": 125328,
+      "sha256": "bfb28f46289d82197245dc601e538d966b98ba8686d750270fdf3b2e584aaed3"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/peach/bdwlan.b0e",
+      "size": 125328,
+      "sha256": "3c14029541997fd6b0cc42ce7b57369a81ac560e0e13fccd92ca6f7d359ccd9e"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/peach/bdwlan.b0i",
+      "size": 125328,
+      "sha256": "0712b137395019bf90d990b7acc1ad7d963aa1acea5786816e96a57787def5e8"
+    },
+    {
+      "path": "module_mosey/odm/etc/wifi/peach/bdwlan.elf",
+      "size": 125328,
+      "sha256": "473fb5dfbc74d2416f893b29bc5a3e977aded34c62ce5876cbcb10abbf18d6c9"
+    },
+    {
+      "path": "module_mosey/odm/etc/vintf/manifest/manifest_mosey.xml",
+      "size": 215,
+      "sha256": "db757b0669bcaa434d01f4c490a130dae79b8eaecbf1c2eb21f245beaacbf917"
+    },
+    {
+      "path": ".git/hooks/applypatch-msg.sample",
+      "size": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+    },
+    {
+      "path": ".git/hooks/commit-msg.sample",
+      "size": 896,
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+    },
+    {
+      "path": ".git/hooks/fsmonitor-watchman.sample",
+      "size": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": ".git/hooks/post-update.sample",
+      "size": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+    },
+    {
+      "path": ".git/hooks/pre-applypatch.sample",
+      "size": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+    },
+    {
+      "path": ".git/hooks/pre-commit.sample",
+      "size": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+    },
+    {
+      "path": ".git/hooks/pre-merge-commit.sample",
+      "size": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+    },
+    {
+      "path": ".git/hooks/pre-push.sample",
+      "size": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+    },
+    {
+      "path": ".git/hooks/pre-rebase.sample",
+      "size": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+    },
+    {
+      "path": ".git/hooks/pre-receive.sample",
+      "size": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+    },
+    {
+      "path": ".git/hooks/prepare-commit-msg.sample",
+      "size": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+    },
+    {
+      "path": ".git/hooks/push-to-checkout.sample",
+      "size": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+    },
+    {
+      "path": ".git/hooks/sendemail-validate.sample",
+      "size": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+    },
+    {
+      "path": ".git/hooks/update.sample",
+      "size": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+    },
+    {
+      "path": ".git/info/exclude",
+      "size": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": ".git/logs/HEAD",
+      "size": 192,
+      "sha256": "577babdc4fd10587a51765d500233bdddd769e2b492cbdbab16172773758feac"
+    },
+    {
+      "path": ".git/refs/heads/main",
+      "size": 41,
+      "sha256": "2868d0559a60c6ac03c48801f76bb3cc72007aecd91941b59c39b080761cc08b"
+    },
+    {
+      "path": ".git/refs/remotes/origin/HEAD",
+      "size": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": ".git/objects/pack/pack-d40c09af6fb1f2cd4f189d272838643bf0f2ef07.idx",
+      "size": 26020,
+      "sha256": "e02f3a9c0b8330d40b6025fb2f1e1828c57f7b092d5c4da11a3bb23345dc846f"
+    },
+    {
+      "path": ".git/objects/pack/pack-d40c09af6fb1f2cd4f189d272838643bf0f2ef07.pack",
+      "size": 7231739,
+      "sha256": "4cfa4bafaf4c3a29ec905f6eb1ecc9f808a84dcac75b5e3b34e73463b550c564"
+    },
+    {
+      "path": ".git/objects/pack/pack-d40c09af6fb1f2cd4f189d272838643bf0f2ef07.rev",
+      "size": 3616,
+      "sha256": "37a5f3e8cb081649af0d5c94527a9aa8fa761b3d60e58e161e0cfa50ace06b49"
+    },
+    {
+      "path": ".git/logs/refs/heads/main",
+      "size": 192,
+      "sha256": "577babdc4fd10587a51765d500233bdddd769e2b492cbdbab16172773758feac"
+    },
+    {
+      "path": ".git/logs/refs/remotes/origin/HEAD",
+      "size": 192,
+      "sha256": "577babdc4fd10587a51765d500233bdddd769e2b492cbdbab16172773758feac"
+    },
+    {
+      "path": "work/fold5-analysis/.gitmodules",
+      "size": 470,
+      "sha256": "affd2df6dfaf57e3b88148d20f223b71963c5e2191761d1ff5f685eff5413bd7"
+    },
+    {
+      "path": "work/fold5-analysis/Access.cpp",
+      "size": 5012,
+      "sha256": "387dafd4f5c4af055c92ab323e07d067cc7959e0469786aa475319b38c9a335f"
+    },
+    {
+      "path": "work/fold5-analysis/Apex.cpp",
+      "size": 4615,
+      "sha256": "d245c1d236b8fac5ab35e81052aef859e48de55ea6beaedc51f4e92f8493d09f"
+    },
+    {
+      "path": "work/fold5-analysis/Checkpoint.cpp",
+      "size": 31865,
+      "sha256": "73461c8fe1c328b48b094c489ac7279a3101ea02979c26349172eadb7dc2c439"
+    },
+    {
+      "path": "work/fold5-analysis/com.android.shell-state.txt",
+      "size": 900,
+      "sha256": "22cf575eb8e4ab5c12149d4663065e76f7f07ed88b99f44654eb68325f65d4c2"
+    },
+    {
+      "path": "work/fold5-analysis/com.android.vending-during-overlay.txt",
+      "size": 128299,
+      "sha256": "f23e8b1d50ff41632a3ade137cdbd8d2517e6c292d75f6b8ab17434f8ce1d919"
+    },
+    {
+      "path": "work/fold5-analysis/com.google.android.gms-during-overlay.txt",
+      "size": 2216673,
+      "sha256": "582b7237de7d169cf9e7f2a22780c5da5f10bf949e5651665e3838792c7a105b"
+    },
+    {
+      "path": "work/fold5-analysis/com.samsung.android.app.sharelive-state.txt",
+      "size": 7167,
+      "sha256": "a252f6f0c0961d4f4eb5a068f60e92f08f4633db9b1994b7e8818bcb68ea96ef"
+    },
+    {
+      "path": "work/fold5-analysis/com.samsung.android.aware.service-state.txt",
+      "size": 4916,
+      "sha256": "eecef2ce5fd1b9ff18845d55cc8fe3200564c213b12f1b6b4a2bf45e46afcc7a"
+    },
+    {
+      "path": "work/fold5-analysis/default_defconfig",
+      "size": 41182,
+      "sha256": "b4186567aefa28a2561e860093cffa50f14c703fe12f60ad6fc0d9867ba99154"
+    },
+    {
+      "path": "work/fold5-analysis/dex_probe.py",
+      "size": 3637,
+      "sha256": "7438f539e40fc3c7ea2994a56d45483bf0dd7db04ba1da42446fc932a7748b83"
+    },
+    {
+      "path": "work/fold5-analysis/fold5-qca6490.ko",
+      "size": 21675744,
+      "sha256": "78cee9e94c8c8804a052e7d86b62e78491f3166607847fc8fa2bf2e644ecf7eb"
+    },
+    {
+      "path": "work/fold5-analysis/libvintf.so",
+      "size": 651496,
+      "sha256": "0441ac26758e69baad2e5c8ecca82fbb6f071760a6f218d74a7aa346612e11e5"
+    },
+    {
+      "path": "work/fold5-analysis/monitor-frame-test",
+      "size": 120400,
+      "sha256": "a228f4ad7007bc84bc4a73c89d97f749cbf588af6b1d6ea304e5992a5d21153d"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-aidl-client-parcels.txt",
+      "size": 5096,
+      "sha256": "09475fc11d0277b66e828f5ac9143ada208920dc8ba00381de06846fb193e7aa"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-binder-client-methods.txt",
+      "size": 2723,
+      "sha256": "88c663d0840967a66279e93743b791415ab06e11d8369712c3926368718d4e1b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-direct-start-live.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-installed-package.txt",
+      "size": 20328,
+      "sha256": "d38f9ecaff737da63a11c6f7f1bccd64f8a10e5fb4a1d33b99a2ab0017a66e02"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-manifest.txt",
+      "size": 22171,
+      "sha256": "a4bf53b3d4c7c456ce3a2259de11652c766f26b26cf1b1309d5621ab068b82bf"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-start-call-inputs.txt",
+      "size": 3243,
+      "sha256": "d95b646368adff2251c717da69f25792a5919ef2c0445806e095e106321b39b6"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-start-extra-field.txt",
+      "size": 16074,
+      "sha256": "a012e6ed511e3664cc76a72b83f33ebbfd31aca6d220709029b3aa8b5f369df3"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-start-parcel-layout.txt",
+      "size": 962,
+      "sha256": "30fe138d822402cf5b050c7673c7daa4b57e91e403f2e59d089882c4045d0e9c"
+    },
+    {
+      "path": "work/fold5-analysis/native-after-manifest-live.log",
+      "size": 8725,
+      "sha256": "51cb8668ae02a4328e72c83f401a1b6e029aeefda0a5265b0558b912a9dc6718"
+    },
+    {
+      "path": "work/fold5-analysis/native-vintf-final-live.log",
+      "size": 8108,
+      "sha256": "b878b9bd2e6b3141529930b73ed290bfb12f161dfad8b45960e8a8d94ada009a"
+    },
+    {
+      "path": "work/fold5-analysis/post-provider-crash-log.txt",
+      "size": 57941,
+      "sha256": "0af4ce8b85035348cd7b729967dcb3da01069cd73c0fbdb5838ec8fc3cf1ae87"
+    },
+    {
+      "path": "work/fold5-analysis/qca6490_defconfig",
+      "size": 72,
+      "sha256": "0f6e764cb24cda697ca5303c68002f502cd498692ae4ff1576c9ea1a38edc516"
+    },
+    {
+      "path": "work/fold5-analysis/quick-share-airdrop-strings.txt",
+      "size": 13548,
+      "sha256": "a5253f609487c41fd04df6e3a49186bc962286897255f0ba3f17fe991460d4f7"
+    },
+    {
+      "path": "work/fold5-analysis/quickshare-mosey-methods.txt",
+      "size": 12150,
+      "sha256": "09f4e347e16ca08625506a4960359e6f8d5c59855d2513c7b757c7cbd676183a"
+    },
+    {
+      "path": "work/fold5-analysis/quickshare-mosey-prerequisites.txt",
+      "size": 4566,
+      "sha256": "e809f171bb12d7696a82a38cf93d61bec8f78f92bfc6ccbba692024cc83f0e72"
+    },
+    {
+      "path": "work/fold5-analysis/radio-probe",
+      "size": 10904,
+      "sha256": "350109ab8516d0e29a7e286434df92b32a0abb61500edfe5694c86f890e3bdfb"
+    },
+    {
+      "path": "work/fold5-analysis/radio-probe-host",
+      "size": 21048,
+      "sha256": "80767142d79b77d0ddf1f4e304cd95a0388483928bf36574c1c80d45b4eaa4c5"
+    },
+    {
+      "path": "work/fold5-analysis/radio-probe-parser-test",
+      "size": 116800,
+      "sha256": "726394f47b4c703f981b948eeb8f9ac3122dcdce9544eab4df23ee4cc0076b57"
+    },
+    {
+      "path": "work/fold5-analysis/samsung-aware-airdrop-strings.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/fold5-analysis/semwifi-airdrop-methods.txt",
+      "size": 52065,
+      "sha256": "8d3ecb1fa6306f8a1f641ac16f31701597904473e291ebf49a7a8e9efc31e544"
+    },
+    {
+      "path": "work/fold5-analysis/semwifi-service.jar",
+      "size": 5813132,
+      "sha256": "cdd602c1dae814dbaeb761ac6996864ee32b50715d6d21962d2c967e8e235ce2"
+    },
+    {
+      "path": "work/fold5-analysis/semwifi-vendor-nan-methods.txt",
+      "size": 11469,
+      "sha256": "14ecb12af4a949b9caaf6fac4bcb2c4397dba5f5faf0c38b80a9f20f117d26e9"
+    },
+    {
+      "path": "work/fold5-analysis/service-registration-live.txt",
+      "size": 152342,
+      "sha256": "ca4ae06d73a61bbc168ca2f4b27320e4b61db022a0601426ffd0cb646b0c4a0b"
+    },
+    {
+      "path": "work/fold5-analysis/servicemanager",
+      "size": 137536,
+      "sha256": "2392248fbe9dbb6c42e90fe061bcbb957de1e310af2b8b5372e077d25edafa46"
+    },
+    {
+      "path": "work/fold5-analysis/servicemanager-disassembly.txt",
+      "size": 875209,
+      "sha256": "e8c46497923672039f161f96d1cc3f06e631115ff95daeb8b4ba425267a264cf"
+    },
+    {
+      "path": "work/fold5-analysis/ServiceManager.cpp",
+      "size": 46005,
+      "sha256": "3e315c71f8b723fa7f3c45529e4e2e8407ed678f0c18bf047c5d61d5f4267cf3"
+    },
+    {
+      "path": "work/fold5-analysis/StorageManagerService.java",
+      "size": 215710,
+      "sha256": "073a918bf11db680f63ba5da2430a9e3032b70558b4c2e94bb3af8af33eea43b"
+    },
+    {
+      "path": "work/fold5-analysis/vintf-device-manifest.txt",
+      "size": 23596,
+      "sha256": "4bdaf4268f7b75d86173d02d7d73bb76c7289adf57759804eaec010b0c5e1825"
+    },
+    {
+      "path": "work/fold5-analysis/VintfObject.cpp",
+      "size": 58396,
+      "sha256": "3ff9b3e3e8128ca612962ccc45d4f702bd2f36df0bbe307da29314e52bda9b83"
+    },
+    {
+      "path": "work/fold5-analysis/VintfObject.h",
+      "size": 17328,
+      "sha256": "4ed1757a4e4216d70024fcfdac65844c9331bdd528c0b0fd1e9a2da82083ad70"
+    },
+    {
+      "path": "work/fold5-analysis/VintfObjectUtils.h",
+      "size": 2496,
+      "sha256": "de02357a54bfba7c8881d446e75731bc00596dd0b8e43abfcc8122435a7479a0"
+    },
+    {
+      "path": "work/fold5-analysis/wlan_hdd_cfg80211.c",
+      "size": 752589,
+      "sha256": "65039d8067bac214228bbd2a77cd6b00504905dfdd52b07b137ad113eaa4a393"
+    },
+    {
+      "path": "work/fold5-analysis/wlan_hdd_main.c",
+      "size": 544741,
+      "sha256": "afb6cec0573b7f97029627dd48e6d099ace127322a318f57e2dea3d709ecd9eb"
+    },
+    {
+      "path": "work/fold5-analysis/wlan_hdd_rx_monitor.c",
+      "size": 1615,
+      "sha256": "6ff1744daed91d427bef58359506b2d4c71a4d6da3893ffc8f60a29342aa2c18"
+    },
+    {
+      "path": "work/fold5-analysis/wlan_hdd_tx_rx.c",
+      "size": 48028,
+      "sha256": "72647acba9bdd5657ee9df0ffa366cabb2752eb6cb59264e1d2887b718f4d712"
+    },
+    {
+      "path": "work/fold5-analysis/wmi_unified.h",
+      "size": 1922595,
+      "sha256": "0bab48202e0465a8a47d201d90a15274fec8465a7a1a8eaab0787fff3c68a514"
+    },
+    {
+      "path": "work/fold5-analysis/wmi_unified_param.h",
+      "size": 315682,
+      "sha256": "74f2d2beb0f049858e7ea0fe6606e9035d287d1664fce9d8b192530521f1a959"
+    },
+    {
+      "path": "work/fold5-analysis/wmi_unified_tlv.c",
+      "size": 695276,
+      "sha256": "93ac34df2a0013b44d51400b31421727f6e80798977b61f8f27e7c748c3371d5"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.gitattributes",
+      "size": 264,
+      "sha256": "55840c79ff0d98e8dc166a3e34c67749bc0fd86f479c629d88a027ebaedb2be1"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.gitignore",
+      "size": 19,
+      "sha256": "1016aadad9d10187f8a57606d4fc71d67bccfd95c326dea8a6c4f462ced955cf"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/customize.sh",
+      "size": 1677,
+      "sha256": "2904f2114b566bdf31274daad95d445448ea9d6b58794f4e5117720342c00d45"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/LICENSE",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/module.prop",
+      "size": 225,
+      "sha256": "d904e0382547d631b7f9d32019c66f66ec05cb0f57021ed377851ee6d1b4d54d"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/MOSEY_CAPTURE_TEST_SUITE.md",
+      "size": 24130,
+      "sha256": "7580963e3c7164b7360980ccbbd42770fe74ea303466eb2c426593976f84732b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/MOSEY_CAPTURE_TEST_SUITE_RU.md",
+      "size": 32032,
+      "sha256": "ce98353c29c9fd195d19f18f4f7c20aec75e79fe8e525f3b4fd0fa96a563aa6e"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/README.md",
+      "size": 52629,
+      "sha256": "8557934b20648e1e94ad8013024eb70514912ae9d0b19aef43fb228c499cd9b3"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/sepolicy.rule",
+      "size": 4406,
+      "sha256": "bb4e8f8997dd31d9be2aa6df4c78f379b110041ceb762934f91d052aa27e1cfa"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/service.sh",
+      "size": 11526,
+      "sha256": "2dcf2ab0226c57a2d7535da90fdb12547de64344a0397af7670174d749826cb6"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/uninstall.sh",
+      "size": 400,
+      "sha256": "e92c0b01eadbf8b18011ad7e3145ae866ca418b72362a08ecf2a57125a1452f3"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/BuSung-dev-targets.json",
+      "size": 12865,
+      "sha256": "9ededed4478132e4b774b2bcb34d7de74e3807941f39ff17d3a317fe0ab7c87d"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/HyperRamzey-targets.json",
+      "size": 4088,
+      "sha256": "1ad27ee289832fd40f632b0b41d33a758116d9c5884a4bc2aec45e316269e4d6"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/InstallPackageHelper.java",
+      "size": 260621,
+      "sha256": "aabdfd611c92fa6b2b69267a69681019b463d262e8a15cfbc3425dded0980f4b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/PackageInstaller.java",
+      "size": 229958,
+      "sha256": "e1a1327b241c96a6a16dbbdc6e39065daf372139348a7fcd545f685ae6b5752a"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/PackageInstallerService.java",
+      "size": 107149,
+      "sha256": "3b37193200a5f3457fbc3714a3b4df62603a44170b0fc8b5b88652dc14b4e500"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/PackageManagerShellCommand.java",
+      "size": 220424,
+      "sha256": "96c8109b2c84abdc0cf145e5bbf88751375cf3c25a6b4bd5fb719055370a1387"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-system-install/ScanPackageUtils.java",
+      "size": 56431,
+      "sha256": "878a527fcf6b32073fc9a90e4e0aaca8bcfed8a34fc41ae1ec6accc22820cc99"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/df-current.xml",
+      "size": 17415,
+      "sha256": "13e0238931b6a703fece571a80cc22c208f8b2c1a4e30e3f4ab88e272f3c3a64"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/df-reroot-current.xml",
+      "size": 17416,
+      "sha256": "75282ae6e270ddf49120abc274b6909bfc97c6e5f093d4ff9532a851ae61f020"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/DirtyFrag-release.json",
+      "size": 11509,
+      "sha256": "2d7a7bb3c5afb2bbb450a098592bcf1989b1dd731892e845b9b8f2e91f3cb22b"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/DirtyFrag-v1.16-badging.txt",
+      "size": 4784,
+      "sha256": "0d4f007a54f0beb2161b124af3ae8e4eb90a02c2ebc31181480717c29e62fadd"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/DirtyFrag-v1.16.apk",
+      "size": 1938314,
+      "sha256": "fb0f8e253a0d3c15f01e489922c9a42baef5dd9ce7b61cac8ec0660cfde445d3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/kernelsu-after-run.xml",
+      "size": 18547,
+      "sha256": "f7b612bc3f2ef379cbb4a1a940f69971b8eaa99f39874682f97e4286ac03fb6e"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/kernelsu-after-run2.xml",
+      "size": 24103,
+      "sha256": "d403f1a2bb8b8a80105993dbb33184571314f6e784ad9c4ccf7e7bdd38861222"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/KernelSU-release.json",
+      "size": 24355,
+      "sha256": "afbe29bdd010c73e49bcaf76d22f03c116f5ec9c40483ab64dcf29c6b0c4f318"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/kernelsu-superuser-loaded.xml",
+      "size": 10246,
+      "sha256": "8fa538606548b99f180d6b99f162f628b50b691c79745395d6a97872b0511f8a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/kernelsu-superuser.xml",
+      "size": 10246,
+      "sha256": "8fa538606548b99f180d6b99f162f628b50b691c79745395d6a97872b0511f8a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/KernelSU_samsung-v2.2_32687-release-badging.txt",
+      "size": 4714,
+      "sha256": "417a7d834a884f83c78327ec70ac7ec1eae2641aad793a4e1c55b6a3a353d2a2"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/KernelSU_samsung-v2.2_32687-release.apk",
+      "size": 7607475,
+      "sha256": "761dffad54ae080a4977971db7b04e2fc65c2d9b5e2336accca4a85661290a69"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/manager-screen.png",
+      "size": 238476,
+      "sha256": "6519087db6fecbbe09e98c9ec4eb35fa58540b5e237aefa40a3627c276ffef06"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/shell-profile.xml",
+      "size": 15869,
+      "sha256": "14a1044c1cfefb401d2ddd82650e84de0b08f04c578385fcc502a4bb5e411cc7"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-01.xml",
+      "size": 17409,
+      "sha256": "2419341ac515d889768dc968ff566d2d23c86a18c299cde3807664c12f8892ca"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-02.xml",
+      "size": 2518,
+      "sha256": "8e65723a38bf9319479e66d571692456ff7c106bf3539bf42bcf393dc6ad6527"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-03.xml",
+      "size": 17415,
+      "sha256": "13e0238931b6a703fece571a80cc22c208f8b2c1a4e30e3f4ab88e272f3c3a64"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-after-reboot.xml",
+      "size": 17415,
+      "sha256": "a24ba7a26205ff87b3c8cdf7327df7dcc3c523be73c8e34aa3f2ab70c9f1de1c"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-after-tap.xml",
+      "size": 17416,
+      "sha256": "ee6d773823db710cab87e92393ec2c3266f461d919a5f80b77a3c71965672b05"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/ui-before-run.xml",
+      "size": 17415,
+      "sha256": "a24ba7a26205ff87b3c8cdf7327df7dcc3c523be73c8e34aa3f2ab70c9f1de1c"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/DFRoot-latest-release.json",
+      "size": 4286,
+      "sha256": "8797fc29bbf3b3d65af04fed907a1d0fc6efcad165a942b3e9d0fc61361f0f2f"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/DFRoot-README.md",
+      "size": 5285,
+      "sha256": "760d6d8ac5b9246e33b13674663e0c0cdb7db905b4d6166f1f00837301fbc1a1"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/DirtyFrag-latest-release.json",
+      "size": 11509,
+      "sha256": "2d7a7bb3c5afb2bbb450a098592bcf1989b1dd731892e845b9b8f2e91f3cb22b"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/dirtyfrag-module-list.json",
+      "size": 8523,
+      "sha256": "c8039191334b52b650750760bb816bc3f1438d936bc59108f07112b924be9844"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/DirtyFrag-README.md",
+      "size": 7543,
+      "sha256": "fc4ea592a5542ae57c6b3c4d1e2488712dba76c5298ac81bed7ab5beb2ebcf66"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/KernelSU-latest-release.json",
+      "size": 24355,
+      "sha256": "afbe29bdd010c73e49bcaf76d22f03c116f5ec9c40483ab64dcf29c6b0c4f318"
+    },
+    {
+      "path": "work/fold5-analysis/root-research/Root-My-Galaxy-Next-README.md",
+      "size": 109772,
+      "sha256": "1e83e2ab44ad3822a37e721ad44953829e5d0d170deee209bd74de1204880370"
+    },
+    {
+      "path": "work/fold5-analysis/system-apps/quick-share.apk",
+      "size": 43302700,
+      "sha256": "60fd76a7349da79550058f39c2ff8e14d955f0b4f73acb739606f10d61886d32"
+    },
+    {
+      "path": "work/fold5-analysis/system-apps/samsung-aware.apk",
+      "size": 13887699,
+      "sha256": "b89d51c9df8428c75c2487f170d26bedb31300bb7086c0c31560f5d25bc3235e"
+    },
+    {
+      "path": "work/fold5-analysis/__pycache__/dex_probe.cpython-314.pyc",
+      "size": 11249,
+      "sha256": "5fddf2397f5f7f0f0e1e5af9df2f9cd9e4e5422e274736757f294561719eaf7f"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.gitignore",
+      "size": 557,
+      "sha256": "3be2201174e81575f198f64d561aac1d394428e43af528a9f5d0ca91a82be9dd"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/build.gradle.kts",
+      "size": 74,
+      "sha256": "786a6aef9d41e1075240be92fad07fb11f25717c0253245646957542649034f3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/CHANGELOG.md",
+      "size": 18122,
+      "sha256": "fc9b7b7581cf676eca09b9db6d5ca473d35d1bfa23eb5210cf2877cee0800d61"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradle.properties",
+      "size": 25,
+      "sha256": "dc0a9c12649cfa326f96f22f5acc5d94eebbd7839ae4aa2655b98346d67e7ddc"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradlew",
+      "size": 8656,
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradlew.bat",
+      "size": 2848,
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/Makefile",
+      "size": 3362,
+      "sha256": "784b2ecb9718a923e396b2907dc7f08dae8b02cbd877bc81d5dfe34b6d10c265"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/README.md",
+      "size": 7621,
+      "sha256": "70bd12e64c7cc06715a6cbca31175b14937b966288693c1c17cac0118b132831"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/settings.gradle.kts",
+      "size": 328,
+      "sha256": "ebbb6b8d7d85d3be2483d379f529151c6b76407a3f51a12fd1447ad709d7aba6"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/config",
+      "size": 221,
+      "sha256": "e9faf2fdf77f2468ac3b8085d8048b80621302d36a955f8ffdba81da1d0d08d4"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/description",
+      "size": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/HEAD",
+      "size": 41,
+      "sha256": "b4979d534ae4e8993f683f3fc01e0fbc1fdbee140517eb1d12722c7979d10f05"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/index",
+      "size": 9168,
+      "sha256": "3381da5256d79450e29d82ed5329d40f3bf8f5882f9d72fd09ef1ddc2bbabadc"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/packed-refs",
+      "size": 145,
+      "sha256": "797ff8e98d1da179bec44f172b7710f5d0b72611152215d9d3ebe8ecd9d915de"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/shallow",
+      "size": 41,
+      "sha256": "b4979d534ae4e8993f683f3fc01e0fbc1fdbee140517eb1d12722c7979d10f05"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/build.gradle.kts",
+      "size": 1973,
+      "sha256": "af219b45b4b0773843c3733aef61e45905e8cb04f36be0c8e0419fb1c5f36755"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/proguard-rules.pro",
+      "size": 468,
+      "sha256": "bd7958c92145610af6b0b47278c26d8920ff2a546717de9f112d676eaedf834d"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/docs/visual.gif",
+      "size": 18102,
+      "sha256": "1f3cbb1d58ac4ebcf279bc1a2e6019a92c8d787728e71d7e131218ea9370cd64"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradle/gradle-daemon-jvm.properties",
+      "size": 1138,
+      "sha256": "231649d2f8e8dc24310f18c921e3ae33fd2715b7f48a7ddcaf27a85003e0729a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradle/libs.versions.toml",
+      "size": 522,
+      "sha256": "031943fbe0d8209f267597120b6f249ee962e6e08ebfa8f41ce1a0917a17e75d"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/lkm/dfroot.c",
+      "size": 7595,
+      "sha256": "de1d45c62385aa8d6946f91569b3f21e78949ddb4575e662883731a8dfbbb1ae"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/lkm/Makefile",
+      "size": 453,
+      "sha256": "e7708a6338001960c1155c21e500c8f98aeb60c800effe56efa1d5137659306f"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/tools/icon-source.png",
+      "size": 71654,
+      "sha256": "210e90d979d1c35e7ee1611c5d4d559c551c0730bddac1638664f99781bb6b3a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/tools/icon_preview.png",
+      "size": 2655,
+      "sha256": "ca82e8ff43dea6e70237d2d9e9d7d93044787c2d93d4b6b0397882df8678e7c2"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/tools/ic_launcher_dirtyfrag.svg",
+      "size": 6012,
+      "sha256": "eb8271d82e704ff52226ee96871ab339b3c4858873c17e45d69ac3daf778cf9a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/tools/subset_font.py",
+      "size": 9096,
+      "sha256": "21b12dbcc89fb0b1d754bd4580a3ca1eaaeef58324f07b65bd9b5fd39d033b2c"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/tools/trace_icon.py",
+      "size": 13518,
+      "sha256": "232f895af7fc9f0cd2d8ec906f9c7103e15e92cd0568ce7c334dead4029528f1"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradle/wrapper/gradle-wrapper.jar",
+      "size": 47505,
+      "sha256": "7a9ce74cff467ca1bf60a4fcd9f05185acceda4d0f382434d393e17864262c5d"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/gradle/wrapper/gradle-wrapper.properties",
+      "size": 281,
+      "sha256": "d01b41913834fb3cb14e71f69a08898e6a47e663b08f5c9b8c7e0772c38889d2"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/AndroidManifest.xml",
+      "size": 1680,
+      "sha256": "e57fc08ee48aba179d1c4a128a13932ea6121cbf3195c2a74225e75eb82d3409"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/aes256.h",
+      "size": 5900,
+      "sha256": "66f5a25b001c3e217becc1993554d49f277a7a0154ca62c796a8f48cf12a2eda"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/bootstrap.c",
+      "size": 6484,
+      "sha256": "1a54e115be7e5c5d0ed9cff9ed00e47bdbd4cb83dba80672078997e4384d504d"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/CMakeLists.txt",
+      "size": 2076,
+      "sha256": "e004a88b1b9a383ac8e092f22a6dfbb2e60404f4dafdcca3cde84afd7e00f2b6"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/elf_parser.c",
+      "size": 7887,
+      "sha256": "03500a7e5c635d46a92adc87b899a3eef2933c7c27cce3c66128cdd81d5ffb3e"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/exp.c",
+      "size": 23552,
+      "sha256": "1bb8a097270747027256cc2a97e49c6291305a9fa9b054cb2470caf8e441f54a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/include.inc",
+      "size": 8422,
+      "sha256": "4dd6a0ec50f83906a417f1167c36d26dadd9c0edce7267c4553cf51b72b2fe4a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/libcxx.S",
+      "size": 3711,
+      "sha256": "d423e769a9b127f52f545e4c1bc5874aa0643a1457a3b9ac69471480ad9812be"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/splicehelper.c",
+      "size": 2947,
+      "sha256": "566eb19d33563a1745091cf1eac5b85db0dba74555f1a30624880175b15373ee"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_card_hide_button.xml",
+      "size": 411,
+      "sha256": "2c451df22ce18ded1dd7872b2c1808ccb07861ebc5053f341f1ea89b832da7ea"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_circle.xml",
+      "size": 180,
+      "sha256": "7c08542f75b853f76bc7837a4daeadc03bef627ca9d6a54e3a77e406eafd9e48"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_circle_grey_ripple.xml",
+      "size": 567,
+      "sha256": "09ef4adf7e0867e2e44d13ac6075e4c2041ff72d5559eebecb29a41fe8da25c1"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_odin_pill.xml",
+      "size": 708,
+      "sha256": "d40eef4983aa52ea76f21a08fcbc9a69c465c62a6743c7d068c91b1e6bbab667"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_pill.xml",
+      "size": 564,
+      "sha256": "815c49f2b36beb645a0591853762c952e1e1381d859116d26c2142e3c5776d54"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/bg_update_pill.xml",
+      "size": 803,
+      "sha256": "98ec748ef83c3570bec76efe8dfd7e20b9c5cb95cd84af201f51667fdf9b7239"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/dot_white.xml",
+      "size": 180,
+      "sha256": "ea393d2c38c5622ead33d6ef857ad1dd12e85972c9882e274a4351f5dd493d86"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_card_hide.xml",
+      "size": 733,
+      "sha256": "f97d5059cefdaf4418537e6c6dc19695f4abe72ef83523d0632986b94ae65bce"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_chevron.xml",
+      "size": 347,
+      "sha256": "590255001c6e5baa731fd8e4ea88c4fef930e82fc1cb451d3115dff6117eb967"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_launcher_background.xml",
+      "size": 306,
+      "sha256": "3be352efc3cb7a3e3f3e730881df134a9e83415b9e0800f1e1b0a17033b9e1f5"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "size": 6510,
+      "sha256": "c931551519699255990f564db3acc573a2c085a7ed0ad4fb2f9a717a710fd3bf"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "size": 6510,
+      "sha256": "c931551519699255990f564db3acc573a2c085a7ed0ad4fb2f9a717a710fd3bf"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_more.xml",
+      "size": 455,
+      "sha256": "e53751cb281f8b5ed82f89330bf3cf4598de51f2958a2471330587228ec853ba"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_play.xml",
+      "size": 285,
+      "sha256": "e8be6b04fea3eb555ed327713fe73816d0da5fd5d077161f7c1f940f2d5f2fdf"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/ic_share.xml",
+      "size": 1176,
+      "sha256": "1ac9d9329f121641ef94fcc7d1b59d2df14285709d9d8147bdbfaf0784684882"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/menu_divider.xml",
+      "size": 409,
+      "sha256": "da261596497fac6b6054c8293a2a17ced5d15520343e8bb245bad59036e7478e"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/menu_item_bg.xml",
+      "size": 468,
+      "sha256": "de53126867f8caa9fef5b1dbd47c6263631f806d3da5a873d6b40071d18bf1a0"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/menu_item_ripple.xml",
+      "size": 540,
+      "sha256": "c1459d492ea4c43e8e9895584afecf5523bddadcc62489c46be612885325996c"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/menu_row_highlight.xml",
+      "size": 497,
+      "sha256": "352c9c5b343283864dad28e2c586e0155fcfd3d8d16fedd3aeb13c2a6430f52a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/drawable/popup_bg.xml",
+      "size": 289,
+      "sha256": "f70eb044ed5020476c28d92d12672227daa029b082e1bdec88b337071496cbc2"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/font/inter.xml",
+      "size": 525,
+      "sha256": "c15ce56408ecd64abe5d2fe45abac17975f152dd690801794b00fa4cf82eb81c"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/font/inter_vf.ttf",
+      "size": 239308,
+      "sha256": "8f7065d9eaabb0854b69638a679609a81f1a56f72830dc6ac12a1bf23fdd639f"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/layout/activity_main.xml",
+      "size": 27591,
+      "sha256": "386bdef8a105ff68b75d1b4e85089ceebbeb2f7e71073a2760adee9531035f99"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/menu/menu_main.xml",
+      "size": 378,
+      "sha256": "fb65b75fe352b8a60bcb94499750b7e425590a163fcf99292431ad2291c777ab"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "size": 335,
+      "sha256": "dda5c84eb7d968800940faf40469a4230208599cc24ec9bda7d96dc2739beea3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "size": 335,
+      "sha256": "dda5c84eb7d968800940faf40469a4230208599cc24ec9bda7d96dc2739beea3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/values/colors.xml",
+      "size": 367,
+      "sha256": "6a358661ad64e352ab243a1d5694ae9d51081a5a23f379924820fabdf36ccdeb"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/values/dimens.xml",
+      "size": 419,
+      "sha256": "bfaa585b80a2b488b9804016e91261eb22ffc404791aad987d3254a66d0d1685"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/values/themes.xml",
+      "size": 6261,
+      "sha256": "b6240085377d72c4cbb781ba22c09d9712951613921cdec6e97c775ec9479748"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/res/values-night/themes.xml",
+      "size": 14,
+      "sha256": "485d9633441e98267df0b414bc4d4dbd8b8ca586f80ce68a61ae382965162946"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android12-5.10.ko",
+      "size": 13976,
+      "sha256": "31e937c1cd4993bc2015b36795bf933ead7eacb68a90c4363ee8f240867f95d5"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android13-5.10.ko",
+      "size": 12904,
+      "sha256": "fd9f1bc0e406ff8c85f278f645435dee388685d31e4e359ce69eb5a25f3f8668"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android13-5.15.ko",
+      "size": 13144,
+      "sha256": "3a1c2086f430630e65ffbee0852cf9b4ecfdc814fea962bda009badc5ccf27bf"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android14-5.15.ko",
+      "size": 13144,
+      "sha256": "fa78c676a54e62d729bb445761b9308f6cfeefabd052ea7560fa47cf4cd7e6cb"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android14-6.1.ko",
+      "size": 9880,
+      "sha256": "7d7c9a38e294b8c0f5ead2f061088eeb8ff3d81280e10d867caa35ec1d63d8e3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android15-6.6.ko",
+      "size": 10328,
+      "sha256": "7693a7ba0f78b61133c36ba2b71db1cb54d850700e118ef19ae94e8e8b67cf57"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android16-6.12.ko",
+      "size": 11024,
+      "sha256": "6ec93ae92f3c4173447350511179896663b76fee9cde532030ee24728ab767d4"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/jni/ko/dfroot-android17-6.18.ko",
+      "size": 10792,
+      "sha256": "0dd4968e6e42bc47281c85123b44cae284b6a259b2a47f2fa224a96afe3f6f71"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/BootReceiver.java",
+      "size": 3414,
+      "sha256": "5556bfb483c84f0935f506a2bb404233a8466cadaaec88fed3590974c0f7a5ec"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/BottomFadeView.java",
+      "size": 1885,
+      "sha256": "6b05b7ebd479228b86ea2a7a09459cf0f2d755afdeec5de3edb8f9bfc1cb832a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/CardLayoutStore.java",
+      "size": 2672,
+      "sha256": "ca27d0bec768f8a42916c3ce460704d2040d9152011bb7b55ca7ac5a8cb6b345"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/CardStackLayout.java",
+      "size": 35363,
+      "sha256": "6e99ad319f570c3c7c8d5b6282d6cb8b902a9db8d40c07cfbd01e0f5f9256ce4"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/D2Status.java",
+      "size": 9038,
+      "sha256": "a0506eb36b77c5fb8df3e07a00d6444ec07e0f37ec598c5596bd5d5f0db10d8d"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/DraggableCardView.java",
+      "size": 3765,
+      "sha256": "d9b1f66c2f4b1768bcec4b6197721c377bd31085a672505ccfff41fa7a010b43"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/ExploitRunner.java",
+      "size": 6266,
+      "sha256": "d7a8ba90f4a7e0c914386ceb79b864fb99a4a6c8addf6eb0be230acd049707f8"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/IReporter.java",
+      "size": 78,
+      "sha256": "30709aff6a14f347a9043ff1ddaffcd6ed7bfa18bade56c9626cec95e01b4675"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/MainActivity.java",
+      "size": 92111,
+      "sha256": "4f390e3d0457c6e2ed39b1d17453d70e7dae44f1e527ffc1e85ea0b3a821ae10"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/OneUiSwitch.java",
+      "size": 4068,
+      "sha256": "86a765d2d13ab48d3c5ce52ac4e39c274e9eaf59d4f6005c6c3f520a646af0ae"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/ScaleFix.java",
+      "size": 4188,
+      "sha256": "2cc1df59613194f87af22541ffe3164b8eab26cf03cd9699b13998597b592b89"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/app/src/main/java/df/root/TwoStepProgressView.java",
+      "size": 5887,
+      "sha256": "79bb43a273db6fefb1a0aabd288ebf3c91152842ae8a329492ddbab602792a17"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.github/workflows/build.yml",
+      "size": 4226,
+      "sha256": "a3245677a747910c22c399f9cc74dc9c2a3e86c267a0b76e8e3d4d551e3c2ad1"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/applypatch-msg.sample",
+      "size": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/commit-msg.sample",
+      "size": 896,
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/fsmonitor-watchman.sample",
+      "size": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/post-update.sample",
+      "size": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-applypatch.sample",
+      "size": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-commit.sample",
+      "size": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-merge-commit.sample",
+      "size": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-push.sample",
+      "size": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-rebase.sample",
+      "size": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/pre-receive.sample",
+      "size": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/prepare-commit-msg.sample",
+      "size": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/push-to-checkout.sample",
+      "size": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/sendemail-validate.sample",
+      "size": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/hooks/update.sample",
+      "size": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/info/exclude",
+      "size": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/logs/HEAD",
+      "size": 191,
+      "sha256": "a751970b187c57711da7923ae6181aa8f76272ab92eb7e584217382016b53eb8"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/objects/pack/pack-918b47e292693c09e9cff366abcf3e38a64286ff.idx",
+      "size": 4068,
+      "sha256": "55e7100c63e93330a4648b6c9485d100d54d993392a103b109be2dd3c69061d6"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/objects/pack/pack-918b47e292693c09e9cff366abcf3e38a64286ff.pack",
+      "size": 394298,
+      "sha256": "9eeb934c4a317ee2ed6622a8282f50defa58a0d241dc3806d1fd6c8606826980"
+    },
+    {
+      "path": "work/fold5-analysis/root-attempt/dirtyfrag-source/.git/objects/pack/pack-918b47e292693c09e9cff366abcf3e38a64286ff.rev",
+      "size": 480,
+      "sha256": "e2bbd72f91320b9b5259f0f5255b0c9bbc85bb712a8f14c54b54150cbe068e07"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/config",
+      "size": 293,
+      "sha256": "bf13326d1e8bb2b75c3758e2abb03f412e396e26d6c58ebbbacf1969f7597133"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/description",
+      "size": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/HEAD",
+      "size": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/index",
+      "size": 5357,
+      "sha256": "56ae74ff40c72f072835938025d019a4968a721ebd2163ce67058f5a8c26f432"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/packed-refs",
+      "size": 112,
+      "sha256": "2975a4a3349f31c6c6d1db82477f0a0380917e1b9c5caf9ad1db42065f902105"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/shallow",
+      "size": 41,
+      "sha256": "29d5e8f14489775c5f946c0c5e6f4e4134a0554c89c2af6ba20dddba5d6e5b3a"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/common/functions.sh",
+      "size": 11369,
+      "sha256": "77c512a548310316ad0c6e16f9427c2209f313b779b0272fdc685af3a9a008e0"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/common/install.sh",
+      "size": 1061,
+      "sha256": "05326adfc1d40490965818ccac57983f04d8af9f1af0f39150e5737b8d977c95"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2017.xml",
+      "size": 4192,
+      "sha256": "1fc804cd5d3c76d08156997a131e1eb15e63438945fe040c383cfbf18c53de4b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2018.xml",
+      "size": 1556,
+      "sha256": "bc16638c8894a050fc84899342c6f9c31458b8b31e43bbc23d8fe5ef20a0658a"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2019.xml",
+      "size": 484,
+      "sha256": "4a663ac8dcd07b0610a46e950d0feefabc37441fc050a4b40bf989bcc927654f"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2019_midyear.xml",
+      "size": 510,
+      "sha256": "4cdf502b14bb452912f789a4b464260368f87f669c0838182b2efe3a47afd4d1"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2020.xml",
+      "size": 572,
+      "sha256": "06ba5abee47a490e61ac1e58fd806a6b59c70581b188129e1354d07221d99b9b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2020_midyear.xml",
+      "size": 458,
+      "sha256": "191c40e7698d30f5126357380880a1f86102184817552bb09b7ba4c9407b5424"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2021.xml",
+      "size": 578,
+      "sha256": "e1c8657f855cc0823e7c021868eb0e67685aa1c2851ce9db8cac605a59df9fc4"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2021_midyear.xml",
+      "size": 336,
+      "sha256": "acf40d0a64dbffaf0e0937f3b791c468874ee8cbbd4cbea584868c79924324cb"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2022.xml",
+      "size": 675,
+      "sha256": "710f7d10d524f9cb531f3812e8a24292e180329bf65dea55258a2d678e1590e3"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2022_midyear.xml",
+      "size": 336,
+      "sha256": "6782e103356875f3f107aae07c7447d6b1802c5cc61b69a6d120dcfead72e83f"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2023.xml",
+      "size": 310,
+      "sha256": "b718483c769e308fb5790de6b01c055be40d86d783e22916c1fe49ee01c5cc12"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2023_midyear.xml",
+      "size": 336,
+      "sha256": "34466c0de3085df10f8f85d917e992274b037633c44e91c9f7047edc388e4cde"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2024.xml",
+      "size": 411,
+      "sha256": "8b2f271bed891c3bd573446fb4686d3335b89b2f5de178b7416308141287a455"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2024_midyear.xml",
+      "size": 336,
+      "sha256": "8a826883bd7d4e71cd6df55024a1d3435c25d1f6de1f7db952429157d8e0254e"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2025.xml",
+      "size": 310,
+      "sha256": "49a34ce6d525fc69c5391f7816fbbf829f016f4face2e382b215c7be13987e09"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/payload/pixel_experience_2025_midyear.xml",
+      "size": 336,
+      "sha256": "6a1b182b4bad9d7a0db6f41ff3d92337b32e9aa62b5964b7802a2b2ef8302476"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/bin/mosey_server",
+      "size": 1508320,
+      "sha256": "8c156aaaba37f7659ae1bdf763bd1004e7290a429a518e1716b6490f2b28150f"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/bin/sqlite3_mosey",
+      "size": 1407144,
+      "sha256": "46a48d462b821c085b1135d6a76d259a32de5a841c5cd491121e747dedb852ee"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/lib64/libmosey_daemon_ffi.so",
+      "size": 2537696,
+      "sha256": "89c83ba82930696930968b5aa0d515983be96732697d2bf825e5bfb4ba549ea6"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/etc/init/mosey.rc",
+      "size": 176,
+      "sha256": "14807fe800526c0c5271efea0e784677ee54ec90305a583c000d62d0d918ac44"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/etc/selinux/vendor_service_contexts",
+      "size": 5535,
+      "sha256": "899d868e2a81ff8dd2073e987042e328aee2f2a251f936fde2c2c04c07be5a18"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/vendor/etc/vintf/manifest/manifest_mosey.xml",
+      "size": 303,
+      "sha256": "e3901fb382999bfc2a947586c407d94bea5c050a16f145fd2765257f665bd1c4"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/etc/phenotype_patch.db",
+      "size": 106496,
+      "sha256": "4bdaa6352ec5eaafd17b930cdcf15d817083415bac8a3347c0ece6382ed890fa"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/priv-app/MoseyApp/base.apk",
+      "size": 33240814,
+      "sha256": "ac3b59b776570aa673aed462bd7dbb08cc1486adea5f5f884f848230ddf6a4be"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/priv-app/MoseyApp/split_config.arm64_v8a.apk",
+      "size": 782572,
+      "sha256": "cd2213488b5fa107966755c3dfcb435c85a06d94549c7965a83d5bca5932b49c"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/priv-app/MoseyApp/split_config.en.apk",
+      "size": 28882,
+      "sha256": "1170711ad580850869de8e52934b2331abb3ab6fd08dceb84ac986c0daf93b5f"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/priv-app/MoseyApp/split_config.xxhdpi.apk",
+      "size": 43176,
+      "sha256": "a1a1f058353547ec199888124e58bbc1821a0634076effe82937a6c06a59babd"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/etc/default-permissions/default-permissions-com.google.android.mosey.xml",
+      "size": 1534,
+      "sha256": "b25fbf4d59df5fb794234c473cdb0c36fb4d76d3cd746545e665446b59b93e86"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/etc/permissions/privapp-permissions-mosey.xml",
+      "size": 653,
+      "sha256": "5318fdf2c226575adb30b2c94b80cc350fe93aef15740ff94c3661c2101362fb"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/system/product/etc/sysconfig/mosey-hiddenapi.xml",
+      "size": 388,
+      "sha256": "076bc9977f16c8390497552689d3392dc103e8aef7eec029798dbc223b75bff2"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/META-INF/com/google/android/update-binary",
+      "size": 611,
+      "sha256": "b4c882fffba5b85804f6212b1bdf9ca68437e5150dd3a50f869ef115f4af5380"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/META-INF/com/google/android/updater-script",
+      "size": 8,
+      "sha256": "d2b8203193a083e43ad076fde01b9c7821e0aa521e1f8077b8628fb1cdb70c60"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/common/addon/placeholder",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/applypatch-msg.sample",
+      "size": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/commit-msg.sample",
+      "size": 896,
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/fsmonitor-watchman.sample",
+      "size": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/post-update.sample",
+      "size": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-applypatch.sample",
+      "size": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-commit.sample",
+      "size": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-merge-commit.sample",
+      "size": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-push.sample",
+      "size": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-rebase.sample",
+      "size": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/pre-receive.sample",
+      "size": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/prepare-commit-msg.sample",
+      "size": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/push-to-checkout.sample",
+      "size": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/sendemail-validate.sample",
+      "size": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/hooks/update.sample",
+      "size": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/info/exclude",
+      "size": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/logs/HEAD",
+      "size": 196,
+      "sha256": "dc5fceb6b8d7053d5ed0c86e86b0d8755b5960cba3e36e08b86780c0a2f45428"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/refs/heads/main",
+      "size": 41,
+      "sha256": "29d5e8f14489775c5f946c0c5e6f4e4134a0554c89c2af6ba20dddba5d6e5b3a"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/refs/remotes/origin/HEAD",
+      "size": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/objects/pack/pack-e964e9f51fdcb87683568c51fc842a26d0d9bd97.idx",
+      "size": 3060,
+      "sha256": "f20db6820b62f8b05f451bad86aa0862bd152562ab87ba37abd256238b550db1"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/objects/pack/pack-e964e9f51fdcb87683568c51fc842a26d0d9bd97.pack",
+      "size": 15360432,
+      "sha256": "62c42910e3d7d4d73a2610caafd5cc1da74d677a18a9e2d8e65693ade1e3ff3d"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/objects/pack/pack-e964e9f51fdcb87683568c51fc842a26d0d9bd97.rev",
+      "size": 336,
+      "sha256": "503cf8e4fdcd5394a4ed0f39d6afc0e9aaa807a946363f9d55a1df498c0b768b"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/logs/refs/heads/main",
+      "size": 196,
+      "sha256": "dc5fceb6b8d7053d5ed0c86e86b0d8755b5960cba3e36e08b86780c0a2f45428"
+    },
+    {
+      "path": "work/fold5-analysis/mosey-extended/.git/logs/refs/remotes/origin/HEAD",
+      "size": 196,
+      "sha256": "dc5fceb6b8d7053d5ed0c86e86b0d8755b5960cba3e36e08b86780c0a2f45428"
+    },
+    {
+      "path": "work/fold5-analysis/framework-probe/classes/FrameworkProbe.class",
+      "size": 5440,
+      "sha256": "b6deef33adf7f0c3afaf665c08fdc3b82c94a20a43371151a67ecaa7a46886e0"
+    },
+    {
+      "path": "work/fold5-analysis/framework-probe/dex/classes.dex",
+      "size": 5736,
+      "sha256": "813a329d745ca231368fd336a3848bd0685516212a40b63fae2ed5dbe36c0bf8"
+    }
+  ]
+}
