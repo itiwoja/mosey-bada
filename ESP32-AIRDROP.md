@@ -156,3 +156,32 @@ iPhone: AirDrop を「すべての人（10分間）」→ 写真 → 共有 → 
 - ESP32の受信キュー EVQ_LEN を96から160に増やした。空きヒープが32KB未満なら積まない。
 - `AIRDROP_CHANSEQ=fill`（実験）: intersectに加え、iPhoneが空にしているスロットにもch6を宣言する。既定はintersectのまま。
 - ログで見る場所: `uart at N baud`、`chanseq fill`、stats の `dropped`。
+
+## 内蔵Wi-Fiでのch44受信試験（受信専用）
+
+目的: iPhoneはAWDLのch44（5220MHz、80MHz幅のことがある）でもESP32宛てにデータを送るが、ESP32は2.4GHz専用のため取りこぼす。Fold5の内蔵Wi-Fiを受信専用のmonitorにして5220MHzを聞き、ESP32のMAC宛てのAWDLデータフレームが何件届くかを数える。TUNへ流す処理はまだ作らない。
+
+試し方: 受信と同じ手順のまま環境変数を付ける。`wait-for-esp.sh` は `exec` で `start` を呼ぶので、環境変数はそのまま引き継がれる。
+```sh
+AIRDROP_CHANSEQ=verbatim AIRDROP_SNIFF=5220 nohup sh /data/local/tmp/fold5-airdrop/wait-for-esp.sh </dev/null >/data/local/airdrop/wait-for-esp.log 2>&1 &
+```
+`AIRDROP_SNIFF_WIDTH`（既定 80）、`AIRDROP_SNIFF_PCAP=1`（`$BASE/sniff.pcap` も保存）も指定できる。monitorの秒数は `AIRDROP_MINUTES` × 60（上限1800秒）。
+
+見る場所: `/data/local/airdrop/sniff.log`（`fold5-airdrop.sh status` の `sniff:` 行も同じ）。
+- `set_channel_result=`: 0なら5220MHz/80MHzへの切替に成功。0以外なら切替に失敗しており、受信は続くが判定しない。
+- `to_target=`: 宛先がESP32のMACのAWDLデータフレーム数。
+- `chan=`: radiotapで最も多かった周波数（5220になっているか）。
+- `top_dst`: AWDLデータの宛先の上位8件。
+
+判定: `to_target` が数百件以上なら、5GHzでも拾えているので TUN へ流す実装に進む。0件なら（`set_channel_result=0` を確認したうえで）この案は終わり。
+
+注意:
+- 受信中はFold5の通常Wi-Fiが不安定になりうる。
+- 無線送信はしない。wlan0・規制・firmwareの設定は変えない。
+- 停止は `fold5-airdrop.sh stop`（`sniff.pid` も止める。monitor_session は SIGTERM でインターフェースを消してから終わるため、最大3秒待つ）。
+
+実機の事前試験（2026-10-22、iPhoneなし、`monitor_session --sniff` を直接実行）: 通常モード（`/sys/module/qca6490/parameters/con_mode` = 0）では使えない。
+- wlan0 UP（eduroam 2462MHzに接続中、またはWi-Fiオフで未接続）: fold5monは作れるが、`SET_WIPHY`/`SET_CHANNEL` とも errno 16（EBUSY）。5220/80MHz、2437/20MHz、wlan0と同じ2462/20MHzのどれも同じで、受信は10秒で0件。cfg80211はmonitor以外のインターフェースがUPだとmonitorのチャネル変更を断る。
+- Wi-Fiオフ＋`ip link set wlan0 down`: fold5monの作成が -22（EINVAL）で失敗。
+- p2p0、wifi-aware0は元からDOWN。試験後にWi-Fiをオンに戻し、eduroamへの再接続を確認した。
+- 残る手段は `con_mode=4`（ドライバー全体をmonitorモードで再初期化）だけ。Wi-Fiドライバーの作り直しになり、戻らなければ再起動が必要で、そのとき一時rootも消える。未実施。
