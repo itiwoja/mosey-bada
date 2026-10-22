@@ -1,0 +1,318 @@
+--- a/opendrop/server.py
++++ b/opendrop/server.py
+@@ -23,7 +23,9 @@
+ import os
+ import platform
+ import plistlib
++import select
+ import socket
++import ssl
+ import struct
+ import threading
+ import time
+@@ -569,8 +571,14 @@
+                 self.need_crlf = False
+                 self.finished = False
+                 self.total = 0
++                # Called before every read from rfile. It is the only place the
++                # early-finish wait may happen: nothing has been consumed yet,
++                # so raising from it cannot leave a half-read chunk behind.
++                self.idle = None
+ 
+             def _line(self):
++                if self.idle:
++                    self.idle()
+                 line = self.rfile.readline(8193)
+                 if not line.endswith(b"\r\n") or len(line) > 8192:
+                     raise ValueError("truncated or oversized chunk header")
+@@ -602,6 +610,8 @@
+                 # Read only bytes already available, bounded by the caller's
+                 # buffer, rather than waiting for a whole HTTP chunk. A large
+                 # chunk may take minutes across the fixed-channel ESP32 link.
++                if self.idle:
++                    self.idle()
+                 read = getattr(self.rfile, "read1", self.rfile.read)
+                 data = read(min(len(buf), self.remaining))
+                 if not data:
+@@ -670,6 +680,129 @@
+                     out += payload if stored else zlib.decompress(payload)
+             return bytes(out)
+ 
++        # Moved above the receive loop: the early-finish check below runs while
++        # the upload is still being read, and a function defined later in this
++        # method does not exist yet at that point.
++        def odc_members(cpio):
++            """(name, data_is_complete, is_regular) for each ODC cpio member.
++
++            ODC header: 76 fixed-width ASCII bytes, then the name (namesize,
++            NUL included), then the data (filesize), all octal. The structure
++            is walked by hand because libarchive ZERO-PADS a truncated member
++            out to its declared size: measured, a JPEG handed back at exactly
++            the right length ended in 949,265 null bytes with no end marker.
++            Comparing sizes therefore detects nothing at all - only the bytes
++            actually being present in the archive proves anything.
++            """
++            out, off, n = [], 0, len(cpio)
++            while off + 76 <= n:
++                if cpio[off:off + 6] != b"070707":
++                    break
++                try:
++                    # ODC fields sit at fixed offsets: magic(6) dev(6) ino(6)
++                    # mode(6) ... namesize at 59, filesize at 65.
++                    mode = int(cpio[off + 18:off + 24], 8)
++                    namesize = int(cpio[off + 59:off + 65], 8)
++                    filesize = int(cpio[off + 65:off + 76], 8)
++                except ValueError:
++                    break
++                # These fields come from the network. int(..., 8) accepts a
++                # leading minus, and a negative filesize leaves `off` where it
++                # was: the loop then spins forever IN THE REQUEST THREAD, on a
++                # file crafted for it. A zero namesize does not advance either.
++                if namesize <= 0 or filesize < 0:
++                    break
++                name_off = off + 76
++                name = cpio[name_off:name_off + namesize].split(b"\0")[0]
++                name = name.decode("utf-8", "replace")
++                data_off = name_off + namesize
++                if name == "TRAILER!!!":
++                    break
++                # The mode matters. An iOS archive starts with the WRAPPER
++                # DIRECTORY, which has no data and is therefore always
++                # "complete" - even in a transfer cut off at the first block.
++                # Without this filter that directory alone was enough to make
++                # the list of valid members non-empty, and so to have the raw
++                # bytes deleted when not one file had been recovered. That is
++                # the .partial guarantee falling over.
++                regular = (mode & 0o170000) == 0o100000
++                # HOW MANY BYTES ACTUALLY ARRIVED, not just whether the member
++                # is whole. libarchive pads a truncated member out to its
++                # declared size, so the file on disk is the right length and
++                # ends in nulls - measured at 71% padding on one 1.78 MB photo.
++                # The archive itself says where the real data stops: everything
++                # from data_off to the end of what was received.
++                arrived = min(filesize, max(0, n - data_off))
++                out.append((name, data_off + filesize <= n, regular, arrived))
++                off = data_off + filesize
++            return out
++
++        def delivered_bytes(raw_path):
++            """(files, bytes, incomplete) the archive received so far would deliver.
++
++            The same view verify_extracted takes: regular members only, the
++            AppleDouble "._" companions skipped, and a member counted only when
++            every byte of its data is in the archive (odc_members, which
++            ignores libarchive's zero padding). Cheap enough to run on a quiet
++            spell, not per block: it unpacks the whole file received so far.
++            """
++            if raw_path.endswith(".dvzip"):
++                cpio = dvzip_to_cpio(raw_path)
++            else:
++                with open(raw_path, "rb") as fh:
++                    cpio = fh.read()
++                if cpio[:2] == b"\x1f\x8b":
++                    # decompressobj, not gzip.decompress: the stream may be cut.
++                    cpio = zlib.decompressobj(16 + zlib.MAX_WBITS).decompress(cpio)
++            files = size = incomplete = 0
++            for name, complete, regular, arrived in odc_members(cpio):
++                base = os.path.basename(name)
++                if not regular or not base or base == "." or base.startswith("._"):
++                    continue
++                if complete:
++                    files += 1
++                    size += arrived
++                else:
++                    incomplete += 1
++            return files, size, incomplete
++
++        def wait_readable(sec):
++            """True when a read would return at once; False after `sec` of silence.
++
++            WHY NOT settimeout(sec) AND CATCH THE TIMEOUT: the exception would
++            fire inside rfile.readline()/read1() in the middle of a chunk, and
++            both SocketIO (it refuses every later read once a timeout hit it)
++            and the chunk reader (remaining / need_crlf) are then in a state
++            nothing can resume from. So nothing is read until the socket is
++            known to be readable, and the wait happens between reads only.
++
++            Data can be waiting where select() cannot see it: decrypted bytes
++            inside the TLS object, or bytes the BufferedReader already pulled
++            off the socket. Both are asked first. The buffer has no
++            non-blocking size query, so peek() runs with the socket
++            non-blocking: with an empty buffer it then fails at once (EAGAIN or
++            SSLWantRead) instead of waiting, and the failure leaves the buffer
++            and the TLS state untouched.
++            """
++            conn = self.connection
++            try:
++                if getattr(conn, "pending", None) is not None and conn.pending():
++                    return True
++                peek = getattr(self.rfile, "peek", None)
++                if peek is not None:
++                    prior = conn.gettimeout()
++                    conn.settimeout(0.0)
++                    try:
++                        if peek(1):
++                            return True
++                    except (BlockingIOError, ssl.SSLWantReadError, ssl.SSLWantWriteError):
++                        pass
++                    finally:
++                        conn.settimeout(prior)
++                return bool(select.select([conn], [], [], sec)[0])
++            except (OSError, ValueError):
++                return True   # let the real read report the broken socket
++
+         logger.info("Receiving file(s) ...")
+         start = time.time()
+         reader = HTTPChunkedReader(self.rfile)
+@@ -730,15 +863,81 @@
+             except OSError:
+                 _arm = lambda sec: None
+ 
++            # EARLY FINISH. When the phone has sent everything, it goes silent
++            # and waits for our answer - no terminator needed from our side -
++            # while this loop waits out the whole adaptive timeout (30 s
++            # measured, on a 6 MB photo whose every byte had arrived). The
++            # upload announces its payload size in TotalBytes (the sum of the
++            # files' sizes, not the archive's), so after a short silence the
++            # archive is looked at: if the complete files in it add up to
++            # TotalBytes there is nothing left to wait for. Anything less keeps
++            # waiting exactly as before. 0 turns this off.
++            try:
++                total_bytes = int(self.headers.get("TotalBytes", ""))
++            except ValueError:
++                total_bytes = 0
++            try:
++                done_quiet = float(os.environ.get("AIRDROP_DONE_QUIET", "3"))
++            except ValueError:
++                done_quiet = 0.0
++            check_due = total_bytes > 0 and 0 < done_quiet < stall
++
++            class EarlyFinish(Exception):
++                pass
++
++            def idle():
++                """Runs before each read the chunk reader makes from the socket.
++
++                The wait cannot sit at the top of the loop: the read that
++                follows a chunk's last byte first consumes its CRLF and then
++                blocks for the NEXT chunk header - already inside the reader,
++                where an interruption would leave it half-way. Here nothing has
++                been consumed yet, so quitting is clean.
++                """
++                nonlocal check_due, shortened
++                if not check_due or wait_readable(done_quiet):
++                    return
++                # One look per silence; the next data starts a new one.
++                check_due = False
++                raw.flush()
++                try:
++                    files, got, incomplete = delivered_bytes(raw_path)
++                except Exception as exc:  # noqa: BLE001 - only an optimisation
++                    files, got, incomplete = 0, 0, 1
++                    logger.debug(f"early-finish check failed ({exc})")
++                if got >= total_bytes and not incomplete:
++                    logger.info(
++                        f"upload complete by content: {files} files, {got} B "
++                        f"of TotalBytes {total_bytes} after {done_quiet:.0f}s quiet")
++                    raise EarlyFinish()
++                # Not there yet: the silence already used up done_quiet of the
++                # allowance, so the blocking read gets the rest and a stalled
++                # transfer is still cut off at `armed`, not `armed` + done_quiet.
++                try:
++                    _arm(max(armed - done_quiet, 1.0))
++                    shortened = True
++                except OSError:
++                    pass
++
+             armed = stall
++            shortened = False
+             worst = 0.0
+             last = time.monotonic()
++            if check_due:
++                reader.idle = idle
+             try:
+                 while True:
+                     buf = reader.read(65536)
+                     if not buf:
+                         break
+                     raw.write(buf)
++                    check_due = total_bytes > 0 and 0 < done_quiet < armed
++                    if shortened:
++                        try:
++                            _arm(armed)
++                        except OSError:
++                            pass
++                        shortened = False
+ 
+                     now = time.monotonic()
+                     gap, last = now - last, now
+@@ -754,6 +953,8 @@
+                             except OSError:
+                                 pass
+                             armed = want
++            except EarlyFinish:
++                pass
+             except (socket.timeout, TimeoutError):
+                 logger.warning(
+                     f"sender went quiet for {armed:.0f}s after {reader.total} B "
+@@ -764,60 +965,6 @@
+                 raw.flush()
+                 os.fsync(raw.fileno())
+ 
+-        def odc_members(cpio):
+-            """(name, data_is_complete, is_regular) for each ODC cpio member.
+-
+-            ODC header: 76 fixed-width ASCII bytes, then the name (namesize,
+-            NUL included), then the data (filesize), all octal. The structure
+-            is walked by hand because libarchive ZERO-PADS a truncated member
+-            out to its declared size: measured, a JPEG handed back at exactly
+-            the right length ended in 949,265 null bytes with no end marker.
+-            Comparing sizes therefore detects nothing at all - only the bytes
+-            actually being present in the archive proves anything.
+-            """
+-            out, off, n = [], 0, len(cpio)
+-            while off + 76 <= n:
+-                if cpio[off:off + 6] != b"070707":
+-                    break
+-                try:
+-                    # ODC fields sit at fixed offsets: magic(6) dev(6) ino(6)
+-                    # mode(6) ... namesize at 59, filesize at 65.
+-                    mode = int(cpio[off + 18:off + 24], 8)
+-                    namesize = int(cpio[off + 59:off + 65], 8)
+-                    filesize = int(cpio[off + 65:off + 76], 8)
+-                except ValueError:
+-                    break
+-                # These fields come from the network. int(..., 8) accepts a
+-                # leading minus, and a negative filesize leaves `off` where it
+-                # was: the loop then spins forever IN THE REQUEST THREAD, on a
+-                # file crafted for it. A zero namesize does not advance either.
+-                if namesize <= 0 or filesize < 0:
+-                    break
+-                name_off = off + 76
+-                name = cpio[name_off:name_off + namesize].split(b"\0")[0]
+-                name = name.decode("utf-8", "replace")
+-                data_off = name_off + namesize
+-                if name == "TRAILER!!!":
+-                    break
+-                # The mode matters. An iOS archive starts with the WRAPPER
+-                # DIRECTORY, which has no data and is therefore always
+-                # "complete" - even in a transfer cut off at the first block.
+-                # Without this filter that directory alone was enough to make
+-                # the list of valid members non-empty, and so to have the raw
+-                # bytes deleted when not one file had been recovered. That is
+-                # the .partial guarantee falling over.
+-                regular = (mode & 0o170000) == 0o100000
+-                # HOW MANY BYTES ACTUALLY ARRIVED, not just whether the member
+-                # is whole. libarchive pads a truncated member out to its
+-                # declared size, so the file on disk is the right length and
+-                # ends in nulls - measured at 71% padding on one 1.78 MB photo.
+-                # The archive itself says where the real data stops: everything
+-                # from data_off to the end of what was received.
+-                arrived = min(filesize, max(0, n - data_off))
+-                out.append((name, data_off + filesize <= n, regular, arrived))
+-                off = data_off + filesize
+-            return out
+-
+         def verify_extracted(cpio_bytes):
+             """Separate what arrived whole from what did not.
+ 

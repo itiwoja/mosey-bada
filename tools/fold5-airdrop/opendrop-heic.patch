@@ -1,0 +1,42 @@
+--- a/opendrop/server.py
++++ b/opendrop/server.py
+@@ -374,6 +374,39 @@
+             #     }
+             # }
+         }
++        # Declare HEIF still-image support so iOS sends HEIC photos as they are
++        # instead of transcoding them to JPEG (2-3x larger, painful over the
++        # slow AWDL link). A HEIC photo is an HEVC (hvc1) image in a HEIF
++        # container, and iOS only treats the receiver as able to open it when
++        # both are declared: ContainerFormats alone was measured still getting
++        # a JPEG. 'Vendor' names an Apple receiver and its OS (the macOS 10.13.3
++        # record above), which iOS may require before it trusts the codec list
++        # -- ContainerFormats + Codecs without it still brought a JPEG. Only
++        # LivePhotoFormatVersion is left out, on purpose, so Live Photos arrive
++        # as the still only, not still + MOV. JPEG photos ("Most Compatible"
++        # camera setting) are sent as JPEG either way.
++        # AIRDROP_HEIC=0 restores the legacy everything-as-JPEG behaviour.
++        if os.environ.get("AIRDROP_HEIC", "1") != "0":
++            media_capabilities["Codecs"] = {
++                "hvc1": {
++                    "Profiles": {
++                        "VTPerProfileSupport": {
++                            "1": {"VTMaxPlaybackLevel": 120},
++                            "2": {"VTMaxPlaybackLevel": 120},
++                            "3": {},
++                        },
++                        "VTSupportedProfiles": [1, 2, 3],
++                    }
++                }
++            }
++            media_capabilities["ContainerFormats"] = {
++                "public.heif-standard": {
++                    "HeifSubtypes": ["public.avci", "public.heic", "public.heif"]
++                }
++            }
++            media_capabilities["Vendor"] = {
++                "com.apple": {"OSVersion": [10, 13, 3], "OSBuildVersion": "17D102"}
++            }
+         media_capabilities_json = json.JSONEncoder().encode(media_capabilities)
+         media_capabilities_binary = media_capabilities_json.encode("utf-8")
+         discover_answer = {

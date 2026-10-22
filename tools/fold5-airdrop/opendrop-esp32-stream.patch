@@ -1,0 +1,115 @@
+--- a/opendrop/server.py
++++ b/opendrop/server.py
+@@ -209,24 +209,6 @@
+         # Adapt socket for awdl0
+         if self.config.interface == "awdl0" and platform.system() == "Darwin":
+             httpd.socket.setsockopt(socket.SOL_SOCKET, 0x1104, 1)
+-
+-        httpd.socket = self.config.get_ssl_context().wrap_socket(
+-            sock=httpd.socket, server_side=True
+-        )
+-
+-        return httpd
+-
+-    def start_server(self):
+-        logger.info("Starting HTTPS server")
+-        self.http_server.serve_forever()
+-
+-    def stop(self):
+-        self.zeroconf.unregister_all_services()
+-        self.http_server.shutdown()
+-
+-    def get_properties(self):
+-        properties = {b"flags": str(self.config.flags).encode("utf-8")}
+-        return properties
+ 
+         # Pin a large receive buffer, inherited by accepted connections.
+         #
+@@ -250,6 +232,25 @@
+             )
+         except OSError as e:
+             logger.warning(f"Could not enlarge the receive buffer ({e})")
++
++        httpd.socket = self.config.get_ssl_context().wrap_socket(
++            sock=httpd.socket, server_side=True
++        )
++
++        return httpd
++
++    def start_server(self):
++        logger.info("Starting HTTPS server")
++        self.http_server.serve_forever()
++
++    def stop(self):
++        self.zeroconf.unregister_all_services()
++        self.http_server.shutdown()
++
++    def get_properties(self):
++        properties = {b"flags": str(self.config.flags).encode("utf-8")}
++        return properties
++
+ 
+ class HTTPServerV6(ThreadingHTTPServer):
+     """
+@@ -537,20 +538,51 @@
+             def __init__(self, rfile, *args, **kwargs):
+                 super().__init__(*args, **kwargs)
+                 self.rfile = rfile
+-                self.chunk = None
++                self.remaining = 0
++                self.need_crlf = False
++                self.finished = False
+                 self.total = 0
+ 
+-            def _next_chunk(self):
+-                if self.chunk is None or len(self.chunk) == 0:
+-                    length = int(self.rfile.readline().rstrip(), 16)
+-                    self.chunk = self.rfile.read(length)
+-                    self.rfile.readline()  # strip trailing \n\r
++            def _line(self):
++                line = self.rfile.readline(8193)
++                if not line.endswith(b"\r\n") or len(line) > 8192:
++                    raise ValueError("truncated or oversized chunk header")
++                return line
+ 
+             def readinto(self, buf):
+-                self._next_chunk()
+-                length = min(len(self.chunk), len(buf))
+-                buf[:length] = self.chunk[:length]
+-                self.chunk = self.chunk[length:]
++                if not len(buf) or self.finished:
++                    return 0
++                if not self.remaining:
++                    if self.need_crlf:
++                        if self._line() != b"\r\n":
++                            raise ValueError("invalid chunk terminator")
++                        self.need_crlf = False
++                    token = self._line()[:-2].split(b";", 1)[0]
++                    if not token or any(c not in b"0123456789abcdefABCDEF" for c in token):
++                        raise ValueError("invalid chunk length")
++                    self.remaining = int(token, 16)
++                    if not self.remaining:
++                        trailer_bytes = 0
++                        while True:
++                            line = self._line()
++                            trailer_bytes += len(line)
++                            if trailer_bytes > 65536:
++                                raise ValueError("oversized chunk trailers")
++                            if line == b"\r\n":
++                                break
++                        self.finished = True
++                        return 0
++                # Read only bytes already available, bounded by the caller's
++                # buffer, rather than waiting for a whole HTTP chunk. A large
++                # chunk may take minutes across the fixed-channel ESP32 link.
++                read = getattr(self.rfile, "read1", self.rfile.read)
++                data = read(min(len(buf), self.remaining))
++                if not data:
++                    raise ValueError("truncated chunk body")
++                length = len(data)
++                buf[:length] = data
++                self.remaining -= length
++                self.need_crlf = self.remaining == 0
+                 self.total += length
+                 return length
+ 
