@@ -23,8 +23,12 @@
 #include <unistd.h>
 
 #define TAG "MoseyBridge"
+#ifndef BRIDGE_LOG_PATH
 #define BRIDGE_LOG_PATH "/data/adb/mosey-enabler/bridge.log"
+#endif
+#ifndef BRIDGE_LOG_OLD_PATH
 #define BRIDGE_LOG_OLD_PATH "/data/adb/mosey-enabler/bridge.log.1"
+#endif
 #define BRIDGE_LOG_MAX_BYTES (256 * 1024)
 #define SERVICE_NAME "com.google.android.moseyservice.IMoseyService/default"
 #define UNIX_SOCKET_PATH "/data/local/tmp/mosey-p2b.sock"
@@ -288,22 +292,18 @@ static bool direct_transact(AParcel** in, transaction_code_t code,
         if (reply) AParcel_delete(reply);
         return false;
     }
-    int32_t exception = -1;
-    if (AParcel_readInt32(reply, &exception) != STATUS_OK || exception != 0) {
-        if (exception == -4) {
-            int32_t service_error = 0;
-            if (AParcel_readInt32(reply, &service_error) == STATUS_OK) {
-                LOGE("backend=binder transaction=%u service_error=%d", code,
-                     service_error);
-            } else {
-                LOGE("backend=binder transaction=%u service exception without code", code);
-            }
-        } else {
-            LOGE("backend=binder transaction=%u exception=%d", code, exception);
-        }
+    AStatus* service_status = NULL;
+    binder_status_t parsed = AParcel_readStatusHeader(reply, &service_status);
+    if (parsed != STATUS_OK || !service_status || !AStatus_isOk(service_status)) {
+        LOGE("backend=binder transaction=%u parse_status=%d exception=%d service_error=%d message=%s",
+             code, parsed, service_status ? AStatus_getExceptionCode(service_status) : -1,
+             service_status ? AStatus_getServiceSpecificError(service_status) : 0,
+             service_status ? AStatus_getMessage(service_status) : "invalid status header");
+        if (service_status) AStatus_delete(service_status);
         AParcel_delete(reply);
         return false;
     }
+    AStatus_delete(service_status);
     *reply_out = reply;
     return true;
 }
