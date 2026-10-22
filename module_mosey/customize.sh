@@ -2,6 +2,17 @@
 # customize.sh - Mosey Enabler 安装脚本 (HybridMount Magic Mode)
 # KernelSU module install-time setup
 
+# Fold5 port: refuse the unvalidated OnePlus payload before any mutations.
+FOLD5_MODEL=$(getprop ro.product.model)
+case "$FOLD5_MODEL" in
+    SM-F946*|SM-946*)
+        ui_print "[!] Fold5 port is diagnostic-only; OnePlus radio payload is incompatible/unvalidated."
+        ui_print "[!] Run tools/fold5-probe.sh and review prerequisites before implementing a radio backend."
+        abort "Fold5 installation blocked: no validated Samsung backend."
+        exit 1
+        ;;
+esac
+
 # HybridMount 环境检测与配置
 # Magic Mode (Bind Mount): HybridMount 会将模块根目录下的 odm/、system_ext/ 等
 # 文件夹中的每个文件逐个 bind-mount 到对应的系统分区路径。
