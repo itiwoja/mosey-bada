@@ -25,13 +25,26 @@ case "$OUTPUT" in
   /*) ;;
   *) OUTPUT="$SCRIPT_DIR/$OUTPUT" ;;
 esac
-SDK_ROOT="${ANDROID_HOME:-/Users/feelliao/fvm/Android/sdk}"
+# External radio implementation is required even when only rebuilding the shim.
+for dependency in odm/bin/mosey_server odm/lib64/libmosey_daemon_ffi.so; do
+  if [ ! -s "$MODULE_DIR/$dependency" ]; then
+    echo "[!] Missing external runtime: $dependency"
+    echo "    The public repository cannot build a working AirDrop receiver by itself."
+    exit 1
+  fi
+done
+SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
+if [ -z "$SDK_ROOT" ]; then
+  echo "[!] Set ANDROID_HOME or ANDROID_SDK_ROOT to the Android SDK directory."
+  exit 1
+fi
 ANDROID_PLATFORM="${ANDROID_PLATFORM:-android-36}"
 ANDROID_JAR="$SDK_ROOT/platforms/$ANDROID_PLATFORM/android.jar"
-D8="$SDK_ROOT/build-tools/36.0.0/d8"
-AAPT2="$SDK_ROOT/build-tools/36.0.0/aapt2"
-ZIPALIGN="$SDK_ROOT/build-tools/36.0.0/zipalign"
-APKSIGNER="$SDK_ROOT/build-tools/36.0.0/apksigner"
+BUILD_TOOLS_VERSION="${BUILD_TOOLS_VERSION:-36.0.0}"
+D8="$SDK_ROOT/build-tools/$BUILD_TOOLS_VERSION/d8"
+AAPT2="$SDK_ROOT/build-tools/$BUILD_TOOLS_VERSION/aapt2"
+ZIPALIGN="$SDK_ROOT/build-tools/$BUILD_TOOLS_VERSION/zipalign"
+APKSIGNER="$SDK_ROOT/build-tools/$BUILD_TOOLS_VERSION/apksigner"
 NDK_ROOT="${ANDROID_NDK_HOME:-}"
 
 if [ -z "$NDK_ROOT" ]; then
@@ -43,7 +56,12 @@ if [ -z "$NDK_ROOT" ]; then
 elif [ -d "$NDK_ROOT" ] && [ ! -d "$NDK_ROOT/toolchains" ]; then
   NDK_ROOT="$(ls -dt "$NDK_ROOT"/* 2>/dev/null | head -1)"
 fi
-CLANG="$NDK_ROOT/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android35-clang"
+case "$(uname -s):$(uname -m)" in
+  Linux:x86_64) NDK_HOST=linux-x86_64 ;;
+  Darwin:x86_64|Darwin:arm64) NDK_HOST=darwin-x86_64 ;;
+  *) echo "[!] Unsupported build host; use Linux x86_64 or macOS."; exit 1 ;;
+esac
+CLANG="$NDK_ROOT/toolchains/llvm/prebuilt/$NDK_HOST/bin/aarch64-linux-android35-clang"
 
 echo "[*] Mosey Enabler - Building module..."
 echo "[*] Module dir: $MODULE_DIR"
