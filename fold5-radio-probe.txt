@@ -1,0 +1,7 @@
+FOLD5_RADIO_PROBE=1
+mode=read_only
+wireless_transmit=never
+uid=2000
+CapEff:	0000000000000000
+packet_socket_errno=13 (Permission denied)
+netlink_socket_errno=13 (Permission denied)

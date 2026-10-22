@@ -1,0 +1,32 @@
+10-19 14:41:52.660 27603 27807 W ActivityManager: Forcing bringing down service: ServiceRecord{bcb66a u0 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService c:com.google.android.mosey}
+10-19 14:41:52.663 27603 27807 W ActivityManager: Forcing bringing down service: ServiceRecord{6c83bbc u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.mosey}
+10-19 14:41:59.106 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewState: MainActivityState(fetchStatus=NotFetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=, protocolXSupported=false, wifiDisconnectNoticeShown=false)
+10-19 14:41:59.145 31710  8956 I ShareLive:QuickShare: [D2D][RxScheduler-12] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.145 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewState : MainActivityState(fetchStatus=NotFetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=, protocolXSupported=false, wifiDisconnectNoticeShown=false)
+10-19 14:41:59.239 31710  8978 I ShareLive:QuickShare: [D2D][RxScheduler-14] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.241 31710  8978 I ShareLive:QuickShare: [D2D][RxScheduler-14] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.290 31710  8955 I ShareLive:QuickShare: [D2D][RxScheduler-11] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.291 31710  8955 I ShareLive:QuickShare: [D2D][RxScheduler-11] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.291 31710  8979 I ShareLive:QuickShare: [D2D][RxScheduler-15] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.293 31710  8978 I ShareLive:QuickShare: [D2D][RxScheduler-14] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.294 31710  8978 I ShareLive:QuickShare: [D2D][RxScheduler-14] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.298 31710  8979 I ShareLive:QuickShare: [D2D][RxScheduler-15] [ProtocolXRepository] syncProtocolXEnabled: settingOn
+10-19 14:41:59.298 31710  8979 I ShareLive:QuickShare: [D2D][RxScheduler-15] [NearbyShareSourceImpl] NS [ resumeProtocolX ] requested with existing guard : currentState = v
+10-19 14:41:59.298 31710  8979 W ShareLive:QuickShare: [D2D][RxScheduler-15] [NearbyShareSourceImpl] NS [ resumeProtocolX ] suspendGuard is null, cannot resume
+10-19 14:41:59.335 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewState: MainActivityState(fetchStatus=NotFetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=false, wifiDisconnectNoticeShown=false)
+10-19 14:41:59.335 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewState : MainActivityState(fetchStatus=NotFetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=false, wifiDisconnectNoticeShown=false)
+10-19 14:41:59.407 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.407 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.439 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewEffect: LaunchOnboardingTipsDialog(protocolXSupported=true)
+10-19 14:41:59.439 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewEffect : LaunchOnboardingTipsDialog(protocolXSupported=true)
+10-19 14:41:59.447 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.452 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.456 31710  9009 I ShareLive:QuickShare: [D2D][RxScheduler-24] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.457 31710  9009 I ShareLive:QuickShare: [D2D][RxScheduler-24] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.652 31710  9032 I ShareLive:QuickShare: [D2D][RxScheduler-26] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.653 31710  9032 I ShareLive:QuickShare: [D2D][RxScheduler-26] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:41:59.661 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:41:59.661 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:01.830 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewState: MainActivityState(fetchStatus=Fetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=true, wifiDisconnectNoticeShown=false)
+10-19 14:42:01.830 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewState : MainActivityState(fetchStatus=Fetched, receiveMode=false, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=true, wifiDisconnectNoticeShown=false)
+10-19 14:42:02.694 27603 27807 W ActivityManager: Forcing bringing down service: ServiceRecord{367a1e8 u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.mosey}

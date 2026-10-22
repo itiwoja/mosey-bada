@@ -1,0 +1,10 @@
+2026-10-22 02:41:48,553 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 02:41:48,556 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 02:41:53,568 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8771
+2026-10-22 02:41:54,380 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 02:41:54,380 INFO     opendrop.server: Starting HTTPS server
+2026-10-22 02:45:49,430 WARNING  zeroconf: Error with socket 4 (('fe80::8c94:dfff:feb4:f14c', 5353, 0, 52))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 1278, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network unreachable

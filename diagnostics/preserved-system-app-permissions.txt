@@ -1,0 +1,19 @@
+com.google.android.gms
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP RESTORE_ANY_VERSION ]
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP RESTORE_ANY_VERSION ]
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+
+com.android.vending
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP RESTORE_ANY_VERSION ]
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP RESTORE_ANY_VERSION ]
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+
+com.google.android.mosey
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]

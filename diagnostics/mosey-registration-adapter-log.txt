@@ -1,0 +1,13 @@
+10-19 14:47:40.916 17375 17375 I libbinder.Stability: Interface set with vintf stability downgraded to system stability stability
+10-19 14:47:40.916 17375 17375 I Fold5Mosey: Using local system stability for com.google.android.moseyservice.IMoseyService/default
+10-19 14:47:40.918 17375 17375 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: com.google.android.moseyservice.IMoseyService/default
+10-19 14:47:40.918 17375 17375 I Fold5Mosey: addService(com.google.android.moseyservice.IMoseyService/default) result=0
+10-19 14:47:43.135 27603 29608 W VoiceInteractionServiceManager: stopListeningFromMicLocked() called but connection isn't established
+10-19 14:47:43.135 27603 29608 V VoiceInteractionServiceManager: destroyDetectorLocked
+10-19 14:47:43.135 27603 29608 W VoiceInteractionServiceManager: destroy detector callback, but no hotword detection connection
+10-19 14:47:44.999 27603 27804 W VoiceInteractionServiceManager: stopListeningFromMicLocked() called but connection isn't established
+10-19 14:47:44.999 27603 27804 V VoiceInteractionServiceManager: destroyDetectorLocked
+10-19 14:47:44.999 27603 27804 W VoiceInteractionServiceManager: destroy detector callback, but no hotword detection connection
+10-19 14:47:48.233 27603 30574 W VoiceInteractionServiceManager: stopListeningFromMicLocked() called but connection isn't established
+10-19 14:47:48.233 27603 30574 V VoiceInteractionServiceManager: destroyDetectorLocked
+10-19 14:47:48.233 27603 30574 W VoiceInteractionServiceManager: destroy detector callback, but no hotword detection connection

@@ -1,0 +1,84 @@
+2026-10-22 02:36:20,295 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 02:36:20,298 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 02:36:25,321 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8771
+2026-10-22 02:36:26,136 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 02:36:26,136 INFO     opendrop.server: Starting HTTPS server
+2026-10-22 02:36:29,089 DEBUG    opendrop.server: POST request at /Discover
+2026-10-22 02:36:29,100 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: close
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:36:29,104 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:36:29] "POST /Discover HTTP/1.1" 200 -
+2026-10-22 02:36:35,347 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 02:36:35,348 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:36:54,224 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 02:36:54,226 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:37:01,695 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:37:01] "POST /Ask HTTP/1.1" 200 -
+2026-10-22 02:37:05,776 DEBUG    opendrop.server: POST request at /Upload
+2026-10-22 02:37:05,779 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+TotalBytes: 6834439
+Content-Type: application/x-dvzip
+SenderPseudonym: pseud:fxgFq4+xEfGWc+5lS7WI4Q
+SenderPushToken: 2D9BCCDD9DBD40B436887B12E39860E9FFCA0105708433319C50D29795507C3E
+TransferID: BA2A295C-2246-4B62-A9AE-B742AB761921
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:37:05,780 INFO     opendrop.server: Receiving file(s) ...
+2026-10-22 02:37:07,493 WARNING  opendrop.server: sender went quiet during /Ask - no prompt shown
+2026-10-22 02:37:07,494 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:37:07] "POST /Ask HTTP/1.1" 408 -
+2026-10-22 02:38:38,760 WARNING  opendrop.server: upload stream broke (invalid literal for int() with base 16: b'') - salvaging
+2026-10-22 02:38:38,769 WARNING  opendrop.server: Could not extract the archive ([Errno 2] No such file or directory: '/var/airdrop/staging/airdrop-received-1792636625.dvzip').
+2026-10-22 02:38:38,769 WARNING  opendrop.server: The raw transfer is kept at /var/airdrop/staging/airdrop-received-1792636625.dvzip
+2026-10-22 02:38:38,769 INFO     opendrop.server: File(s) received (size 0.38 MB, speed 0.00 MB/s)
+2026-10-22 02:38:38,769 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:38:38] "POST /Upload HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('fe80::5cdd:24ff:fe29:3442', 50516, 0, 51)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 442, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 915, in do_POST
+    self.handle_upload()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 900, in handle_upload
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 546, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1223, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1192, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
+----------------------------------------
+2026-10-22 02:38:41,163 WARNING  zeroconf: Error with socket 4 (('fe80::8c94:dfff:feb4:f14c', 5353, 0, 51))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 1278, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network unreachable

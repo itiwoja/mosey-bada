@@ -1,0 +1,8 @@
+uid=0(root) gid=0(root) groups=0(root) context=u:r:ksu:s0
+Enforcing
+1334.71 6799.80
+declared=1
+registered=0
+/product/priv-app/Fold5Mosey/base.apk
+/product/priv-app/GmsCore/GmsCore.apk
+/product/priv-app/Phonesky/Phonesky.apk

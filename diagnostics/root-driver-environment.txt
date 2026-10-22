@@ -1,0 +1,71 @@
+uid=0(root) gid=0(root) groups=0(root) context=u:r:ksu:s0
+total 0
+lrwxrwxrwx 1 root root 0 2026-10-19 14:36 phy0 -> ../../devices/platform/soc/1c00000.qcom,pcie/pci0000:00/0000:00:00.0/0000:01:00.0/ieee80211/phy0
+Wi-Fi Aware (wifiaware) commands:
+  help
+    Print this help text.
+  reset
+    Reset parameters to default values.
+  native_cb
+    get_cb_count [--reset]: gets the number of callbacks (and optionally reset count)
+    get_channel_info: prints out existing NDP channel info as a JSON String
+  native_api
+    set <name> <value>: sets named parameter to value. Names: [mac_random_interval_sec]
+    set-power <mode> <name> <value>: sets named power parameter to value. Modes: [default, inactive, idle], Names: [dw_5ghz, enable_dw_early_term, dw_24ghz, dw_6ghz, num_ss_in_discovery, disc_beacon_interval_ms]
+    get <name>: gets named parameter value. Names: [mac_random_interval_sec]
+    get-power <mode> <name>: gets named parameter value. Modes: [default, inactive, idle], Names: [dw_5ghz, enable_dw_early_term, dw_24ghz, dw_6ghz, num_ss_in_discovery, disc_beacon_interval_ms]
+  state_mgr
+    set <name> <value>: sets named parameter to value. Names: [on_idle_disable_aware]
+    get <name>: gets named parameter value. Names: [on_idle_disable_aware]
+    get_capabilities: prints out the capabilities as a JSON string
+    allow_ndp_any true|false: configure whether Responders can be specified to accept requests from ANY requestor (null peer spec)
+ get_instant_communication_channel 2G|5G: get instant communication mode channel available for the target band
+ set_override_instant_communication_mode 2G|5G: override the instant communication mode to 'enabled' with the specified band
+ clear_override_instant_communication_mode: clear the override of the instant communication mode
+ set_cluster_id <value>: set the cluster id to request to join a cluster
+ get_aware_resources: get the available aware resources
+ update_capabilities: update the capabilities from device
+
+SEM Wi-Fi Aware (sem_wifi_aware) commands:
+  help
+    Print this help text.
+  set-cluster-merging-enabled
+  is-pre-enabled
+  get-std-plus-feature
+  set-nan-command
+  get-aware-concurrency
+
+Manage KernelSU modules
+
+Usage: ksud module <COMMAND>
+
+Commands:
+  install         Install module <ZIP>
+  undo-uninstall  Undo module uninstall mark <id>
+  uninstall       Uninstall module <id>
+  enable          enable module <id>
+  disable         disable module <id>
+  action          run action for module <id>
+  list            list all modules
+  config          manage module configuration
+  help            Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help
+/dev/block/dm-7 on / type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+tmpfs on /dev type tmpfs (rw,seclabel,nosuid,relatime,size=5339668k,nr_inodes=1334917,mode=755)
+devpts on /dev/pts type devpts (rw,seclabel,relatime,mode=600,ptmxmode=000)
+proc on /proc type proc (rw,relatime,gid=3009,hidepid=invisible)
+sysfs on /sys type sysfs (rw,seclabel,relatime)
+selinuxfs on /sys/fs/selinux type selinuxfs (rw,relatime)
+tmpfs on /mnt type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,size=5339668k,nr_inodes=1334917,mode=755,gid=1000)
+tmpfs on /mnt/installer type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,size=5339668k,nr_inodes=1334917,mode=755,gid=1000)
+tmpfs on /mnt/androidwritable type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,size=5339668k,nr_inodes=1334917,mode=755,gid=1000)
+/dev/block/sda19 on /metadata type ext4 (rw,sync,seclabel,nosuid,nodev,noatime,journal_checksum,noauto_da_alloc,i_version)
+/dev/block/dm-8 on /system_ext type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+/dev/block/dm-9 on /product type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+/dev/block/dm-10 on /vendor type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+/dev/block/dm-11 on /vendor_dlkm type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+/dev/block/dm-12 on /system_dlkm type erofs (ro,seclabel,relatime,user_xattr,acl,cache_strategy=readaround)
+ls: /dev/wonder*: No such file or directory
+ls: /sys/module/wonder*: No such file or directory

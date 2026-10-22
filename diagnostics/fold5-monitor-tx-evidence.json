@@ -1,0 +1,30 @@
+{
+  "sha256": "78cee9e94c8c8804a052e7d86b62e78491f3166607847fc8fa2bf2e644ecf7eb",
+  "monitor_table": {
+    "name": "wlan_mon_drv_ops",
+    "section": 6,
+    "value": 1335224,
+    "size": 664
+  },
+  "station_table": {
+    "name": "wlan_drv_ops.1267",
+    "section": 6,
+    "value": 1333696,
+    "size": 664
+  },
+  "monitor_callbacks": {
+    "0x10": [
+      "hdd_mon_open.cfi_jt"
+    ],
+    "0x18": [
+      "hdd_stop.cfi_jt"
+    ],
+    "0xb8": [
+      "hdd_get_stats.cfi_jt"
+    ]
+  },
+  "station_tx_callback_offset": "0x20",
+  "monitor_tx_field_hex": "0000000000000000",
+  "monitor_tx_is_null": true,
+  "interpretation": "A NULL monitor ndo_start_xmit provides no standard monitor packet TX path. Other firmware or management-frame paths are not ruled out."
+}

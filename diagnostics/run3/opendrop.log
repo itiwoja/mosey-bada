@@ -1,0 +1,44 @@
+2026-10-22 03:47:43,875 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 03:47:43,877 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 03:47:48,887 DEBUG    opendrop.server: SO_RCVBUF = 8388608 B
+2026-10-22 03:47:48,896 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8771
+2026-10-22 03:47:49,709 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 03:47:49,710 INFO     opendrop.server: Starting HTTPS server
+2026-10-22 03:47:51,715 DEBUG    opendrop.server: POST request at /Discover
+2026-10-22 03:47:51,725 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: close
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:47:51,727 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:47:51] "POST /Discover HTTP/1.1" 200 -
+2026-10-22 03:48:27,338 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 03:48:27,339 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:48:32,097 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:48:32] "POST /Ask HTTP/1.1" 200 -
+2026-10-22 03:48:32,410 DEBUG    opendrop.server: POST request at /Upload
+2026-10-22 03:48:32,413 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+TotalBytes: 6299212
+Content-Type: application/x-dvzip
+SenderPseudonym: pseud:fxgFq4+xEfGWc+5lS7WI4Q
+SenderPushToken: 2D9BCCDD9DBD40B436887B12E39860E9FFCA0105708433319C50D29795507C3E
+TransferID: C2B33B0F-5D24-4CB1-8696-A26DD50FC71A
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:48:32,414 INFO     opendrop.server: Receiving file(s) ...
+2026-10-22 03:52:20,312 WARNING  opendrop.server: sender went quiet for 30s after 6298718 B (worst gap seen 2.3s) - salvaging what arrived
+2026-10-22 03:52:20,388 INFO     opendrop.server: Extracted into /var/airdrop/staging: DDE275AC-EF78-4763-963E-534A9EE86E0D.JPG
+2026-10-22 03:52:20,391 INFO     opendrop.server: File(s) received (size 6.01 MB, speed 0.03 MB/s)
+2026-10-22 03:52:20,391 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:52:20] "POST /Upload HTTP/1.1" 200 -
+2026-10-22 03:57:09,815 WARNING  zeroconf: Error with socket 4 (('fe80::8c94:dfff:feb4:f14c', 5353, 0, 57))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 1278, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network unreachable

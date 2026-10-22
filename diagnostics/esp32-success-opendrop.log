@@ -1,0 +1,37 @@
+2026-10-22 02:47:05,766 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 02:47:05,768 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 02:47:10,783 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8771
+2026-10-22 02:47:11,598 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 02:47:11,598 INFO     opendrop.server: Starting HTTPS server
+2026-10-22 02:47:13,159 DEBUG    opendrop.server: POST request at /Discover
+2026-10-22 02:47:13,170 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: close
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:47:13,171 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:47:13] "POST /Discover HTTP/1.1" 200 -
+2026-10-22 02:47:22,577 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 02:47:22,578 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:47:42,472 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:47:42] "POST /Ask HTTP/1.1" 200 -
+2026-10-22 02:47:44,623 DEBUG    opendrop.server: POST request at /Upload
+2026-10-22 02:47:44,626 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+TotalBytes: 38846
+Content-Type: application/x-dvzip
+SenderPseudonym: pseud:fxgFq4+xEfGWc+5lS7WI4Q
+SenderPushToken: 2D9BCCDD9DBD40B436887B12E39860E9FFCA0105708433319C50D29795507C3E
+TransferID: B1778876-0708-436A-9644-1D70466DBA2D
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 02:47:44,627 INFO     opendrop.server: Receiving file(s) ...
+2026-10-22 02:47:51,919 INFO     opendrop.server: Extracted into /var/airdrop/staging: IMG_0659-compressed.jpeg
+2026-10-22 02:47:51,920 INFO     opendrop.server: File(s) received (size 0.04 MB, speed 0.01 MB/s)
+2026-10-22 02:47:51,920 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 02:47:51] "POST /Upload HTTP/1.1" 200 -

@@ -1,0 +1,408 @@
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.accounts.action.ACCOUNT_REMOVED:
+        e0436a7 com.google.android.mosey/com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver filter c9c5754
+          Action: "android.accounts.action.ACCOUNT_REMOVED"
+      com.google.android.gms.phenotype.UPDATE:
+        24f6fd com.google.android.mosey/com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver filter 7ac6ff2
+          Action: "com.google.android.gms.phenotype.UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.nearby.SHARING_PROVIDER:
+        5b39643 com.google.android.mosey/.ExternalSharingService filter 1194c0 permission com.google.android.gms.permission.ACCESS_NEARBY_SHARE_API
+          Action: "com.google.android.nearby.SHARING_PROVIDER"
+      com.google.android.build.data.Properties:
+        e6f539f com.google.android.mosey/com.google.android.build.data.PropertiesServiceHolder filter cdb3cec
+          Action: "com.google.android.build.data.Properties"
+      com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService:
+        f4f05f9 com.google.android.mosey/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter d993e
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.google.android.mosey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (bb5ea7):
+    sourcePackage=com.google.android.mosey
+    uid=10395 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c8bb7f2 com.google.android.mosey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.google.android.mosey/.ExpiringFileProvider:
+    Provider{f61cc0 com.google.android.mosey/.ExpiringFileProvider}
+
+ContentProvider Authorities:
+  [com.google.android.mosey.fileprovider]:
+    Provider{f61cc0 com.google.android.mosey/.ExpiringFileProvider}
+      applicationInfo=ApplicationInfo{799613e com.google.android.mosey}
+
+Key Set Manager:
+  [com.google.android.mosey]
+      Signing KeySets: 208
+
+Packages:
+  Package [com.google.android.mosey] (a46534a):
+    appId=10395
+    pkg=Package{28e32bb com.google.android.mosey}
+    codePath=/data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==
+    resourcePath=/data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==
+    legacyNativeLibraryDir=/data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=16753 minSdk=36 targetSdk=36
+    minExtensionVersions=[]
+    versionName=1.0.884643880
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=false
+    splits=[base, config.arm64_v8a, config.en, config.xxhdpi]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-10-19 14:37:16
+    lastUpdateTime=2026-10-19 14:37:18
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    category=manifest: -1, override: -1, by user: -1
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{1a2c3d8 version:3, signatures:[d6251110], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    componentsDeclared=9
+    declared permissions:
+      com.google.android.mosey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.CREATE_APP_SPECIFIC_NETWORK
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MANAGE_WIFI_INTERFACES
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.NETWORK_FACTORY
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.LOCATION_HARDWARE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.CREATE_APP_SPECIFIC_NETWORK: granted=true
+      android.permission.MANAGE_WIFI_INTERFACES: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=533066 deDataInode=521090 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.google.android.mosey
+      firstInstallTime=2026-10-19 14:37:18
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Hidden system packages:
+  Package [com.google.android.mosey] (b096331):
+    appId=10395
+    pkg=Package{81e5a16 com.google.android.mosey}
+    codePath=/product/priv-app/Fold5Mosey
+    resourcePath=/product/priv-app/Fold5Mosey
+    legacyNativeLibraryDir=/product/priv-app/Fold5Mosey/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=16753 minSdk=36 targetSdk=36
+    minExtensionVersions=[]
+    versionName=1.0.884643880
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=false
+    splits=[base, config.arm64_v8a, config.en, config.xxhdpi]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-10-19 14:39:31
+    lastUpdateTime=2026-10-19 14:37:18
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    category=manifest: -1, override: -1, by user: -1
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{1a2c3d8 version:3, signatures:[d6251110], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    componentsDeclared=9
+    declared permissions:
+      com.google.android.mosey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.CREATE_APP_SPECIFIC_NETWORK
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MANAGE_WIFI_INTERFACES
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.NETWORK_FACTORY
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.LOCATION_HARDWARE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.CREATE_APP_SPECIFIC_NETWORK: granted=true
+      android.permission.MANAGE_WIFI_INTERFACES: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=533066 deDataInode=521090 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.google.android.mosey
+      firstInstallTime=2026-10-19 14:37:18
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.samsung.android.app.sharelive:
+      com.google.android.mosey
+  queries via component:
+    jp.naver.line.android:
+      com.google.android.mosey
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.google.android.mosey]
+    path: /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/base.apk
+      arm64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/oat/arm64/base.odex]
+
+SPEG state:
+  Event #11: 19-10-2026 14:24:54.955 Success df.root took 2230 ms
+  Event #10: 19-10-2026 14:24:43.686 Success me.weishu.kernelsu took 2306 ms
+  Event #9: 03-10-2026 23:38:51.411 Success com.stably.orca.mobile took 2434 ms
+  Event #8: 06-08-2026 00:00:28.899 Failure jp.axinc.ailia_ai_showcase took 2772 ms
+  Event #7: 28-07-2026 12:35:05.304 Success org.chromium.webapk.aa71c1c6fee3347c7_v2 took 2223 ms
+  Event #6: 02-07-2026 23:22:12.057 Success org.chromium.webapk.a96d0544ee36fe58d_v2 took 2224 ms
+  Event #5: 02-07-2026 14:02:53.838 Success org.chromium.webapk.a0d279abcfa0dd924_v2 took 2245 ms
+  Event #4: 28-06-2026 12:16:20.854 Success org.chromium.webapk.a948cb6d14f8c5e9b_v2 took 2254 ms
+  Event #3: 27-06-2026 22:22:51.066 Success org.chromium.webapk.a34f2c4016835d00e_v2 took 2229 ms
+  Event #2: 27-06-2026 00:21:03.566 Success org.chromium.webapk.a4d98eb3a61cd7e6a_v2 took 2221 ms
+  Event #1: 26-06-2026 16:36:33.213 Success org.chromium.webapk.ae68c013f8e7f348f_v2 took 2237 ms
+  Event #0: 25-06-2026 13:29:33.358 Failure bbl.intl.bambulab.com took 2493 ms
+
+Profile utilization state:
+  Current state:
+    Version: 2.1.2
+    Start reason: boot-after-mainline-update
+    Start time: Mon Oct 19 14:40:03 GMT+09:00 2026 ts=1792388403601
+    Finish time: not finished
+    PU_StatusWatcher:
+      Initial thermal status: 0
+      Thermal status: 0
+      Screen off: false
+      Low battery: false
+    PU_DexoptTrigger:
+      Dexopt concurrency: 4
+      Dexopting: false
+      Running apps:
+        com.microsoft.teams, w=110, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=1315, filter=speed-profile]
+        com.samsung.android.calendar, w=112, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=1122, filter=speed-profile]
+        com.instagram.android, w=104, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=12142, filter=speed-profile]
+        jp.naver.line.android, w=86, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=18246, filter=speed-profile]
+      Hot apps list:
+        com.google.android.youtube, w=71, s=OPTIMIZED, optTimeMs=1792388423569, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=16404, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+        com.twitter.android, w=82, s=OPTIMIZED, optTimeMs=1792388422786, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=15535, filter=speed-profile], [primaryDex=true, reason=vdex-dm, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+        jp.naver.line.android, w=86, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=18246, filter=speed-profile]
+        com.sec.android.app.clockpackage, w=100, s=OPTIMIZED, optTimeMs=1792388411998, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=5084, filter=speed-profile]
+        com.instagram.android, w=104, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=12142, filter=speed-profile]
+        com.microsoft.teams, w=110, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=1315, filter=speed-profile]
+        com.samsung.android.calendar, w=112, s=CANCELLED, optTimeMs=-1, cancelCount=1, dexopt=CANCELLED, [primaryDex=true, reason=vdex, dex2oatTimeMs=1122, filter=speed-profile]
+        com.sec.android.app.voicenote, w=117, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.android.chrome, w=120, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.apps.youtube.music, w=122, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.googlequicksearchbox, w=123, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.sec.android.app.camera, w=125, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.apps.maps, w=126, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.gm, w=134, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.apps.dynamite, w=138, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.microsoft.office.outlook, w=152, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.github.android, w=157, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.calendar, w=158, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.google.android.apps.messaging, w=159, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.openai.chatgpt, w=160, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.samsung.android.dialer, w=161, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.sec.android.easyMover, w=163, s=CREATED, optTimeMs=-1, cancelCount=0
+        com.android.vending, w=165, s=CREATED, optTimeMs=-1, cancelCount=0
+    PU_Storage:
+      Stored apps:
+        com.google.android.youtube 71
+        com.twitter.android 82
+        jp.naver.line.android 86
+        com.sec.android.app.clockpackage 100
+        com.instagram.android 104
+        com.microsoft.teams 110
+        com.samsung.android.calendar 112
+        com.sec.android.app.voicenote 117
+        com.android.chrome 120
+        com.google.android.apps.youtube.music 122
+        com.google.android.googlequicksearchbox 123
+        com.sec.android.app.camera 125
+        com.google.android.apps.maps 126
+        com.google.android.gm 134
+        com.google.android.apps.dynamite 138
+        com.microsoft.office.outlook 152
+        com.github.android 157
+        com.google.android.calendar 158
+        com.google.android.apps.messaging 159
+        com.openai.chatgpt 160
+        com.samsung.android.dialer 161
+        com.sec.android.easyMover 163
+        com.android.vending 165
+        com.sec.android.daemonapp 165
+        com.reddit.frontpage 166
+        com.samsung.android.samsungpass 167
+        com.mi.earphone 168
+        com.samsung.android.bixby.agent 169
+        com.android.settings 173
+        com.samsung.android.app.notes 173
+        com.samsung.android.messaging 173
+        com.samsung.android.app.contacts 174
+        com.samsung.android.app.interpreter 174
+        com.facebook.katana 180
+        com.google.android.apps.classroom 197
+        com.google.android.apps.tachyon 204
+        com.google.android.apps.tasks 222
+    Stored PU state:
+      Service:
+        Version: 2.1.2
+        Start reason: boot-after-ota
+        Start time: Tue Sep 29 08:03:45 GMT+09:00 2026 ts=1790636625599
+        Finish time: Tue Sep 29 08:28:25 GMT+09:00 2026 ts=1790638105617
+        Took time 1480sec
+      Watcher:
+        Initial thermal status: 0
+        Thermal status: 0
+        Screen off: true
+        Low battery: false
+      Metrics:
+        Predicted and launched apps: 17
+        Predicted apps: 23
+        Launched apps: 21
+        Best f1Score: 0.82926834, prefixCount: 20, precision: 0.85, recall: 0.8095238
+      Trigger:
+        Dexopt concurrency: 4
+        Dexopting: false
+        Hot apps list:
+          com.google.android.youtube, w=71, s=OPTIMIZED, optTimeMs=1790637553112, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=0, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=profile-utilization, dex2oatTimeMs=472, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+          com.twitter.android, w=82, s=OPTIMIZED, optTimeMs=1790637649648, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=50406, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+          jp.naver.line.android, w=86, s=OPTIMIZED, optTimeMs=1790637650673, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=51522, filter=speed-profile]
+          com.sec.android.app.clockpackage, w=100, s=OPTIMIZED, optTimeMs=1790636653834, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=1671, filter=speed-profile]
+          com.instagram.android, w=104, s=OPTIMIZED, optTimeMs=1790637683626, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=75396, filter=speed-profile]
+          com.microsoft.teams, w=110, s=OPTIMIZED, optTimeMs=1790637655045, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=54330, filter=speed-profile]
+          com.samsung.android.calendar, w=112, s=OPTIMIZED, optTimeMs=1790637671431, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=12759, filter=speed-profile]
+          com.sec.android.app.voicenote, w=117, s=OPTIMIZED, optTimeMs=1790637675805, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=15999, filter=speed-profile]
+          com.android.chrome, w=120, s=OPTIMIZED, optTimeMs=1790637660267, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=2778, filter=speed-profile], [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=2170, filter=speed-profile], [primaryDex=true, reason=vdex-dm, dex2oatTimeMs=0, filter=verify], [primaryDex=true, reason=vdex-dm, dex2oatTimeMs=0, filter=verify], [primaryDex=true, reason=vdex-dm, dex2oatTimeMs=0, filter=verify]
+          com.google.android.apps.youtube.music, w=122, s=OPTIMIZED, optTimeMs=1790637688674, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=19902, filter=speed-profile]
+          com.google.android.googlequicksearchbox, w=123, s=OPTIMIZED, optTimeMs=1790637705159, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=33642, filter=speed-profile]
+          com.sec.android.app.camera, w=125, s=OPTIMIZED, optTimeMs=1790637675899, cancelCount=0, dexopt=SKIPPED, [primaryDex=true, reason=boot-after-ota, dex2oatTimeMs=0, filter=speed-profile]
+          com.google.android.apps.maps, w=126, s=OPTIMIZED, optTimeMs=1790637712220, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=36205, filter=speed-profile]
+          com.google.android.gm, w=134, s=OPTIMIZED, optTimeMs=1790638096385, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=9622, filter=speed-profile]
+          com.google.android.apps.dynamite, w=138, s=OPTIMIZED, optTimeMs=1790637711985, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=23221, filter=speed-profile]
+          com.microsoft.office.outlook, w=152, s=OPTIMIZED, optTimeMs=1790638094381, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=7604, filter=speed-profile]
+          com.github.android, w=157, s=OPTIMIZED, optTimeMs=1790638089724, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=3006, filter=speed-profile]
+          com.google.android.calendar, w=158, s=OPTIMIZED, optTimeMs=1790638090828, cancelCount=1, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=4119, filter=speed-profile]
+          com.google.android.apps.messaging, w=159, s=OPTIMIZED, optTimeMs=1790638098254, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=8362, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+          com.openai.chatgpt, w=160, s=OPTIMIZED, optTimeMs=1790638103690, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=10606, filter=speed-profile]
+          com.samsung.android.dialer, w=161, s=OPTIMIZED, optTimeMs=1790638094412, cancelCount=0, dexopt=SKIPPED, [primaryDex=true, reason=boot-after-ota, dex2oatTimeMs=0, filter=speed-profile]
+          com.sec.android.easyMover, w=163, s=OPTIMIZED, optTimeMs=1790638096594, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=2091, filter=speed-profile]
+          com.android.vending, w=165, s=OPTIMIZED, optTimeMs=1790638105616, cancelCount=0, dexopt=PERFORMED, [primaryDex=true, reason=profile-utilization, dex2oatTimeMs=6729, filter=speed-profile], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify], [primaryDex=false, reason=vdex, dex2oatTimeMs=0, filter=verify]
+    Stored SCPM state:
+      packages-9a07:
+        [                                            ]
+      disable-2bb4:
+        [                                            ]
+
+HeimdAllFS state:
+  [com.google.android.mosey]
+    path: /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/base.apk
+    Compressed? False
+    path: /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/split_config.arm64_v8a.apk
+    Compressed? False
+    path: /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/split_config.en.apk
+    Compressed? False
+    path: /data/app/~~1UE0G6AxG67HTNQnV48C4w==/com.google.android.mosey-7tf1yo6XD4kzQiU2TqAgNg==/split_config.xxhdpi.apk
+    Compressed? False
+  [ Summary ]
+    # of packages: 1 / # of packages in DATA: 1 (4)
+    Compressed apks info - sum of orig size: 8336 / sum of compr size : 8336
+  [Lfo status]

@@ -1,0 +1,2 @@
+NormalPerm(NormalPerm { op: "allow", source: ["shell"], target: ["fold5_mosey_service"], class: ["service_manager"], perm: ["find"] })
+mounts_removed_policy_resets_on_full_reboot

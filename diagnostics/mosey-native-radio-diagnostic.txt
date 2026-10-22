@@ -1,0 +1,18 @@
+binder_backend=connected
+interface_version=1
+start_result=-1
+stop_result=0
+native_exit=124
+native_log[3] mosey_server: moseyservice: Starting mosey on channels [6]. maxSyntheticMdnsResponses=2147483647
+native_log[3] mosey_server: moseyservice: handle_inner is none, calling start mosey in lib
+native_log[3] mosey_server: moseyservice: Starting mosey on cc: None, op: 2
+native_log[4] mosey_server: moseyservice::v2025_09_23: Mosey daemon starts on 20250923 version
+native_log[4] mosey_daemon: mosey_daemon_ffi: No country code specified
+native_log[4] mosey_daemon: mosey_daemon_ffi: Creating mosey daemon with channels=[6], max mdns=2147483647, cc=None, radio=AsNeeded { iface_name: "wonder0", wiphy_name: "wonder" }, and config=Netlink
+native_log[4] mosey_daemon: mosey_daemon: Starting radio with channels [6] and libpcap version 1.9.1 (with TPACKET_V3)
+native_log[6] mosey_daemon: mosey_daemon_ffi: Error starting mosey: init_driver
+
+Caused by:
+    Could not find wiphy <wonder>
+native_log[5] mosey_server: moseyservice: Start mosey returned null
+native_log[3] mosey_server: moseyservice: Disabling mosey

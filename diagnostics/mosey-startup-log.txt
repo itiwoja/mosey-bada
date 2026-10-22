@@ -1,0 +1,2 @@
+10-19 14:41:42.449  7089  7102 I Mosey.Phlogger: Unable to retrieve flag snapshot for com.google.android.libraries.performance.primes#com.google.android.mosey, using defaults.
+10-19 14:41:42.626 27603 27807 W ActivityManager: Forcing bringing down service: ServiceRecord{9d61690 u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.mosey}

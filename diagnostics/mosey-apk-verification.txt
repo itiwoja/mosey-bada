@@ -1,0 +1,182 @@
+base.apk
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: 82f90326951d14e08010b2a26cce329be2b09e74752158b7640e04a544676878
+Signer #1 certificate SHA-1 digest: 6da520842763e31330ebff2570c18e943d4508b6
+Signer #1 certificate MD5 digest: e0b48adc66018ccae77553357ddeabbc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 2f03d34379aee1a80a9118025ff1c7bae99926a83824f25fc28f5d1c518ecfc7
+Signer #1 public key SHA-1 digest: b1197ade63b10087defaecbda5b8e534996b59b4
+Signer #1 public key MD5 digest: 022e6795d721b2260fff57fafd87ce50
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1773872162
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/1kkim/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+split_config.arm64_v8a.apk
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: 82f90326951d14e08010b2a26cce329be2b09e74752158b7640e04a544676878
+Signer #1 certificate SHA-1 digest: 6da520842763e31330ebff2570c18e943d4508b6
+Signer #1 certificate MD5 digest: e0b48adc66018ccae77553357ddeabbc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 2f03d34379aee1a80a9118025ff1c7bae99926a83824f25fc28f5d1c518ecfc7
+Signer #1 public key SHA-1 digest: b1197ade63b10087defaecbda5b8e534996b59b4
+Signer #1 public key MD5 digest: 022e6795d721b2260fff57fafd87ce50
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1773872163
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/1kkim/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+split_config.en.apk
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: 82f90326951d14e08010b2a26cce329be2b09e74752158b7640e04a544676878
+Signer #1 certificate SHA-1 digest: 6da520842763e31330ebff2570c18e943d4508b6
+Signer #1 certificate MD5 digest: e0b48adc66018ccae77553357ddeabbc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 2f03d34379aee1a80a9118025ff1c7bae99926a83824f25fc28f5d1c518ecfc7
+Signer #1 public key SHA-1 digest: b1197ade63b10087defaecbda5b8e534996b59b4
+Signer #1 public key MD5 digest: 022e6795d721b2260fff57fafd87ce50
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1773872163
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/1kkim/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+split_config.xxhdpi.apk
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: 82f90326951d14e08010b2a26cce329be2b09e74752158b7640e04a544676878
+Signer #1 certificate SHA-1 digest: 6da520842763e31330ebff2570c18e943d4508b6
+Signer #1 certificate MD5 digest: e0b48adc66018ccae77553357ddeabbc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 2f03d34379aee1a80a9118025ff1c7bae99926a83824f25fc28f5d1c518ecfc7
+Signer #1 public key SHA-1 digest: b1197ade63b10087defaecbda5b8e534996b59b4
+Signer #1 public key MD5 digest: 022e6795d721b2260fff57fafd87ce50
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1773872162
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/1kkim/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+package: name='com.google.android.mosey' versionCode='16753' versionName='1.0.884643880' platformBuildVersionName='Baklava' platformBuildVersionCode='37' compileSdkVersion='37' compileSdkVersionCodename='Baklava'
+minSdkVersion:'36'
+targetSdkVersion:'36'
+uses-permission: name='android.permission.CREATE_APP_SPECIFIC_NETWORK'
+uses-permission: name='android.permission.NETWORK_FACTORY'
+uses-permission: name='android.permission.BLUETOOTH_PRIVILEGED'
+uses-permission: name='android.permission.LOCAL_MAC_ADDRESS'
+uses-permission: name='android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS'
+uses-permission: name='android.permission.MANAGE_WIFI_INTERFACES'
+uses-permission: name='android.permission.LOCATION_HARDWARE'
+uses-permission: name='android.permission.ACCESS_BACKGROUND_LOCATION'
+uses-permission: name='android.permission.NEARBY_WIFI_DEVICES' usesPermissionFlags='neverForLocation'
+uses-permission: name='android.permission.BLUETOOTH_SCAN' usesPermissionFlags='neverForLocation'
+uses-permission: name='android.permission.BLUETOOTH_ADVERTISE'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.CHANGE_WIFI_MULTICAST_STATE'
+uses-permission: name='android.permission.CHANGE_WIFI_STATE'
+uses-permission: name='android.permission.CHANGE_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.GET_PACKAGE_SIZE'
+uses-permission: name='android.permission.INTERNET'
+application-label:'Quick Share extension'
+application-icon-160:'res/BW.xml'
+application-icon-240:'res/BW.xml'
+application-icon-320:'res/BW.xml'
+application-icon-480:'res/BW.xml'
+application-icon-640:'res/BW.xml'
+application-icon-65534:'res/BW.xml'
+application: label='Quick Share extension' icon='res/BW.xml'
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission, requested android.permission.CHANGE_WIFI_MULTICAST_STATE permission, and requested android.permission.CHANGE_WIFI_STATE permission'
+other-activities
+other-receivers
+other-services
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160' '240' '320' '480' '640' '65534'

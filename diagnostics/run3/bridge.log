@@ -1,0 +1,348 @@
+[89614.942] found CP210x (10c4:ea60) at /dev/bus/usb/002/002
+[89615.051] serial ready at 921600 baud (endpoints in 0x81 out 0x01)
+[89615.449] radio hello: channel 6
+[89615.614] awdl0 up, MAC 8e:94:df:b4:f1:4c, MTU 1400
+[89615.615] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[89615.615] radio[6] add peer 5e:dd:24:29:34:42 ()
+[89615.615] peer + 5e:dd:24:29:34:42 "" -> fe80::5cdd:24ff:fe29:3442
+[89615.663] radio[6] name set to Fold5
+[89616.449] radio[6] remove peer 5e:dd:24:29:34:42 ()
+[89616.449] peer - 5e:dd:24:29:34:42
+[89616.631] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89616.631] radio[6] add peer 5e:dd:24:29:34:42 ()
+[89616.631] peer + 5e:dd:24:29:34:42 "" -> fe80::5cdd:24ff:fe29:3442
+[89617.451] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 (met 516, ctr 650)
+[89617.451] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 2/16 slots on ch 6
+[89620.449] stats: seen 126 awdl_action 44 awdl_data 0 dropped 0 | tx action 81 data 6 failed 0 | peers 1 | rx retry 0 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89621.941] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89622.962] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89623.971] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,6,6,6,44,44
+[89624.450] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 5/16 slots on ch 6
+[89625.449] stats: seen 244 awdl_action 80 awdl_data 20 dropped 0 | tx action 137 data 26 failed 0 | peers 1 | rx retry 5 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89625.815] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,0,0,0,0,0,6,6,44,0,0,0,0,0
+[89626.449] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 2/16 slots on ch 6
+[89630.449] stats: seen 342 awdl_action 116 awdl_data 20 dropped 0 | tx action 195 data 27 failed 0 | peers 1 | rx retry 5 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89631.029] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89631.449] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 2/16 slots on ch 6
+[89635.449] stats: seen 440 awdl_action 152 awdl_data 20 dropped 0 | tx action 248 data 28 failed 0 | peers 1 | rx retry 5 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89640.449] stats: seen 543 awdl_action 180 awdl_data 20 dropped 0 | tx action 302 data 29 failed 0 | peers 1 | rx retry 5 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89645.449] stats: seen 632 awdl_action 217 awdl_data 20 dropped 0 | tx action 356 data 30 failed 0 | peers 1 | rx retry 5 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89650.449] stats: seen 742 awdl_action 260 awdl_data 21 dropped 0 | tx action 410 data 31 failed 0 | peers 1 | rx retry 6 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89655.449] stats: seen 837 awdl_action 300 awdl_data 21 dropped 0 | tx action 465 data 32 failed 0 | peers 1 | rx retry 6 dup 0 ampdu 0 | uq drop 0 | chanseq intersect
+[89658.116] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[1]=0000 -> SHUT
+[89659.255] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[1]=0000 -> SHUT
+[89659.631] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,6,6,6,44,44
+[89660.175] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89660.449] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 5/16 slots on ch 6
+[89660.449] stats: seen 977 awdl_action 339 awdl_data 72 dropped 0 | tx action 517 data 52 failed 0 | peers 1 | rx retry 15 dup 3 ampdu 0 | uq drop 0 | chanseq intersect
+[89661.208] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89662.203] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89663.387] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89664.427] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89665.435] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89665.448] stats: seen 1229 awdl_action 368 awdl_data 247 dropped 0 | tx action 576 data 216 failed 0 | peers 1 | rx retry 47 dup 6 ampdu 0 | uq drop 0 | chanseq intersect
+[89666.628] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89667.639] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89668.667] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89669.603] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89670.708] stats: seen 1513 awdl_action 394 awdl_data 465 dropped 0 | tx action 628 data 419 failed 0 | peers 1 | rx retry 88 dup 8 ampdu 0 | uq drop 16 | chanseq intersect
+[89670.708] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89671.780] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89672.759] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89673.800] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89674.874] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89675.723] stats: seen 1776 awdl_action 419 awdl_data 651 dropped 0 | tx action 682 data 602 failed 0 | peers 1 | rx retry 136 dup 12 ampdu 0 | uq drop 16 | chanseq intersect
+[89675.914] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89676.909] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89677.969] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89679.111] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89680.090] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89680.448] stats: seen 2011 awdl_action 444 awdl_data 814 dropped 0 | tx action 739 data 764 failed 0 | peers 1 | rx retry 176 dup 13 ampdu 0 | uq drop 16 | chanseq intersect
+[89681.137] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89682.149] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89683.238] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89684.235] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89684.235] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89685.326] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89685.448] stats: seen 2277 awdl_action 464 awdl_data 995 dropped 0 | tx action 793 data 944 failed 0 | peers 1 | rx retry 238 dup 16 ampdu 0 | uq drop 16 | chanseq intersect
+[89686.372] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89687.416] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89688.486] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89689.510] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89690.554] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89690.554] stats: seen 2532 awdl_action 491 awdl_data 1175 dropped 0 | tx action 851 data 1128 failed 0 | peers 1 | rx retry 264 dup 21 ampdu 0 | uq drop 16 | chanseq intersect
+[89691.617] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89692.624] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89692.624] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89693.583] radio[7] GATE slot 12 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[12]=5106 -> OPEN
+[89693.888] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,0,0,6,44,44
+[89694.499] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,6,6,6,44,44
+[89694.721] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89694.721] radio[7] GATE slot 12 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[12]=5106 -> OPEN
+[89695.639] radio[7] GATE slot 11 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[11]=5106 -> OPEN
+[89695.639] stats: seen 2832 awdl_action 512 awdl_data 1369 dropped 0 | tx action 905 data 1326 failed 0 | peers 1 | rx retry 305 dup 23 ampdu 0 | uq drop 16 | chanseq intersect
+[89696.774] radio[7] GATE slot 12 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[12]=5106 -> OPEN
+[89697.877] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89698.937] radio[7] GATE slot 13 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[13]=5106 -> OPEN
+[89700.044] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89700.448] stats: seen 3095 awdl_action 533 awdl_data 1545 dropped 0 | tx action 958 data 1489 failed 0 | peers 1 | rx retry 339 dup 26 ampdu 0 | uq drop 17 | chanseq intersect
+[89701.116] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89702.126] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89703.264] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89704.217] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89705.270] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89705.448] stats: seen 3390 awdl_action 561 awdl_data 1744 dropped 0 | tx action 1018 data 1691 failed 0 | peers 1 | rx retry 386 dup 33 ampdu 0 | uq drop 17 | chanseq intersect
+[89706.296] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89707.395] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89708.471] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89709.443] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89710.555] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89710.556] stats: seen 3672 awdl_action 588 awdl_data 1941 dropped 0 | tx action 1071 data 1886 failed 0 | peers 1 | rx retry 417 dup 33 ampdu 0 | uq drop 17 | chanseq intersect
+[89711.665] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89712.597] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89713.643] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89714.707] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89715.866] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89715.866] stats: seen 3942 awdl_action 618 awdl_data 2142 dropped 0 | tx action 1120 data 2037 failed 0 | peers 1 | rx retry 461 dup 40 ampdu 0 | uq drop 42 | chanseq intersect
+[89716.980] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89718.055] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89719.119] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89720.202] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89721.083] stats: seen 4318 awdl_action 641 awdl_data 2409 dropped 0 | tx action 1168 data 2198 failed 0 | peers 1 | rx retry 507 dup 46 ampdu 0 | uq drop 132 | chanseq intersect
+[89721.365] radio[7] GATE slot 4 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[4]=802c -> SHUT
+[89722.529] radio[7] GATE slot 5 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[5]=802c -> SHUT
+[89723.350] radio[7] GATE slot 5 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[5]=802c -> SHUT
+[89724.398] radio[7] GATE slot 5 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[5]=802c -> SHUT
+[89725.583] radio[7] GATE slot 4 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[4]=802c -> SHUT
+[89725.583] stats: seen 4664 awdl_action 664 awdl_data 2643 dropped 0 | tx action 1216 data 2311 failed 0 | peers 1 | rx retry 541 dup 49 ampdu 0 | uq drop 173 | chanseq intersect
+[89726.431] radio[7] GATE slot 4 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[4]=802c -> SHUT
+[89727.459] radio[7] GATE slot 3 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[3]=802c -> SHUT
+[89728.542] radio[7] GATE slot 3 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[3]=802c -> SHUT
+[89729.511] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89730.447] stats: seen 4975 awdl_action 692 awdl_data 2860 dropped 0 | tx action 1264 data 2413 failed 0 | peers 1 | rx retry 612 dup 59 ampdu 0 | uq drop 173 | chanseq intersect
+[89730.559] radio[7] GATE slot 3 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[3]=802c -> SHUT
+[89731.553] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,0,0,6,44,44
+[89731.553] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 3/16 slots on ch 6
+[89731.609] radio[7] GATE slot 3 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[3]=802c -> SHUT
+[89732.656] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89733.697] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89734.688] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89735.647] stats: seen 5273 awdl_action 715 awdl_data 3066 dropped 0 | tx action 1312 data 2511 failed 0 | peers 1 | rx retry 651 dup 61 ampdu 0 | uq drop 173 | chanseq intersect
+[89735.737] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89736.790] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89737.833] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89738.920] radio[7] GATE slot 2 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[2]=802c -> SHUT
+[89739.931] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89740.635] stats: seen 5568 awdl_action 736 awdl_data 3240 dropped 0 | tx action 1361 data 2588 failed 0 | peers 1 | rx retry 689 dup 68 ampdu 0 | uq drop 173 | chanseq intersect
+[89740.939] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> SHUT
+[89741.944] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89743.052] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89744.067] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89745.043] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89745.447] stats: seen 5872 awdl_action 757 awdl_data 3397 dropped 0 | tx action 1412 data 2663 failed 0 | peers 1 | rx retry 718 dup 70 ampdu 0 | uq drop 173 | chanseq intersect
+[89746.221] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89747.176] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89748.265] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89749.172] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89750.198] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89750.447] stats: seen 6127 awdl_action 777 awdl_data 3551 dropped 0 | tx action 1467 data 2737 failed 0 | peers 1 | rx retry 762 dup 75 ampdu 0 | uq drop 173 | chanseq intersect
+[89751.238] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89752.303] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89753.322] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89754.456] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89755.447] stats: seen 6859 awdl_action 798 awdl_data 3612 dropped 0 | tx action 1526 data 2777 failed 0 | peers 1 | rx retry 779 dup 75 ampdu 0 | uq drop 173 | chanseq intersect
+[89755.462] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89756.518] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89757.538] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89758.651] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89759.700] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89760.446] stats: seen 6979 awdl_action 817 awdl_data 3674 dropped 0 | tx action 1585 data 2815 failed 0 | peers 1 | rx retry 792 dup 75 ampdu 0 | uq drop 173 | chanseq intersect
+[89760.751] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89761.755] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89762.842] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89763.851] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89764.891] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89765.447] stats: seen 7132 awdl_action 834 awdl_data 3735 dropped 0 | tx action 1642 data 2848 failed 0 | peers 1 | rx retry 807 dup 78 ampdu 0 | uq drop 173 | chanseq intersect
+[89765.894] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89767.039] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89768.059] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89769.094] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89770.155] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89770.446] stats: seen 7343 awdl_action 852 awdl_data 3793 dropped 0 | tx action 1702 data 2884 failed 0 | peers 1 | rx retry 830 dup 80 ampdu 0 | uq drop 173 | chanseq intersect
+[89771.193] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89772.273] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89773.282] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89774.358] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89775.446] stats: seen 7480 awdl_action 870 awdl_data 3872 dropped 0 | tx action 1761 data 2924 failed 0 | peers 1 | rx retry 843 dup 84 ampdu 0 | uq drop 173 | chanseq intersect
+[89775.454] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89776.499] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89777.542] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89778.587] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89779.624] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89780.446] stats: seen 7585 awdl_action 888 awdl_data 3930 dropped 0 | tx action 1819 data 2965 failed 0 | peers 1 | rx retry 849 dup 85 ampdu 0 | uq drop 173 | chanseq intersect
+[89780.643] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89781.753] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89782.793] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89783.840] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89784.844] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89785.519] stats: seen 7744 awdl_action 906 awdl_data 3997 dropped 0 | tx action 1877 data 3001 failed 0 | peers 1 | rx retry 864 dup 86 ampdu 0 | uq drop 173 | chanseq intersect
+[89785.846] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89786.865] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89788.042] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89789.083] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89790.132] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89790.446] stats: seen 7842 awdl_action 928 awdl_data 4049 dropped 0 | tx action 1936 data 3034 failed 0 | peers 1 | rx retry 872 dup 87 ampdu 0 | uq drop 173 | chanseq intersect
+[89791.177] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89792.229] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89793.278] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89794.326] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89795.374] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89795.446] stats: seen 7951 awdl_action 944 awdl_data 4111 dropped 0 | tx action 1996 data 3070 failed 0 | peers 1 | rx retry 881 dup 87 ampdu 0 | uq drop 173 | chanseq intersect
+[89796.424] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89797.473] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89798.520] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89799.568] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89800.529] stats: seen 8106 awdl_action 961 awdl_data 4194 dropped 0 | tx action 2054 data 3120 failed 0 | peers 1 | rx retry 891 dup 88 ampdu 0 | uq drop 173 | chanseq intersect
+[89800.618] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89801.655] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89802.714] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89803.763] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89804.805] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89805.446] stats: seen 8224 awdl_action 978 awdl_data 4250 dropped 0 | tx action 2113 data 3160 failed 0 | peers 1 | rx retry 898 dup 88 ampdu 0 | uq drop 173 | chanseq intersect
+[89805.840] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89806.859] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89807.945] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89809.006] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89810.054] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89810.446] stats: seen 8312 awdl_action 999 awdl_data 4308 dropped 0 | tx action 2171 data 3198 failed 0 | peers 1 | rx retry 909 dup 88 ampdu 0 | uq drop 173 | chanseq intersect
+[89811.104] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89812.138] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89813.155] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89814.281] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89815.298] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89815.446] stats: seen 8569 awdl_action 1019 awdl_data 4398 dropped 0 | tx action 2230 data 3246 failed 0 | peers 1 | rx retry 922 dup 88 ampdu 0 | uq drop 173 | chanseq intersect
+[89816.350] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89817.394] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89818.444] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89819.492] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89820.497] stats: seen 8699 awdl_action 1036 awdl_data 4471 dropped 0 | tx action 2289 data 3292 failed 0 | peers 1 | rx retry 947 dup 88 ampdu 0 | uq drop 173 | chanseq intersect
+[89820.540] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89821.571] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89822.562] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89823.665] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89824.669] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89825.461] stats: seen 8830 awdl_action 1055 awdl_data 4547 dropped 0 | tx action 2348 data 3339 failed 0 | peers 1 | rx retry 958 dup 89 ampdu 0 | uq drop 173 | chanseq intersect
+[89825.715] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89826.799] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89827.806] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89828.874] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89829.881] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89830.446] stats: seen 8961 awdl_action 1076 awdl_data 4624 dropped 0 | tx action 2405 data 3376 failed 0 | peers 1 | rx retry 973 dup 94 ampdu 0 | uq drop 173 | chanseq intersect
+[89830.951] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89832.022] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89833.065] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89834.162] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89835.220] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89835.445] stats: seen 9133 awdl_action 1097 awdl_data 4694 dropped 0 | tx action 2465 data 3420 failed 0 | peers 1 | rx retry 997 dup 95 ampdu 0 | uq drop 173 | chanseq intersect
+[89836.268] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89837.290] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89838.301] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89839.350] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89840.429] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89840.445] stats: seen 9361 awdl_action 1116 awdl_data 4781 dropped 0 | tx action 2524 data 3469 failed 0 | peers 1 | rx retry 1011 dup 97 ampdu 0 | uq drop 173 | chanseq intersect
+[89841.430] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89842.507] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89843.524] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89844.579] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89845.446] stats: seen 9513 awdl_action 1136 awdl_data 4854 dropped 0 | tx action 2582 data 3510 failed 0 | peers 1 | rx retry 1018 dup 98 ampdu 0 | uq drop 173 | chanseq intersect
+[89845.659] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89846.673] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89847.737] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89848.803] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89849.844] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89850.532] stats: seen 9646 awdl_action 1154 awdl_data 4937 dropped 0 | tx action 2640 data 3557 failed 0 | peers 1 | rx retry 1030 dup 99 ampdu 0 | uq drop 173 | chanseq intersect
+[89850.883] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89851.890] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89852.931] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89854.039] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89855.068] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[14]=802c -> SHUT
+[89855.445] stats: seen 9723 awdl_action 1173 awdl_data 4975 dropped 0 | tx action 2699 data 3583 failed 0 | peers 1 | rx retry 1036 dup 99 ampdu 0 | uq drop 173 | chanseq intersect
+[89855.856] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,0,0,0,0,0,6,6,44,0,0,0,0,0
+[89856.126] radio[7] GATE slot 14 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[14]=0000 -> SHUT
+[89856.211] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,44,44,44,44,6,6,44,6,6,6,44,44
+[89856.445] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 5/16 slots on ch 6
+[89857.184] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89858.223] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89859.280] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89860.415] radio[7] GATE slot 0 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> SHUT
+[89860.445] stats: seen 9922 awdl_action 1205 awdl_data 5089 dropped 0 | tx action 2767 data 3646 failed 0 | peers 1 | rx retry 1051 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89861.435] radio[7] GATE slot 15 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[15]=802c -> SHUT
+[89864.073] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,0,0,0,0,0,6,6,44,0,0,0,0,0
+[89864.445] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 2/16 slots on ch 6
+[89865.445] stats: seen 10007 awdl_action 1236 awdl_data 5119 dropped 0 | tx action 2833 data 3665 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89869.996] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89870.446] radio[6] following 5e:dd:24:29:34:42 () [intersect]: 2/16 slots on ch 6
+[89870.446] stats: seen 10177 awdl_action 1275 awdl_data 5119 dropped 0 | tx action 2886 data 3666 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89875.445] stats: seen 10348 awdl_action 1319 awdl_data 5119 dropped 0 | tx action 2940 data 3667 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89880.444] stats: seen 10528 awdl_action 1357 awdl_data 5119 dropped 0 | tx action 2994 data 3668 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89885.446] stats: seen 10676 awdl_action 1394 awdl_data 5119 dropped 0 | tx action 3048 data 3669 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89890.444] stats: seen 10745 awdl_action 1436 awdl_data 5119 dropped 0 | tx action 3102 data 3670 failed 0 | peers 1 | rx retry 1059 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89892.191] radio[7] GATE slot 5 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[5]=0000 -> SHUT
+[89895.444] stats: seen 10817 awdl_action 1477 awdl_data 5123 dropped 0 | tx action 3155 data 3675 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89900.444] stats: seen 10901 awdl_action 1521 awdl_data 5123 dropped 0 | tx action 3210 data 3676 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89905.444] stats: seen 11133 awdl_action 1567 awdl_data 5123 dropped 0 | tx action 3263 data 3677 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89910.444] stats: seen 11217 awdl_action 1609 awdl_data 5123 dropped 0 | tx action 3317 data 3678 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89915.444] stats: seen 11287 awdl_action 1652 awdl_data 5123 dropped 0 | tx action 3371 data 3679 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89920.444] stats: seen 11357 awdl_action 1691 awdl_data 5123 dropped 0 | tx action 3425 data 3680 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89925.444] stats: seen 11445 awdl_action 1735 awdl_data 5123 dropped 0 | tx action 3480 data 3681 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89930.444] stats: seen 11506 awdl_action 1772 awdl_data 5123 dropped 0 | tx action 3533 data 3682 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89935.444] stats: seen 11592 awdl_action 1810 awdl_data 5123 dropped 0 | tx action 3587 data 3683 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89940.444] stats: seen 11674 awdl_action 1845 awdl_data 5123 dropped 0 | tx action 3641 data 3684 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89945.443] stats: seen 11749 awdl_action 1883 awdl_data 5123 dropped 0 | tx action 3695 data 3685 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89950.443] stats: seen 11806 awdl_action 1923 awdl_data 5123 dropped 0 | tx action 3749 data 3686 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89955.444] stats: seen 11895 awdl_action 1962 awdl_data 5123 dropped 0 | tx action 3803 data 3687 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89960.443] stats: seen 11937 awdl_action 2002 awdl_data 5123 dropped 0 | tx action 3856 data 3688 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89965.443] stats: seen 12005 awdl_action 2048 awdl_data 5125 dropped 0 | tx action 3911 data 3689 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89970.443] stats: seen 12055 awdl_action 2084 awdl_data 5125 dropped 0 | tx action 3964 data 3690 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89975.443] stats: seen 12116 awdl_action 2125 awdl_data 5125 dropped 0 | tx action 4019 data 3691 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89980.443] stats: seen 12178 awdl_action 2162 awdl_data 5125 dropped 0 | tx action 4072 data 3692 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89985.443] stats: seen 12264 awdl_action 2202 awdl_data 5125 dropped 0 | tx action 4126 data 3693 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89990.443] stats: seen 12336 awdl_action 2239 awdl_data 5125 dropped 0 | tx action 4181 data 3694 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[89995.443] stats: seen 12418 awdl_action 2301 awdl_data 5127 dropped 0 | tx action 4234 data 3695 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90000.442] stats: seen 12507 awdl_action 2353 awdl_data 5128 dropped 0 | tx action 4288 data 3696 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90005.442] stats: seen 12566 awdl_action 2386 awdl_data 5128 dropped 0 | tx action 4342 data 3697 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90010.442] stats: seen 12632 awdl_action 2431 awdl_data 5128 dropped 0 | tx action 4396 data 3698 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90015.443] stats: seen 12696 awdl_action 2468 awdl_data 5128 dropped 0 | tx action 4450 data 3699 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90020.442] stats: seen 12788 awdl_action 2507 awdl_data 5128 dropped 0 | tx action 4504 data 3700 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90025.442] stats: seen 12871 awdl_action 2536 awdl_data 5128 dropped 0 | tx action 4557 data 3701 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90030.442] stats: seen 12965 awdl_action 2575 awdl_data 5128 dropped 0 | tx action 4612 data 3702 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90035.442] stats: seen 13093 awdl_action 2619 awdl_data 5128 dropped 0 | tx action 4665 data 3703 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90040.442] stats: seen 13301 awdl_action 2654 awdl_data 5128 dropped 0 | tx action 4720 data 3704 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90045.442] stats: seen 13457 awdl_action 2692 awdl_data 5128 dropped 0 | tx action 4773 data 3705 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90050.442] stats: seen 13687 awdl_action 2723 awdl_data 5128 dropped 0 | tx action 4827 data 3706 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90055.442] stats: seen 13878 awdl_action 2760 awdl_data 5128 dropped 0 | tx action 4881 data 3707 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90060.442] stats: seen 14054 awdl_action 2800 awdl_data 5128 dropped 0 | tx action 4935 data 3708 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90065.442] stats: seen 14147 awdl_action 2836 awdl_data 5128 dropped 0 | tx action 4990 data 3709 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90070.441] stats: seen 14233 awdl_action 2874 awdl_data 5128 dropped 0 | tx action 5043 data 3710 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90075.441] stats: seen 14308 awdl_action 2909 awdl_data 5128 dropped 0 | tx action 5097 data 3711 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90080.441] stats: seen 14412 awdl_action 2949 awdl_data 5128 dropped 0 | tx action 5151 data 3712 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90085.441] stats: seen 14522 awdl_action 2991 awdl_data 5128 dropped 0 | tx action 5205 data 3713 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90090.441] stats: seen 14681 awdl_action 3026 awdl_data 5128 dropped 0 | tx action 5258 data 3714 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90095.441] stats: seen 14771 awdl_action 3057 awdl_data 5128 dropped 0 | tx action 5313 data 3715 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90100.441] stats: seen 14883 awdl_action 3107 awdl_data 5132 dropped 0 | tx action 5366 data 3716 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90105.441] stats: seen 15036 awdl_action 3170 awdl_data 5134 dropped 0 | tx action 5421 data 3717 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90110.441] stats: seen 15191 awdl_action 3231 awdl_data 5134 dropped 0 | tx action 5474 data 3718 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90115.441] stats: seen 15367 awdl_action 3273 awdl_data 5134 dropped 0 | tx action 5528 data 3719 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90120.441] stats: seen 15565 awdl_action 3344 awdl_data 5137 dropped 0 | tx action 5582 data 3720 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90125.440] stats: seen 15672 awdl_action 3409 awdl_data 5137 dropped 0 | tx action 5636 data 3721 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90130.440] stats: seen 15804 awdl_action 3469 awdl_data 5137 dropped 0 | tx action 5691 data 3722 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90135.440] stats: seen 15895 awdl_action 3505 awdl_data 5137 dropped 0 | tx action 5744 data 3723 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90140.440] stats: seen 16011 awdl_action 3548 awdl_data 5137 dropped 0 | tx action 5798 data 3724 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90145.440] stats: seen 16077 awdl_action 3586 awdl_data 5137 dropped 0 | tx action 5852 data 3725 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90155.440] stats: seen 16264 awdl_action 3660 awdl_data 5137 dropped 0 | tx action 5960 data 3727 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90160.440] stats: seen 16327 awdl_action 3695 awdl_data 5137 dropped 0 | tx action 6014 data 3728 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90165.440] stats: seen 16383 awdl_action 3727 awdl_data 5137 dropped 0 | tx action 6067 data 3729 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90170.440] stats: seen 16461 awdl_action 3764 awdl_data 5137 dropped 0 | tx action 6122 data 3730 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90175.440] stats: seen 16514 awdl_action 3803 awdl_data 5137 dropped 0 | tx action 6175 data 3731 failed 0 | peers 1 | rx retry 1063 dup 104 ampdu 0 | uq drop 173 | chanseq intersect
+[90178.457] usb read: Protocol error
+[90178.594] stopping

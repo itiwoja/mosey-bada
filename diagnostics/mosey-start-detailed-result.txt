@@ -1,0 +1,16 @@
+binder_backend=connected
+interface_version=1
+start_result=-1
+stop_result=0
+start_probe_exit=4
+2026-10-19 15:09:54 I Binder thread pool started max_threads=4
+2026-10-19 15:09:54 I Associated remote Binder with IMoseyService descriptor
+2026-10-19 15:09:54 I backend=binder cmd=0 result=1
+2026-10-19 15:09:54 I command=0 backend=binder result=1 elapsed=0ms
+2026-10-19 15:09:54 I backend=binder getVersion=1
+2026-10-19 15:09:54 I backend=binder cmd=0 result=1
+2026-10-19 15:09:54 I command=0 backend=binder result=1 elapsed=0ms
+2026-10-19 15:09:54 E backend=binder transaction=1 parse_status=0 exception=-4 service_error=0 message=
+2026-10-19 15:09:54 I command=1 backend=binder result=-1 elapsed=32ms
+2026-10-19 15:09:54 I backend=binder cmd=2 result=0
+2026-10-19 15:09:54 I command=2 backend=binder result=0 elapsed=0ms

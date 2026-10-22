@@ -1,0 +1,5 @@
+2026-10-22 02:30:52,932 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 02:30:52,935 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 02:30:57,947 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8771
+2026-10-22 02:30:58,754 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 02:30:58,754 INFO     opendrop.server: Starting HTTPS server

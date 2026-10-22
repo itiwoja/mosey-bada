@@ -1,0 +1,5 @@
+uid=0(root) gid=0(root) groups=0(root) context=u:r:ksu:s0
+770.34 3990.63
+declared=1
+registered=0
+native_pid=4137

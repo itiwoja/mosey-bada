@@ -1,0 +1,45 @@
+{
+  "device": "SM-F946U1",
+  "firmware": "F946U1UES8GZI1",
+  "attempt_1": {
+    "exploit_started": true,
+    "kernel_payload_ran": true,
+    "ksu_loaded": false,
+    "su_uid_0_verified": false,
+    "error": "bootstrap: ERROR - disable modules failed",
+    "selinux_after": "Permissive",
+    "recovery": "reboot completed; SELinux Enforcing; /dev/df absent"
+  },
+  "packages": [
+    {
+      "repo": "https://github.com/mitschud/DirtyFrag/releases/tag/v1.16",
+      "name": "DirtyFrag-v1.16.apk",
+      "expected_digest": "sha256:fb0f8e253a0d3c15f01e489922c9a42baef5dd9ce7b61cac8ec0660cfde445d3",
+      "actual_sha256": "fb0f8e253a0d3c15f01e489922c9a42baef5dd9ce7b61cac8ec0660cfde445d3"
+    },
+    {
+      "repo": "https://github.com/diabl0w/KernelSU/releases/tag/samsung-v2.2",
+      "name": "KernelSU_samsung-v2.2_32687-release.apk",
+      "expected_digest": "sha256:761dffad54ae080a4977971db7b04e2fc65c2d9b5e2336accca4a85661290a69",
+      "actual_sha256": "761dffad54ae080a4977971db7b04e2fc65c2d9b5e2336accca4a85661290a69"
+    }
+  ],
+  "attempt_2": {
+    "setting_change": "KernelSU Modules returned to default Enabled; autorun and auto soft reboot remained off",
+    "ksu_loaded": true,
+    "ksu_version": "samsung-v2.2 (32687-5)",
+    "uid_0_verified": true,
+    "verified_identity": "uid=0(root) gid=0(root) groups=0(root) context=u:r:ksu:s0",
+    "selinux": "Enforcing",
+    "shell_root_permission": "enabled in KernelSU for com.android.shell",
+    "root_persistence": "temporary; no autorun enabled",
+    "modules_installed_by_this_task": false
+  },
+  "post_root_read_only_probe": {
+    "packet_socket_available": true,
+    "nl80211_query_complete": true,
+    "monitor_iftype_advertised": true,
+    "wireless_transmission_tested": false,
+    "airdrop_receive_tested": false
+  }
+}

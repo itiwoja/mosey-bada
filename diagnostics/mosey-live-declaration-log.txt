@@ -1,0 +1,6 @@
+10-19 14:58:42.701 24324 24324 I KernelSU: ksud::cli: command: Sepolicy { command: Patch { sepolicy: "type fold5_mosey_service service_manager_type; allow ksu fold5_mosey_service service_manager { add find }; allow priv_app fold5_mosey_service service_manager find; allow shell fold5_mosey_service service_manager find;" } }
+10-19 14:58:43.140 24341 24341 I KernelSU: ksud::cli: command: Sepolicy { command: Patch { sepolicy: "allow shell fold5_mosey_service service_manager find;" } }
+10-19 14:58:43.209  1096  1106 I auditd  : 		/system/etc/selinux/plat_service_contexts
+10-19 14:58:43.209  1096  1106 I auditd  : 		/system_ext/etc/selinux/system_ext_service_contexts
+10-19 14:58:43.209  1096  1106 I auditd  : 		/product/etc/selinux/product_service_contexts
+10-19 14:58:43.209  1096  1106 I auditd  : 		/vendor/etc/selinux/vendor_service_contexts

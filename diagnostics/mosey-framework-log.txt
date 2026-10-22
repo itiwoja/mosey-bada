@@ -1,0 +1,1 @@
+10-19 14:40:45.698 30767 30767 I adbd    : adbd service requested 'shell,v2,raw:cmd package query-services --brief --user 0 -a com.google.android.nearby.SHARING_PROVIDER -p com.google.android.mosey'

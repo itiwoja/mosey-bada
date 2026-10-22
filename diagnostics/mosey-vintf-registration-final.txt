@@ -1,0 +1,5 @@
+declared=0
+registered=0
+native_exit=134
+thread 'main' panicked at vendor/oplus/hardware/interface/quick_share_extension/services/src/server.rs:43:6:
+Failed to register service: UNKNOWN_ERROR

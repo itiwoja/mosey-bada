@@ -1,0 +1,33 @@
+{
+  "model": "SM-F946U1",
+  "firmware": "F946U1UES8GZI1",
+  "receiver_status": "not_implemented_for_device",
+  "probe_result": "blocked_by_execution_permissions",
+  "packet_socket_errno": 13,
+  "generic_netlink_socket_errno": 13,
+  "hardware_awdl_support": "unknown",
+  "root_method_for_exact_firmware": "verified: DirtyFrag v1.16 + diabl0w KernelSU samsung-v2.2",
+  "probe_binary_sha256": "350109ab8516d0e29a7e286434df92b32a0abb61500edfe5694c86f890e3bdfb",
+  "runtime_binaries": {
+    "odm/bin/mosey_server": {
+      "size": 1004464,
+      "sha256": "53aa112866da41f32de05efd91730a27f0f1a40a79ebe61be95bd8d1944a0326",
+      "source_in_repository": false
+    },
+    "odm/lib64/libmosey_daemon_ffi.so": {
+      "size": 2537696,
+      "sha256": "89c83ba82930696930968b5aa0d515983be96732697d2bf825e5bfb4ba549ea6",
+      "source_in_repository": false
+    }
+  },
+  "root_research_candidates": {
+    "method": "DirtyFrag / DFRoot (CVE-2026-43284)",
+    "dirtyfrag_release": "v1.16",
+    "samsung_manager_release": "samsung-v2.2",
+    "kernel_family_artifacts_found": true,
+    "exact_firmware_success_report_found": false,
+    "exploit_executed": true,
+    "status": "root_verified_on_exact_device"
+  },
+  "latest_probe_result": "root: raw packet socket available, nl80211 dump complete, monitor iftype advertised"
+}

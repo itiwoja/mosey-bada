@@ -1,0 +1,136 @@
+[86162.619] found CP210x (10c4:ea60) at /dev/bus/usb/002/002
+[86162.727] serial ready at 921600 baud (endpoints in 0x81 out 0x01)
+[86163.177] radio hello: channel 6
+[86163.345] awdl0 up, MAC 8e:94:df:b4:f1:4c, MTU 1400
+[86163.346] radio[6] add peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7)
+[86163.346] peer + 5e:dd:24:29:34:42 "c9670b32-c64d-4b8c-a090-1a8913e185a7" -> fe80::5cdd:24ff:fe29:3442
+[86163.441] radio[6] name set to Fold5
+[86164.177] radio[6] remove peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7)
+[86164.178] peer - 5e:dd:24:29:34:42
+[86164.252] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[86164.252] radio[6] add peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7)
+[86164.252] peer + 5e:dd:24:29:34:42 "c9670b32-c64d-4b8c-a090-1a8913e185a7" -> fe80::5cdd:24ff:fe29:3442
+[86165.179] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 (met 516, ctr 55)
+[86165.179] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 2/16 slots on ch 6
+[86168.177] stats: seen 158 awdl_action 38 awdl_data 3 dropped 0 | tx action 81 data 7 failed 0 | peers 1
+[86171.219] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86172.223] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86173.103] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86173.179] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86173.179] stats: seen 302 awdl_action 74 awdl_data 25 dropped 0 | tx action 135 data 29 failed 0 | peers 1
+[86174.903] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86175.178] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86176.392] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86177.520] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86178.177] stats: seen 451 awdl_action 117 awdl_data 36 dropped 0 | tx action 184 data 35 failed 0 | peers 1
+[86178.575] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86178.575] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86179.177] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86179.730] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86180.666] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86183.027] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86183.178] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86183.178] stats: seen 692 awdl_action 165 awdl_data 80 dropped 0 | tx action 232 data 58 failed 0 | peers 1
+[86188.177] stats: seen 952 awdl_action 221 awdl_data 82 dropped 0 | tx action 281 data 59 failed 0 | peers 1
+[86193.176] stats: seen 1117 awdl_action 267 awdl_data 87 dropped 0 | tx action 331 data 60 failed 0 | peers 1
+[86193.197] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86194.218] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86195.266] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86196.276] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[86196.771] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86197.177] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86197.371] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86198.178] stats: seen 1278 awdl_action 299 awdl_data 115 dropped 0 | tx action 379 data 77 failed 0 | peers 1
+[86198.439] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86199.489] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86200.569] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86201.652] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86202.795] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86203.176] stats: seen 1540 awdl_action 314 awdl_data 171 dropped 0 | tx action 428 data 114 failed 0 | peers 1
+[86203.885] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86204.790] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86207.301] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86207.779] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86208.180] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86208.180] stats: seen 1680 awdl_action 330 awdl_data 208 dropped 0 | tx action 476 data 140 failed 0 | peers 1
+[86208.333] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86209.385] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86209.385] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86210.181] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86210.430] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86211.482] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86212.528] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86213.242] stats: seen 1923 awdl_action 353 awdl_data 294 dropped 0 | tx action 522 data 175 failed 0 | peers 1
+[86213.577] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86214.627] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86215.673] radio[7] GATE slot 1 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[1]=802c -> OPEN
+[86218.176] stats: seen 2072 awdl_action 365 awdl_data 319 dropped 0 | tx action 571 data 201 failed 0 | peers 1
+[86218.388] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86219.178] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86221.126] radio[7] GATE slot 4 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[4]=0000 -> SHUT
+[86223.176] stats: seen 2237 awdl_action 401 awdl_data 320 dropped 0 | tx action 620 data 203 failed 0 | peers 1
+[86228.176] stats: seen 2361 awdl_action 441 awdl_data 320 dropped 0 | tx action 670 data 204 failed 0 | peers 1
+[86228.367] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[86229.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 2/16 slots on ch 6
+[86233.028] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[86233.176] stats: seen 2518 awdl_action 479 awdl_data 321 dropped 0 | tx action 723 data 205 failed 0 | peers 1
+[86234.132] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[86234.854] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86235.177] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86235.192] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86236.265] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86237.235] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86238.278] stats: seen 2758 awdl_action 498 awdl_data 396 dropped 0 | tx action 772 data 242 failed 0 | peers 1
+[86238.278] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86238.278] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[86239.433] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[86240.636] radio[7] GATE slot 11 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[11]=802c -> OPEN
+[86241.496] radio[7] GATE slot 11 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[11]=802c -> OPEN
+[86242.676] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86243.176] stats: seen 2960 awdl_action 512 awdl_data 475 dropped 0 | tx action 820 data 275 failed 0 | peers 1
+[86243.579] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86244.600] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86245.781] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86248.175] stats: seen 3180 awdl_action 524 awdl_data 509 dropped 0 | tx action 868 data 302 failed 0 | peers 1
+[86248.665] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86249.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86253.175] stats: seen 3515 awdl_action 560 awdl_data 509 dropped 0 | tx action 918 data 304 failed 0 | peers 1
+[86256.391] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[86257.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 2/16 slots on ch 6
+[86258.175] stats: seen 3742 awdl_action 597 awdl_data 509 dropped 0 | tx action 968 data 305 failed 0 | peers 1
+[86259.244] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[86260.542] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86260.542] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86261.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86261.413] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86262.489] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86263.175] stats: seen 4009 awdl_action 620 awdl_data 571 dropped 0 | tx action 1019 data 333 failed 0 | peers 1
+[86263.448] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86264.498] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[86265.448] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86266.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86268.175] stats: seen 4188 awdl_action 650 awdl_data 580 dropped 0 | tx action 1069 data 347 failed 0 | peers 1
+[86268.705] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86268.705] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86269.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86271.746] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86272.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86273.177] stats: seen 4412 awdl_action 671 awdl_data 590 dropped 0 | tx action 1118 data 356 failed 0 | peers 1
+[86276.069] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86276.511] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[86277.090] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[86277.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86278.146] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86278.175] stats: seen 4573 awdl_action 696 awdl_data 623 dropped 0 | tx action 1167 data 375 failed 0 | peers 1
+[86279.149] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[86280.195] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[86282.365] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86283.176] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 1/16 slots on ch 6
+[86283.176] stats: seen 4689 awdl_action 712 awdl_data 637 dropped 0 | tx action 1216 data 396 failed 0 | peers 1
+[86288.175] stats: seen 4819 awdl_action 746 awdl_data 637 dropped 0 | tx action 1265 data 397 failed 0 | peers 1
+[86290.298] radio[7] peer 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[86291.175] radio[6] following 5e:dd:24:29:34:42 (c9670b32-c64d-4b8c-a090-1a8913e185a7): 2/16 slots on ch 6
+[86293.176] stats: seen 4912 awdl_action 787 awdl_data 637 dropped 0 | tx action 1316 data 398 failed 0 | peers 1
+[86298.175] stats: seen 5031 awdl_action 830 awdl_data 637 dropped 0 | tx action 1370 data 399 failed 0 | peers 1
+[86301.701] usb read: Protocol error
+[86301.796] stopping

@@ -1,0 +1,10 @@
+10-19 14:42:37.041 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.042 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:37.050 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.050 31710  9033 I ShareLive:QuickShare: [D2D][RxScheduler-27] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.051 31710  9033 I ShareLive:QuickShare: [D2D][RxScheduler-27] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:37.056 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [BroadcastUtil] sendBroadcastUpdateVisibility visibilityType=0 (legacy=2), protocolXDiscovery: false
+10-19 14:42:37.073  8962  9842 I MCFQS   : (MoseyRepository) setAvailability()-[td:disco] RESPONSE, set: false
+10-19 14:42:37.252 31710  9005 I ShareLive:QuickShare: [D2D][RxScheduler-21] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.253 31710  9005 I ShareLive:QuickShare: [D2D][RxScheduler-21] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:39.062 30767 30767 I adbd    : adbd service requested 'exec:cat '/data/local/tmp/fold5-mosey-ui.xml''

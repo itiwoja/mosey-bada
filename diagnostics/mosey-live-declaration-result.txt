@@ -1,0 +1,12 @@
+declared=0
+registered=0
+Type(Type { name: "fold5_mosey_service", attrs: ["service_manager_type"] })
+NormalPerm(NormalPerm { op: "allow", source: ["ksu"], target: ["fold5_mosey_service"], class: ["service_manager"], perm: ["add", "find"] })
+NormalPerm(NormalPerm { op: "allow", source: ["priv_app"], target: ["fold5_mosey_service"], class: ["service_manager"], perm: ["find"] })
+NormalPerm(NormalPerm { op: "allow", source: ["shell"], target: ["fold5_mosey_service"], class: ["service_manager"], perm: ["find"] })
+NormalPerm(NormalPerm { op: "allow", source: ["shell"], target: ["fold5_mosey_service"], class: ["service_manager"], perm: ["find"] })
+service_declaration_ready_without_service_restart
+declared=0
+registered=0
+434.22 1674.63
+Enforcing

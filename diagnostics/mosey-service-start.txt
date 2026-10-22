@@ -1,0 +1,6 @@
+Starting service: Intent { cmp=com.google.android.mosey/.ExternalSharingService }
+Service com.google.android.moseyservice.IMoseyService: not found
+Service com.google.pixel.moseyservice.IMoseyService: not found
+Error: app is in background uid null
+
+Starting service: Intent { cmp=com.google.android.mosey/.ExternalSharingService }

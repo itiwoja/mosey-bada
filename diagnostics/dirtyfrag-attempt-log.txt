@@ -1,0 +1,44 @@
+--------- beginning of main
+10-19 14:24:58.677  9778  9778 I dfroot  : version 1.16
+10-19 14:24:58.892  9778  9778 I dfroot  : odin: samsung SM-F946U1, patch 2026-09-05: lockscreen=credential maintenance=off or unreadable at_command=0 assumed -> red, D2 error expected: download mode refused
+10-19 14:26:36.151  9778  9797 I dfroot  : app version: 1.16
+10-19 14:26:36.152  9778  9797 I dfroot  : manufacturer: samsung
+10-19 14:26:36.152  9778  9797 I dfroot  : model: SM-F946U1
+10-19 14:26:36.152  9778  9797 I dfroot  : android version: 16
+10-19 14:26:36.152  9778  9797 I dfroot  : security patch: 2026-09-05
+10-19 14:26:36.152  9778  9797 I dfroot  : kernel version: 5.15.189-android13-8-33404244-abF946U1UES8GZI1
+10-19 14:26:36.248  9778  9797 I dfroot  : === setup ===
+10-19 14:26:36.248  9778  9797 I dfroot  : found ko_target: /vendor/lib64/libbinderdebug.so
+10-19 14:26:36.248  9778  9797 I dfroot  : encap port: 49050
+10-19 14:26:36.248  9778  9797 I dfroot  : spi: 0x6d1d32a6
+10-19 14:26:36.248  9778  9797 I dfroot  : 
+10-19 14:26:36.248  9778  9797 I dfroot  : === exploit (patching files) ===
+10-19 14:26:36.248  9778  9797 I dfroot  : patch: crash_dump64 <- splicehelper (1408 bytes)
+10-19 14:26:36.255  9778  9797 I dfroot  : patched 1408 bytes to /apex/com.android.runtime/bin/crash_dump64+0x0
+10-19 14:26:36.256  9778  9797 I dfroot  : Using KMI: android13-5.15
+10-19 14:26:36.256  9778  9797 I dfroot  : patch: /vendor/lib64/libbinderdebug.so <- dfroot.ko (13152 bytes)
+10-19 14:26:37.286  9778  9797 I dfroot  : patched 13152 bytes to /vendor/lib64/libbinderdebug.so+0x0
+10-19 14:26:37.286  9778  9797 I dfroot  : Finding symbol offsets for /system/lib64/libc++.so:
+10-19 14:26:37.286  9778  9797 I dfroot  : BTI/PAC preamble at hook site, advancing +4
+10-19 14:26:37.286  9778  9797 I dfroot  : Found: hook=0xb16f4 shellcode=0x105138 len=464
+10-19 14:26:37.286  9778  9797 I dfroot  : patch: /system/lib64/libc++.so <- shellcode (464 bytes)
+10-19 14:26:37.289  9778  9797 I dfroot  : patched 464 bytes to /system/lib64/libc++.so+0x105138
+10-19 14:26:37.289  9778  9797 I dfroot  : patch: /system/lib64/libc++.so <- trampoline (16 bytes)
+10-19 14:26:37.290  9778  9797 I dfroot  : patched 16 bytes to /system/lib64/libc++.so+0xb16f0
+10-19 14:26:37.791  9778  9797 I dfroot  : 
+10-19 14:26:37.791  9778  9797 I dfroot  : === init  ===
+10-19 14:26:37.791  9778  9797 I dfroot  : Triggering hook...
+10-19 14:26:38.803  9778  9797 I dfroot  : libc++: loading custom module
+10-19 14:26:39.004  9778  9797 I dfroot  : kernel module: launching bootstrap
+10-19 14:26:39.025  9778  9797 I dfroot  : bootstrap: loading app preferences file
+10-19 14:26:39.025  9778  9797 I dfroot  : bootstrap: cloning zygote env
+10-19 14:26:39.077  9778  9797 I dfroot  : bootstrap: setting partitions ro
+10-19 14:26:39.077  9778  9797 I dfroot  : bootstrap: disabling ksu modules
+10-19 14:26:39.077  9778  9797 I dfroot  : bootstrap: ERROR - disable modules failed
+10-19 14:26:39.077  9778  9797 I dfroot  : 
+10-19 14:26:39.077  9778  9797 I dfroot  : === cleanup ===
+10-19 14:26:39.077  9778  9797 I dfroot  : restoring trampoline in /system/lib64/libc++.so
+10-19 14:26:39.078  9778  9797 I dfroot  : patched 16 bytes to /system/lib64/libc++.so+0xb16f0
+10-19 14:26:39.078  9778  9797 I dfroot  : restoring shellcode in /system/lib64/libc++.so
+10-19 14:26:39.079  9778  9797 I dfroot  : patched 464 bytes to /system/lib64/libc++.so+0x105138
+10-19 14:26:39.084  9778  9797 I dfroot  : === exploit failed: disable modules failed ===

@@ -1,0 +1,30 @@
+{
+  "model": "SM-F946U1",
+  "firmware": "F946U1UES8GZI1",
+  "shell_uid": 2000,
+  "api_access": {
+    "MANAGE_WIFI_INTERFACES": true,
+    "NETWORK_SETTINGS": true,
+    "NETWORK_FACTORY": false,
+    "CREATE_APP_SPECIFIC_NETWORK": false,
+    "wifi_aware_available": true,
+    "airdrop_interface_active": false,
+    "vendor_nan_available": false
+  },
+  "mosey_package_found": false,
+  "airdrop_activation_path": "not_found",
+  "artifacts": {
+    "quick_share_apk": {
+      "size": 43302700,
+      "sha256": "60fd76a7349da79550058f39c2ff8e14d955f0b4f73acb739606f10d61886d32"
+    },
+    "samsung_aware_apk": {
+      "size": 13887699,
+      "sha256": "b89d51c9df8428c75c2487f170d26bedb31300bb7086c0c31560f5d25bc3235e"
+    },
+    "semwifi_service_jar": {
+      "size": 5813132,
+      "sha256": "cdd602c1dae814dbaeb761ac6996864ee32b50715d6d21962d2c967e8e235ce2"
+    }
+  }
+}

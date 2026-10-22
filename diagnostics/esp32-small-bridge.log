@@ -1,0 +1,96 @@
+[86490.860] found CP210x (10c4:ea60) at /dev/bus/usb/002/002
+[86490.970] serial ready at 921600 baud (endpoints in 0x81 out 0x01)
+[86491.390] radio hello: channel 6
+[86491.569] awdl0 up, MAC 8e:94:df:b4:f1:4c, MTU 1400
+[86491.571] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.571] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.571] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.571] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.572] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.572] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.572] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.573] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.573] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.573] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.573] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.574] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.574] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.574] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.575] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.577] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.577] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.577] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.578] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.578] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.579] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.579] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.579] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.579] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.580] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.580] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.580] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.580] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.581] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[86491.581] radio[6] name set to Fold5
+[86496.390] stats: seen 113 awdl_action 0 awdl_data 0 dropped 0 | tx action 120 data 6 failed 0 | peers 0
+[86501.390] stats: seen 195 awdl_action 0 awdl_data 0 dropped 0 | tx action 241 data 13 failed 0 | peers 0
+[86506.393] stats: seen 346 awdl_action 0 awdl_data 0 dropped 0 | tx action 362 data 14 failed 0 | peers 0
+[86511.390] stats: seen 492 awdl_action 0 awdl_data 0 dropped 0 | tx action 482 data 15 failed 0 | peers 0
+[86516.391] stats: seen 555 awdl_action 0 awdl_data 0 dropped 0 | tx action 602 data 16 failed 0 | peers 0
+[86521.390] stats: seen 693 awdl_action 0 awdl_data 0 dropped 0 | tx action 724 data 17 failed 0 | peers 0
+[86526.390] stats: seen 763 awdl_action 5 awdl_data 2 dropped 0 | tx action 844 data 18 failed 0 | peers 0
+[86531.390] stats: seen 914 awdl_action 21 awdl_data 8 dropped 0 | tx action 965 data 19 failed 0 | peers 0
+[86536.390] stats: seen 980 awdl_action 21 awdl_data 8 dropped 0 | tx action 1086 data 20 failed 0 | peers 0
+[86541.390] stats: seen 1035 awdl_action 21 awdl_data 8 dropped 0 | tx action 1206 data 21 failed 0 | peers 0
+[86546.389] stats: seen 1097 awdl_action 21 awdl_data 8 dropped 0 | tx action 1327 data 22 failed 0 | peers 0
+[86551.390] stats: seen 1196 awdl_action 21 awdl_data 8 dropped 0 | tx action 1448 data 23 failed 0 | peers 0
+[86556.389] stats: seen 1281 awdl_action 21 awdl_data 8 dropped 0 | tx action 1569 data 24 failed 0 | peers 0
+[86561.389] stats: seen 1396 awdl_action 21 awdl_data 8 dropped 0 | tx action 1689 data 25 failed 0 | peers 0
+[86566.389] stats: seen 1570 awdl_action 21 awdl_data 8 dropped 0 | tx action 1809 data 26 failed 0 | peers 0
+[86571.389] stats: seen 1677 awdl_action 21 awdl_data 8 dropped 0 | tx action 1931 data 27 failed 0 | peers 0
+[86576.389] stats: seen 1834 awdl_action 21 awdl_data 8 dropped 0 | tx action 2051 data 28 failed 0 | peers 0
+[86581.390] stats: seen 1910 awdl_action 21 awdl_data 8 dropped 0 | tx action 2172 data 29 failed 0 | peers 0
+[86586.389] stats: seen 2007 awdl_action 21 awdl_data 8 dropped 0 | tx action 2293 data 30 failed 0 | peers 0
+[86591.389] stats: seen 2110 awdl_action 21 awdl_data 8 dropped 0 | tx action 2413 data 31 failed 0 | peers 0
+[86596.388] stats: seen 2277 awdl_action 21 awdl_data 8 dropped 0 | tx action 2534 data 32 failed 0 | peers 0
+[86601.388] stats: seen 2348 awdl_action 21 awdl_data 8 dropped 0 | tx action 2654 data 33 failed 0 | peers 0
+[86606.388] stats: seen 2422 awdl_action 21 awdl_data 8 dropped 0 | tx action 2775 data 34 failed 0 | peers 0
+[86611.388] stats: seen 2577 awdl_action 21 awdl_data 8 dropped 0 | tx action 2896 data 35 failed 0 | peers 0
+[86616.389] stats: seen 2693 awdl_action 21 awdl_data 8 dropped 0 | tx action 3016 data 36 failed 0 | peers 0
+[86621.388] stats: seen 2747 awdl_action 21 awdl_data 8 dropped 0 | tx action 3138 data 37 failed 0 | peers 0
+[86626.388] stats: seen 2820 awdl_action 21 awdl_data 8 dropped 0 | tx action 3258 data 38 failed 0 | peers 0
+[86631.388] stats: seen 2867 awdl_action 21 awdl_data 8 dropped 0 | tx action 3378 data 39 failed 0 | peers 0
+[86636.388] stats: seen 2897 awdl_action 21 awdl_data 8 dropped 0 | tx action 3500 data 40 failed 0 | peers 0
+[86641.388] stats: seen 3002 awdl_action 21 awdl_data 8 dropped 0 | tx action 3620 data 41 failed 0 | peers 0
+[86646.388] stats: seen 3069 awdl_action 21 awdl_data 8 dropped 0 | tx action 3741 data 42 failed 0 | peers 0
+[86651.392] stats: seen 3140 awdl_action 21 awdl_data 8 dropped 0 | tx action 3861 data 43 failed 0 | peers 0
+[86654.153] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,44,0,0,0,0,6,44,44,44,0,0,0,0
+[86654.153] radio[6] add peer 5e:dd:24:29:34:42 ()
+[86654.153] peer + 5e:dd:24:29:34:42 "" -> fe80::5cdd:24ff:fe29:3442
+[86654.389] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 (met 65, ctr 162)
+[86654.389] radio[6] following 5e:dd:24:29:34:42 (): 1/16 slots on ch 6
+[86656.298] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[86656.388] radio[6] following 5e:dd:24:29:34:42 (): 1/16 slots on ch 6
+[86656.388] stats: seen 3372 awdl_action 38 awdl_data 11 dropped 0 | tx action 3953 data 44 failed 0 | peers 1
+[86661.387] stats: seen 3523 awdl_action 86 awdl_data 19 dropped 0 | tx action 4003 data 46 failed 0 | peers 1
+[86662.396] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[86663.389] radio[6] following 5e:dd:24:29:34:42 (): 2/16 slots on ch 6
+[86666.387] stats: seen 3644 awdl_action 121 awdl_data 21 dropped 0 | tx action 4054 data 49 failed 0 | peers 1
+[86671.387] stats: seen 3778 awdl_action 165 awdl_data 23 dropped 0 | tx action 4109 data 50 failed 0 | peers 1
+[86676.387] stats: seen 3880 awdl_action 200 awdl_data 25 dropped 0 | tx action 4163 data 53 failed 0 | peers 1
+[86681.387] stats: seen 4040 awdl_action 240 awdl_data 25 dropped 0 | tx action 4216 data 54 failed 0 | peers 1
+[86686.387] stats: seen 4186 awdl_action 286 awdl_data 25 dropped 0 | tx action 4271 data 55 failed 0 | peers 1
+[86691.389] radio[6] remove peer 5e:dd:24:29:34:42 ()
+[86691.389] peer - 5e:dd:24:29:34:42
+[86691.432] radio[7] new election tree: 8e:94:df:b4:f1:4c (met 60, ctr 0)
+[86691.432] radio[6] no sync master, back to static channel sequence
+[86691.432] stats: seen 4341 awdl_action 341 awdl_data 31 dropped 0 | tx action 4324 data 56 failed 0 | peers 0
+[86696.388] stats: seen 4413 awdl_action 351 awdl_data 31 dropped 0 | tx action 4444 data 57 failed 0 | peers 0
+[86701.387] stats: seen 4490 awdl_action 351 awdl_data 31 dropped 0 | tx action 4565 data 58 failed 0 | peers 0
+[86706.386] stats: seen 4568 awdl_action 351 awdl_data 31 dropped 0 | tx action 4686 data 59 failed 0 | peers 0
+[86711.386] stats: seen 4616 awdl_action 351 awdl_data 31 dropped 0 | tx action 4807 data 60 failed 0 | peers 0
+[86716.386] stats: seen 4719 awdl_action 351 awdl_data 31 dropped 0 | tx action 4927 data 61 failed 0 | peers 0
+[86721.386] stats: seen 4885 awdl_action 351 awdl_data 31 dropped 0 | tx action 5048 data 62 failed 0 | peers 0
+[86726.386] stats: seen 5126 awdl_action 351 awdl_data 31 dropped 0 | tx action 5169 data 63 failed 0 | peers 0
+[86727.688] usb read: Protocol error
+[86727.844] stopping

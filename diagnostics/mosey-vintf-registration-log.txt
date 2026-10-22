@@ -1,0 +1,17 @@
+10-19 15:01:22.152 26051 26051 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 26051 (mosey_server), pid 26051 (mosey_server)
+10-19 15:01:22.210 26054 26054 F DEBUG   : Executable: /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.210 26054 26054 F DEBUG   : Cmdline: /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.210 26054 26054 F DEBUG   : pid: 26051, tid: 26051, name: mosey_server  >>> /data/local/tmp/fold5-mosey-native/mosey_server <<<
+10-19 15:01:22.211 26054 26054 F DEBUG   :   NOTE:   /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #01 pc 0000000000078638  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #02 pc 0000000000078628  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #03 pc 00000000000c9578  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #04 pc 00000000000c9548  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #05 pc 00000000000c92ac  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #06 pc 00000000000c8efc  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #07 pc 00000000000671d8  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #08 pc 000000000006741c  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #09 pc 00000000000cb1b4  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #10 pc 00000000000ca954  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #11 pc 00000000000c6814  /data/local/tmp/fold5-mosey-native/mosey_server
+10-19 15:01:22.211 26054 26054 F DEBUG   :       #12 pc 00000000000cb210  /data/local/tmp/fold5-mosey-native/mosey_server

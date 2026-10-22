@@ -1,0 +1,7 @@
+declared=1
+registered=1
+binder_backend=connected
+interface_version=1
+start_result=-1
+stop_result=0
+start_probe_exit=4

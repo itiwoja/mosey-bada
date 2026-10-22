@@ -1,0 +1,6 @@
+runtime_system_app_overlay_ready
+total 33308
+-rw-r--r-- 1 root root u:object_r:system_file:s0  33240814 2026-10-19 14:39 base.apk
+-rw-r--r-- 1 root root u:object_r:system_file:s0    782572 2026-10-19 14:39 split_config.arm64_v8a.apk
+-rw-r--r-- 1 root root u:object_r:system_file:s0     28882 2026-10-19 14:39 split_config.en.apk
+-rw-r--r-- 1 root root u:object_r:system_file:s0     43176 2026-10-19 14:39 split_config.xxhdpi.apk

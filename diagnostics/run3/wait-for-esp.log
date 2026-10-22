@@ -1,0 +1,4 @@
+Waiting up to 5 minutes for ESP32 USB-UART
+ESP32 USB-UART detected: 10c4:ea60
+receiving as "Fold5" for 10 min. On the iPhone: AirDrop -> Everyone for 10 Minutes, then Share -> AirDrop.
+photos -> /storage/emulated/0/Pictures/AirDrop ; logs: /data/local/airdrop/{bridge,opendrop,tidy}.log

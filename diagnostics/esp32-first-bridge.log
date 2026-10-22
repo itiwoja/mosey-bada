@@ -1,0 +1,36 @@
+[85835.284] found CP210x (10c4:ea60) at /dev/bus/usb/002/002
+[85835.393] serial ready at 921600 baud (endpoints in 0x81 out 0x01)
+[85835.776] radio hello: channel 6
+[85835.955] awdl0 up, MAC 8e:94:df:b4:f1:4c, MTU 1400
+[85835.956] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[85836.004] radio[6] name set to Fold5
+[85837.911] radio[6] add peer 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63)
+[85837.912] peer + 5e:dd:24:29:34:42 "c8cf50a7-4edb-49ee-941e-a039b0b3bd63" -> fe80::5cdd:24ff:fe29:3442
+[85838.777] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 1/16 slots on ch 6
+[85840.776] stats: seen 59 awdl_action 12 awdl_data 8 dropped 0 | tx action 92 data 6 failed 0 | peers 1
+[85843.777] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 2/16 slots on ch 6
+[85845.776] stats: seen 157 awdl_action 49 awdl_data 13 dropped 0 | tx action 143 data 13 failed 0 | peers 1
+[85850.776] stats: seen 233 awdl_action 92 awdl_data 13 dropped 0 | tx action 198 data 14 failed 0 | peers 1
+[85855.776] stats: seen 291 awdl_action 127 awdl_data 13 dropped 0 | tx action 251 data 15 failed 0 | peers 1
+[85860.778] stats: seen 360 awdl_action 166 awdl_data 13 dropped 0 | tx action 305 data 16 failed 0 | peers 1
+[85865.776] stats: seen 441 awdl_action 208 awdl_data 13 dropped 0 | tx action 359 data 17 failed 0 | peers 1
+[85870.778] stats: seen 558 awdl_action 258 awdl_data 13 dropped 0 | tx action 413 data 18 failed 0 | peers 1
+[85875.775] stats: seen 630 awdl_action 305 awdl_data 13 dropped 0 | tx action 467 data 19 failed 0 | peers 1
+[85880.775] stats: seen 698 awdl_action 353 awdl_data 13 dropped 0 | tx action 521 data 20 failed 0 | peers 1
+[85885.775] stats: seen 766 awdl_action 385 awdl_data 13 dropped 0 | tx action 574 data 21 failed 0 | peers 1
+[85890.776] stats: seen 831 awdl_action 418 awdl_data 13 dropped 0 | tx action 629 data 22 failed 0 | peers 1
+[85891.777] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 1/16 slots on ch 6
+[85893.777] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 1/16 slots on ch 6
+[85895.775] stats: seen 898 awdl_action 442 awdl_data 15 dropped 0 | tx action 678 data 23 failed 0 | peers 1
+[85899.776] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 2/16 slots on ch 6
+[85900.775] stats: seen 988 awdl_action 485 awdl_data 19 dropped 0 | tx action 729 data 26 failed 0 | peers 1
+[85905.775] stats: seen 1150 awdl_action 533 awdl_data 22 dropped 0 | tx action 782 data 28 failed 0 | peers 1
+[85910.774] stats: seen 1228 awdl_action 573 awdl_data 24 dropped 0 | tx action 836 data 30 failed 0 | peers 1
+[85915.774] stats: seen 1284 awdl_action 599 awdl_data 24 dropped 0 | tx action 891 data 31 failed 0 | peers 1
+[85917.777] radio[6] remove peer 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63)
+[85917.778] peer - 5e:dd:24:29:34:42
+[85917.818] radio[6] no sync master, back to static channel sequence
+[85917.841] radio[6] add peer 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63)
+[85917.841] peer + 5e:dd:24:29:34:42 "c8cf50a7-4edb-49ee-941e-a039b0b3bd63" -> fe80::5cdd:24ff:fe29:3442
+[85918.775] radio[6] following 5e:dd:24:29:34:42 (c8cf50a7-4edb-49ee-941e-a039b0b3bd63): 2/16 slots on ch 6
+[85920.774] stats: seen 1320 awdl_action 615 awdl_data 24 dropped 0 | tx action 958 data 32 failed 0 | peers 1

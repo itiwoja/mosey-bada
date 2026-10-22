@@ -1,0 +1,20 @@
+10-19 14:42:37.041 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.042 31710  9003 I ShareLive:QuickShare: [D2D][RxScheduler-19] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:37.050 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.050 31710  9033 I ShareLive:QuickShare: [D2D][RxScheduler-27] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.051 31710  9033 I ShareLive:QuickShare: [D2D][RxScheduler-27] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:37.056 31710  9004 I ShareLive:QuickShare: [D2D][RxScheduler-20] [BroadcastUtil] sendBroadcastUpdateVisibility visibilityType=0 (legacy=2), protocolXDiscovery: false
+10-19 14:42:37.073  8962  9842 I MCFQS   : (MoseyRepository) setAvailability()-[td:disco] RESPONSE, set: false
+10-19 14:42:37.252 31710  9005 I ShareLive:QuickShare: [D2D][RxScheduler-21] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:37.253 31710  9005 I ShareLive:QuickShare: [D2D][RxScheduler-21] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:39.062 30767 30767 I adbd    : adbd service requested 'exec:cat '/data/local/tmp/fold5-mosey-ui.xml''
+10-19 14:42:45.145 27603 27807 W ActivityManager: Stopping service due to app idle: u0a395 -1m21s488ms com.google.android.mosey/.ExternalSharingService
+10-19 14:42:45.152  7089  7089 I Mosey.A : Mosey invoking Shutdown
+10-19 14:42:45.156  7089  7089 I Mosey.A : API: shutdown() called.
+10-19 14:42:45.157  7089  7089 I Mosey.A : Actor: Shutting down.
+10-19 14:42:45.157  7089  7089 I Mosey.A : stopDiscovery() called but not discovering.
+10-19 14:42:45.159  7089  7089 I Mosey.A : stop called.
+10-19 14:42:45.159  7089  7089 I Mosey.A : shutdown is called.
+10-19 14:42:45.161  7089  7089 I Mosey.A : API: shutdown() completed.
+10-19 14:42:45.161  7089  7089 I Mosey.A : ExternalSharingService doDestroy called.
+10-19 14:42:45.162  7089  7089 I Mosey.A : MoseyControllerCommandLoop finished with error: dij: Job was cancelled; job=djc{Cancelling}@cb7fcd3 at time: 1792388565162

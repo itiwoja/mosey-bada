@@ -1,0 +1,358 @@
+SHA256=78cee9e94c8c8804a052e7d86b62e78491f3166607847fc8fa2bf2e644ecf7eb
+Monitor Filter
+MONITOR
+%s: monitor mode vdev up timed out
+%s: Release wakelock for monitor mode!
+%s: Failed to get monitor adapter
+%s: Command not allowed in FTM or Monitor mode
+dp_rxdma_monitor_buf_ring
+gApLinkMonitorPeriod
+%s: %pK: Invalid monitor ops
+dp_monitor_lite_mon_disable_rx
+%s: Reaped %d descs from Monitor rings
+%s: Concurrency not allowed with standalone monitor mode
+cdp_reset_monitor_mode
+%s: RSO_CFG: vdev:%d bss_load_thres:%d monitor_time:%d rssi_2g:%d rssi_5g:%d, rssi_6g:%d
+qdf_nbuf_update_radiotap_he_mu_other_flags
+dp_monitor_print_pdev_rx_mon_stats
+%s: %pK: dp_srng_init failed for reo_reinject_ring
+dp_monitor_peer_tx_cleanup
+dp_monitor_set_pktlog_wifi3
+%s: Failed to go monitor period
+hdd_disable_monitor_mode
+send_crash_inject_cmd_tlv
+%s: WMI_PDEV_FRAME_INJECT_CMDID send returned Error %d
+dp_tx_reinject_handler
+MONITOR
+wlan_hdd_add_monitor_check
+%s: sme_set_rssi_monitoring failed(err=%d)
+dp_tx_monitor_buf_ring
+%s: monitor_mode_cb is not registered
+%s: %s : DIAG_TYPE_CRASH_INJECT: %d %d
+dp_monitor_vdev_timer_init
+dp_monitor_pdev_attach
+%s: Found NULL memory for the Monitor filter
+%s: Status: %d Failed to set sme_roam Channel for monitor mode
+hdd_sysfs_monitor_mode_channel_create
+qdf_nbuf_update_radiotap_he_mu_flags
+dp_monitor_htt_srng_setup
+dp_monitor_peer_get_peerstats_ctx
+%s: %pK: dp_srng_alloc failed for reo_reinject_ring
+/home/dpi/qb5_8814/workspace/P4_1716/android/kernel_platform/msm-kernel/../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/dp_mon_filter.c
+hdd_enable_monitor_mode
+sme_process_monitor_mode_vdev_up_evt
+WMA_SET_RSSI_MONITOR_REQ
+dp_monitor_config_debug_sniffer
+%s: %pK: MONITOR pdev alloc failed
+%s: failed to reset monitor filters
+%s: Register monitor mode callback failed
+%s: Failed to start monitor adapter
+monitor_mode_channel
+sme_set_rssi_monitoring
+%s: %pK: dp_monitor_pdev_init failed
+dp_monitor_pdev_get_filter_ucast_data
+%s: Monitor status ring: DMA is not done for nbuf: %pK
+gEnableSNRMonitoring
+%s: cannot add monitor mode, due to P2P CLIENT concurrency
+dp_monitor_peer_attach
+REO Reinject ring: %u 
+%s: %pK: : HAL Monitor Destination Ring Init Failed -- %pK
+dp_monitor_drop_packets_for_mac
+%s: getSNR failed: Enable SNR Monitoring-%d
+__wlan_hdd_cfg80211_monitor_rssi
+dp_rx_monitor_protocol_flow_tag_enable
+%s: cannot add monitor mode, due to P2P GO concurrency
+%s: WlanRxCritical(%u), %s, MinDirectRxRate(%u), MonitorActiveNum(%u), %s
+Reo_reinject
+tx_monitor_destination
+%s: failed to attach monitor
+dp_monitor_vdev_attach
+dp_monitor_peer_tx_init
+dp_monitor_pdev_init
+dp_monitor_soc_cfg_init
+%s: %pK: HAL Monitor Destination Ring Init Failed -- %pK
+PDEV Rx Monitor Stats:
+dp_monitor_reap_timer_stop
+../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/1.0/dp_rx_mon_status_1.0.c
+%s: %pK: Monitor status ring filter setting failed
+../../../../../../../../vendor/qcom/opensource/wlan/qcacld-3.0/cmn/dp/wifi3.0/monitor/dp_mon.h
+%s: Failed to send crash inject:%d
+%s: Failed monitor mode vdev up(status-%d)
+%s: monitor mode vdev up event time out vdev id: %d
+%s: Command not allowed in FTM/MONITOR mode
+%s: crash_inject cmd error
+dp_monitor_flush_rings
+dp_monitor_tx_add_to_comp_queue
+%s: %pK: Failed to reset monitor filters
+%s: Updating monitor buffer filter
+gGoLinkMonitorPeriod
+cnss_diag_handle_crash_inject
+dp_monitor_pdev_detach
+%s: Frag seq successfully reinjected
+../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/dp_mon.c
+%s: %pK: Monitor destination ring filter setting failed
+dp_rxdma_monitor_desc_ring
+WMA_TIMER_CHIP_MONITOR_TIMEOUT
+%s: Sent WMI_RSSI_BREACH_MONITOR_CONFIG_CMDID to FW
+%s: Driver avoid list timer expired, moved to monitor list
+dp_monitor_peer_tx_capture_filter_check
+dp_monitor_peer_tid_peer_id_update
+dp_link_monitoring
+%s: monitor mode vdev up in progress
+%s: Command not allowed in FTM / Monitor mode
+%s: length is greater than RADIOTAP_TX_FLAGS_LEN
+pmo_tgt_psoc_send_idle_roam_monitor
+%s: Userspace avoid list timer expired, moved to monitor list
+dp_monitor_tx_ppdu_stats_detach
+dp_ucfg_disable_link_monitoring
+%s: Not supported, adapter is not in monitor mode
+%s: cannot add monitor mode, Connection in progress
+hdd_sme_monitor_mode_callback
+%s: could not create monitor_mode_channel sysfs file
+WMI_EXTSCAN_CONFIGURE_HOTLIST_SSID_MONITOR_CMDID
+dp_monitor_vdev_set_monitor_mode_buf_rings
+dp_monitor_service_mon_rings
+%s: Tx reinject path
+Reinjected:
+dp_monitor_reap_timer_start
+../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/dp_rx_mon.c
+%s: %pK: Monitor status ring entry is NULL for SRNG: %pK
+%s: Reset monitor filter settings
+Monitor Mode:%d
+%s: monitor soc is NULL
+%s: Failed to set sme_RoamChannel for monitor mode status: %d
+%s: Acquire wakelock for monitor mode
+        mon_radiotap_update_err = %u
+/home/dpi/qb5_8814/workspace/P4_1716/android/kernel_platform/msm-kernel/../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/dp_rx_mon.c
+%s: Acquire wakelock for STA + monitor mode
+qdf_nbuf_update_radiotap_he_flags
+dp_monitor_tx_ppdu_stats_attach
+dp_vdev_set_monitor_mode
+%s %d -- Monitor Link Desc WBM Release Ring Full
+%s: Set monitor mode frequency %d
+%s: length is greater than RADIOTAP_EHT_FLAGS_LEN
+dp_monitor_vdev_detach
+dp_monitor_neighbour_peer_list_remove
+Rxdma monitor desc ring: %d
+dp_reset_monitor_mode
+dp_vdev_set_monitor_mode_rings
+&ctx->monitor_mode
+dp_rxdma_monitor_status_ring
+send_packetdump_monitor
+qdf_nbuf_update_radiotap_eht_flags
+DRIVER_MONITOR_TYPE
+tx_monitor_buf
+%s: hw_nac_monitor_support = %d
+%s: monitor mode vdev up completed
+%s: Adding monitor interface not supported
+qdf_nbuf_update_radiotap
+%s: Driver denylist timer expired, moved to monitor list
+WMI_EXTSCAN_CONFIGURE_HOTLIST_MONITOR_CMDID
+dp_monitor_vdev_timer_stop
+dp_monitor_invalid_peer_update_pdev_stats
+dp_monitor_pdev_deinit
+dp_monitor_reap_timer_deinit
+%s: failed to reinit monitor mode vdev up event
+%s: Failed to wait for monitor vdev up(status-%d)
+cdp_set_monitor_mode
+dp_reo_reinject_ring
+%s: DEBUG: Not enough space to update radiotap
+WMI_RSSI_BREACH_MONITOR_CONFIG_CMDID
+WMI_EXTSCAN_CONFIGURE_WLAN_CHANGE_MONITOR_CMDID
+%s: %pK: MONITOR pdev allocation failed
+%s: Monitor ops is NULL
+%s: %s: set monitor mode freq %d
+wlan_hdd_cfg80211_monitor_rssi
+send_set_rssi_monitoring_cmd_tlv
+Monitor
+WMI_PDEV_FRAME_INJECT_CMDID
+%s: Failed to send htt monitor messages to target
+[%s]:[%d] Monitor vdev is NULL !!
+%s: Before reap: Monitor DST ring HP %u TP %u
+dp_monitor_process
+%s: Invalid chan freq received for monitor mode aborting
+%s: idle_monitor:%d
+hdd_monitor_mode_vdev_status
+dp_tx_monitor_dst_ring
+%s: PER based roaming configuration enable: %d vdev: %d high_rate_thresh: %d low_rate_thresh: %d rate_thresh_percnt: %d per_rest_time: %d monitor_time: %d min cand rssi: %d
+send_injector_config_cmd_tlv
+dp_monitor_pdev_get_filter_mcast_data
+dp_monitor_print_pdev_tx_capture_stats
+/home/dpi/qb5_8814/workspace/P4_1716/android/kernel_platform/msm-kernel/../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/dp_mon.c
+monitor vap already created vdev=%pK
+dp_monitor_vdev_timer_deinit
+%s: Monitor pdev Context is null
+%s: length is greater than RADIOTAP_VHT_FLAGS_LEN
+%s: cannot add monitor mode, due to SAP concurrency
+Reo reinjected packets: %u
+%s: Not supported, device is not in monitor mode
+hdd_sysfs_monitor_mode_channel_store
+%s: length is greater than RADIOTAP_HE_MU_FLAGS_LEN
+wlan_scan_is_snr_monitor_enabled
+Rxdma_monitor_desc
+dp_monitor_tx_capture_debugfs_init
+dp_monitor_peer_reset_stats
+%s: %pK: Memory allocation failed for monitor filter
+wma_set_rssi_monitoring
+%s: length is greater than RADIOTAP_HE_FLAGS_LEN
+%s: monitor mode already exists, only one is possible
+Rxdma_monitor_status
+dp_monitor_peer_detach
+dp_monitor_config_enh_tx_capture
+Fragmented sequence successfully reinjected
+%s: %pK: Memory allocation failed for tx monitor filter
+%s: Updating monitor status cmn filter
+dp_flush_monitor_rings
+%s: monitor vdev up event time out vdev id: %d
+%s: Failed to send WMI_RSSI_BREACH_MONITOR_CONFIG_CMDID
+%s: monitor mode vdev up event forcefully set
+__hdd_sysfs_monitor_mode_channel_store
+%s: Monitor mode: Session Can not be created
+monitor_mode_concurrency
+RoamCU_MonitorTime
+WMI_IDLE_TRIGGER_MONITOR_CMDID
+%s: WlanPostPauseIntvlCnt(%u), XputMonitorActiveNum(%u), Duration(%u), Weight(%u)
+Rxdma_monitor_destination
+Monitor EHT PPDU  Count
+%s: SNR monitoring is disabled
+monitor_mode_wakelock
+%s: peer monitor ctx alloc failed
+dp_monitor_set_bsscolor
+%s: %pK: MONITOR rings setup failed
+%s: %pK: Memory allocation failed for invalid monitor peer
+../../../../../../../../vendor/qcom/opensource/wlan/qcacld-3.0/cmn/dp/wifi3.0/monitor/1.0/dp_rx_mon_1.0.h
+%s: create monitor mode vdve up event failed
+../../../../../../../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/core/mac/src/pe/lim/lim_link_monitoring_algo.c
+dp_rxdma_monitor_dst_ring
+%s: cannot add monitor mode, due to %u sta interfaces
+Rxdma_monitor_buf
+dp_monitor_vdev_timer_start
+%s: %pK: Monitor vdev allocation failed
+DP_MON FILTER MONITOR MODE
+%s: RUNTIME PM is disabled for FTM/EPPING/MONITOR mode
+%s: Monitor interface is already up
+%s: Failed to get crash inject ini config
+%s: Set channel failed for monitor mode vdev substate %d
+sme_set_monitor_mode_cb
+target_if_pmo_psoc_send_idle_monitor_cmd
+COEX_SYSTEM_MONITOR
+dp_monitor_pdev_get_filter_non_data
+%s: Monitor pdev is NULL
+%s: Monitor filter mem allocation failed
+%s: %pK: mon_mpdu=%pK monitor_vdev %pK osif_vdev %pK
+../../vendor/qcom/opensource/wlan/qcacld-3.0/.qca6490/cmn/dp/wifi3.0/monitor/1.0/dp_rx_mon_dest_1.0.c
+%s: monitor link desc return failed
+%s: After reap: Monitor DST ring HP %u TP %u
+%s: Crash inject not allowed in FTM mode
+%s: Monitor mode:channel freq:%d (SMM->DBS)
+cfg_p2p_get_go_link_monitor_period
+send_idle_roam_monitor_cmd_tlv
+%s: %pK: dp_monitor_pdev_attach failed
+%s: Set monitor filter settings
+%s: Release wakelock for STA + monitor mode!
+wlan_hdd_is_session_type_monitor
+%s: Command not allowed in FTM/Monitor mode
+%s: length is greater than RADIOTAP_HE_MU_OTHER_FLAGS_LEN
+qdf_nbuf_update_radiotap_usig_flags
+%s: cannot add monitor mode, due to NAN concurrency
+dp_monitor_reap_timer_init
+Monitor MPDU Count
+%s %d : HAL Monitor Status Ring Init Failed -- %pK
+dp_ucfg_enable_link_monitoring
+'QDF_STATUS (struct wmi_unified *, struct rssi_monitor_param *)'
+'void (struct cdp_soc_t *, unsigned char, _Bool, struct cdp_monitor_filter *, _Bool)'
+'QDF_STATUS (struct wmi_unified *, struct crash_inject *)'
+'QDF_STATUS (struct wmi_unified *, struct wmi_host_injector_frame_params *)'
+vermagic=5.15.189-android13-8-33404244-abF946U1UES8GZI1 SMP preempt mod_unload modversions aarch64
+hdd_sysfs_monitor_mode_channel_destroy
+wmi_rssi_monitor_attach_tlv
+send_crash_inject_cmd_tlv
+send_idle_roam_monitor_cmd_tlv
+send_set_rssi_monitoring_cmd_tlv
+send_injector_config_cmd_tlv
+sme_process_monitor_mode_vdev_up_evt
+dp_monitor_reap_timer_start
+hdd_monitor_mode_qdf_create_event
+send_crash_inject_cmd_tlv.cfi_jt
+send_idle_roam_monitor_cmd_tlv.cfi_jt
+send_set_rssi_monitoring_cmd_tlv.cfi_jt
+send_injector_config_cmd_tlv.cfi_jt
+dp_flush_monitor_rings.cfi_jt
+dp_vdev_set_monitor_mode_buf_rings.cfi_jt
+dp_vdev_set_monitor_mode_rings.cfi_jt
+dp_pdev_set_advance_monitor_filter.cfi_jt
+dp_rx_monitor_callback.cfi_jt
+hdd_sme_monitor_mode_callback.cfi_jt
+wlan_hdd_cfg80211_monitor_rssi.cfi_jt
+hdd_sysfs_monitor_mode_channel_store.cfi_jt
+dp_reset_monitor_mode.cfi_jt
+dp_vdev_set_monitor_mode.cfi_jt
+hdd_open_adapters_for_monitor_mode.cfi_jt
+target_if_pmo_psoc_send_idle_monitor_cmd.cfi_jt
+dp_monitor_soc_init
+dp_rx_defrag_reo_reinject
+wlan_mlme_get_crash_inject
+wmi_crash_inject
+wmi_tag_crash_inject
+wma_crash_inject
+hdd_monitor_mode_vdev_status
+sme_process_monitor_mode_vdev_up_evt.__last_ticks
+hdd_monitor_mode_vdev_status.__last_ticks
+qdf_nbuf_update_radiotap_eht_flags.__last_ticks
+qdf_nbuf_update_radiotap_usig_flags.__last_ticks
+qdf_nbuf_update_radiotap_he_flags.__last_ticks
+hdd_sme_monitor_mode_callback.__last_ticks
+__hdd_sysfs_monitor_mode_channel_store.__last_ticks
+dp_flush_monitor_rings
+dp_vdev_set_monitor_mode_buf_rings
+dp_vdev_set_monitor_mode_rings
+dp_link_monitoring.no_rx_times
+hif_rtpm_set_monitor_wake_intr
+hif_rtpm_get_monitor_wake_intr
+wmi_unified_send_idle_trigger_monitor
+pmo_tgt_psoc_send_idle_roam_monitor
+wlan_hdd_is_session_type_monitor
+dp_pdev_set_advance_monitor_filter
+dp_tx_reinject_handler
+__typeid__ZTSF10QDF_STATUSP11wmi_unifiedP12crash_injectE_global_addr
+__typeid__ZTSF10QDF_STATUSP11wmi_unifiedP30wmi_host_injector_frame_paramsE_global_addr
+__typeid__ZTSF10QDF_STATUSP11wmi_unifiedP18rssi_monitor_paramE_global_addr
+__typeid__ZTSFvP9cdp_soc_thbP18cdp_monitor_filterbE_global_addr
+dp_monitor_reap_timer_stop
+qdf_nbuf_update_radiotap
+dev_attr_monitor_mode_channel
+wlan_hdd_add_monitor_check
+dp_rx_monitor_callback
+hdd_sme_monitor_mode_callback
+wlan_hdd_cfg80211_monitor_rssi
+dp_monitor_tx_ppdu_stats_attach
+dp_ucfg_disable_link_monitoring
+dp_ucfg_enable_link_monitoring
+sme_set_rssi_monitoring
+wma_set_rssi_monitoring
+wlan_srng_rxdma_monitor_status_cfg
+wlan_srng_tx_monitor_buf_cfg
+wlan_srng_rxdma_monitor_buf_cfg
+wlan_cfg_get_dp_soc_reo_reinject_ring_size
+hdd_sysfs_monitor_mode_channel_create
+hdd_sysfs_monitor_mode_channel_store
+dp_reset_monitor_mode
+dp_vdev_set_monitor_mode
+hdd_open_adapters_for_monitor_mode
+hdd_disable_monitor_mode
+hdd_enable_monitor_mode
+cfg_p2p_get_go_link_monitor_period
+dp_monitor_reap_timer_suspend
+target_if_pmo_psoc_send_idle_monitor_cmd
+wmi_unified_set_rssi_monitoring_cmd
+wmi_unified_send_injector_frame_config_cmd
+wlan_scan_is_snr_monitor_enabled
+dp_monitor_set_rx_monitor_cb
+sme_set_monitor_mode_cb
+qdf_nbuf_update_radiotap_he_flags.__last_ticks.49
+hdd_monitor_mode_vdev_status.__last_ticks.398
+hdd_monitor_mode_vdev_status.__last_ticks.397
+__UNIQUE_ID_vermagic297
+hdd_sme_monitor_mode_callback.__last_ticks.394
+monitor_ops_1_0
+hdd_monitor_mode_vdev_status.__last_ticks.400

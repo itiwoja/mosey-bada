@@ -1,0 +1,1 @@
+10-19 15:02:19.216 26129 26129 I Fold5Mosey: addService(com.google.android.moseyservice.IMoseyService/default) result=-3

@@ -1,0 +1,10 @@
+com.google.android.moseyservice.IMoseyService
+com.google.pixel.moseyservice.IMoseyService
+ExternalSharingService doCreate called.
+ExternalSharingService doDestroy called.
+ExternalSharingService getSharingProvider called.
+ExternalSharingService state:
+Lcom/google/android/mosey/ExternalSharingService;
+com.google.android.moseyservice.IMoseyService
+com.google.pixel.moseyservice.IMoseyService
+com/google/android/mosey/ExternalSharingService

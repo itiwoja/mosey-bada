@@ -1,0 +1,8 @@
+monitor_create_result=0 (success)
+received_frames=0
+awdl_action_frames=0
+wireless_transmit=never
+monitor_delete_result=0
+monitor_session_exit=0
+Enforcing
+Device "fold5mon" does not exist.

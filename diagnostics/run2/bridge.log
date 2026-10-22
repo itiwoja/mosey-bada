@@ -1,0 +1,228 @@
+[88864.467] found CP210x (10c4:ea60) at /dev/bus/usb/002/002
+[88864.577] serial ready at 921600 baud (endpoints in 0x81 out 0x01)
+[88864.994] radio hello: channel 6
+[88865.186] awdl0 up, MAC 8e:94:df:b4:f1:4c, MTU 1400
+[88865.186] radio[6] AWDL radio up on channel 6 as 8e:94:df:b4:f1:4c
+[88865.196] radio[6] name set to Fold5
+[88865.960] radio[6] add peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae)
+[88865.961] peer + 5e:dd:24:29:34:42 "4aab4fe1-2a0a-454a-be3e-d39a565a03ae" -> fe80::5cdd:24ff:fe29:3442
+[88865.994] radio[6] remove peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae)
+[88865.994] peer - 5e:dd:24:29:34:42
+[88866.078] radio[7] peer 5e:dd:24:29:34:42 () changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[88866.488] radio[6] add peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae)
+[88866.489] peer + 5e:dd:24:29:34:42 "4aab4fe1-2a0a-454a-be3e-d39a565a03ae" -> fe80::5cdd:24ff:fe29:3442
+[88866.995] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 (met 516, ctr 414)
+[88866.996] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[88868.696] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,0,0,0,0,6,44,44,44,0,0,0,0
+[88868.997] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88869.994] stats: seen 158 awdl_action 81 awdl_data 2 dropped 0 | tx action 79 data 6 failed 0 | peers 1 | rx retry 0 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88871.066] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88871.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88873.913] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88874.925] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88874.994] stats: seen 300 awdl_action 145 awdl_data 16 dropped 0 | tx action 128 data 19 failed 0 | peers 1 | rx retry 0 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88875.936] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88875.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88876.014] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88877.018] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88877.275] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88877.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88878.632] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88878.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88879.165] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88879.994] stats: seen 461 awdl_action 190 awdl_data 40 dropped 0 | tx action 177 data 37 failed 0 | peers 1 | rx retry 12 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88880.236] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88880.441] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88880.997] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88881.251] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88882.381] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88883.279] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88883.439] radio[7] GATE slot 11 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[11]=802c -> SHUT
+[88883.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88884.993] stats: seen 611 awdl_action 246 awdl_data 65 dropped 0 | tx action 226 data 55 failed 0 | peers 1 | rx retry 13 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88886.531] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88886.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88888.594] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88889.603] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88889.994] stats: seen 738 awdl_action 304 awdl_data 75 dropped 0 | tx action 275 data 60 failed 0 | peers 1 | rx retry 14 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88890.768] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88891.186] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88891.717] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88891.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88892.734] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[88893.870] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[88894.922] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88894.993] stats: seen 924 awdl_action 363 awdl_data 122 dropped 0 | tx action 325 data 93 failed 0 | peers 1 | rx retry 22 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88895.926] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88896.965] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88898.097] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88899.118] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88899.993] stats: seen 1113 awdl_action 416 awdl_data 139 dropped 0 | tx action 373 data 114 failed 0 | peers 1 | rx retry 23 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88900.122] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88900.193] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88900.649] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88901.217] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88902.147] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88902.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88904.993] stats: seen 1267 awdl_action 478 awdl_data 146 dropped 0 | tx action 423 data 124 failed 0 | peers 1 | rx retry 26 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88909.993] stats: seen 1425 awdl_action 550 awdl_data 148 dropped 0 | tx action 472 data 125 failed 0 | peers 1 | rx retry 26 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88910.033] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[88910.628] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[88910.993] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[88913.248] radio[7] GATE slot 1 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[1]=0000 -> SHUT
+[88914.691] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88914.834] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88914.997] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88914.997] stats: seen 1578 awdl_action 624 awdl_data 160 dropped 0 | tx action 525 data 136 failed 0 | peers 1 | rx retry 30 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88915.947] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88916.994] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88918.929] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88918.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88919.993] stats: seen 1697 awdl_action 676 awdl_data 171 dropped 0 | tx action 575 data 146 failed 0 | peers 1 | rx retry 32 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88920.119] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88921.126] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[88922.031] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88922.993] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88924.179] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88924.994] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88924.994] stats: seen 1832 awdl_action 733 awdl_data 182 dropped 0 | tx action 623 data 157 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88929.993] stats: seen 1953 awdl_action 806 awdl_data 182 dropped 0 | tx action 673 data 158 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88930.061] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[88930.993] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[88934.992] stats: seen 2105 awdl_action 880 awdl_data 182 dropped 0 | tx action 725 data 159 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88939.992] stats: seen 2264 awdl_action 950 awdl_data 182 dropped 0 | tx action 779 data 160 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88944.993] stats: seen 2412 awdl_action 1015 awdl_data 182 dropped 0 | tx action 833 data 161 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88949.992] stats: seen 2646 awdl_action 1087 awdl_data 182 dropped 0 | tx action 887 data 162 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88954.992] stats: seen 2775 awdl_action 1163 awdl_data 182 dropped 0 | tx action 941 data 163 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88959.992] stats: seen 2918 awdl_action 1245 awdl_data 182 dropped 0 | tx action 995 data 164 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88964.992] stats: seen 3047 awdl_action 1322 awdl_data 182 dropped 0 | tx action 1048 data 165 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88969.992] stats: seen 3179 awdl_action 1391 awdl_data 182 dropped 0 | tx action 1103 data 166 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88974.991] stats: seen 3348 awdl_action 1476 awdl_data 182 dropped 0 | tx action 1156 data 167 failed 0 | peers 1 | rx retry 35 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88976.670] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[88977.802] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[88979.150] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88979.739] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88979.993] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88979.993] stats: seen 3533 awdl_action 1548 awdl_data 207 dropped 0 | tx action 1210 data 183 failed 0 | peers 1 | rx retry 36 dup 0 ampdu 0 | uq drop 0 | chanseq verbatim
+[88980.835] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88981.856] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[88982.428] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88982.858] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[88982.858] radio[7] GATE slot 7 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[7]=802c -> SHUT
+[88983.045] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88983.840] radio[7] GATE slot 7 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[7]=802c -> OPEN
+[88984.890] radio[7] GATE slot 7 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[7]=802c -> OPEN
+[88984.991] stats: seen 3699 awdl_action 1600 awdl_data 251 dropped 0 | tx action 1260 data 227 failed 0 | peers 1 | rx retry 49 dup 1 ampdu 0 | uq drop 0 | chanseq verbatim
+[88987.164] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88988.732] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88988.992] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88989.991] stats: seen 3852 awdl_action 1654 awdl_data 258 dropped 0 | tx action 1308 data 235 failed 0 | peers 1 | rx retry 54 dup 1 ampdu 0 | uq drop 0 | chanseq verbatim
+[88993.364] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88993.463] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88993.992] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88994.991] stats: seen 3990 awdl_action 1688 awdl_data 260 dropped 0 | tx action 1358 data 237 failed 0 | peers 1 | rx retry 54 dup 1 ampdu 0 | uq drop 0 | chanseq verbatim
+[88995.183] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[88995.992] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[88999.795] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[88999.795] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[88999.993] stats: seen 4091 awdl_action 1725 awdl_data 270 dropped 0 | tx action 1407 data 238 failed 0 | peers 1 | rx retry 55 dup 1 ampdu 0 | uq drop 0 | chanseq verbatim
+[89000.816] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89002.072] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89003.313] radio[7] GATE slot 13 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[13]=802c -> OPEN
+[89004.156] radio[7] GATE slot 13 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[13]=802c -> OPEN
+[89005.592] stats: seen 4339 awdl_action 1765 awdl_data 383 dropped 0 | tx action 1454 data 306 failed 0 | peers 1 | rx retry 65 dup 2 ampdu 0 | uq drop 3 | chanseq verbatim
+[89005.592] radio[7] GATE slot 0 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> OPEN
+[89006.449] radio[7] GATE slot 0 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[0]=802c -> OPEN
+[89009.991] stats: seen 4471 awdl_action 1801 awdl_data 423 dropped 0 | tx action 1502 data 374 failed 0 | peers 1 | rx retry 73 dup 2 ampdu 0 | uq drop 12 | chanseq verbatim
+[89010.146] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89010.992] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89014.991] stats: seen 4610 awdl_action 1872 awdl_data 423 dropped 0 | tx action 1551 data 375 failed 0 | peers 1 | rx retry 73 dup 2 ampdu 0 | uq drop 12 | chanseq verbatim
+[89019.991] stats: seen 4818 awdl_action 1954 awdl_data 423 dropped 0 | tx action 1601 data 376 failed 0 | peers 1 | rx retry 73 dup 2 ampdu 0 | uq drop 12 | chanseq verbatim
+[89020.043] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89020.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[89023.875] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89024.937] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89024.991] stats: seen 4980 awdl_action 2043 awdl_data 427 dropped 0 | tx action 1654 data 379 failed 0 | peers 1 | rx retry 74 dup 3 ampdu 0 | uq drop 12 | chanseq verbatim
+[89025.872] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[89025.979] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> SHUT
+[89025.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89027.193] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89028.236] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89029.242] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89029.991] stats: seen 5192 awdl_action 2098 awdl_data 503 dropped 0 | tx action 1701 data 438 failed 0 | peers 1 | rx retry 99 dup 5 ampdu 0 | uq drop 12 | chanseq verbatim
+[89030.304] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89031.164] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89032.291] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89033.215] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89033.318] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89033.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89034.379] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89034.990] stats: seen 5347 awdl_action 2139 awdl_data 530 dropped 0 | tx action 1751 data 477 failed 0 | peers 1 | rx retry 104 dup 6 ampdu 0 | uq drop 12 | chanseq verbatim
+[89035.426] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89036.440] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89036.884] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[89036.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89037.480] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89038.557] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89039.621] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89039.990] stats: seen 5535 awdl_action 2196 awdl_data 555 dropped 0 | tx action 1800 data 498 failed 0 | peers 1 | rx retry 105 dup 7 ampdu 0 | uq drop 12 | chanseq verbatim
+[89040.668] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89041.643] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89041.708] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89041.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89042.727] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89043.198] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[89043.781] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89043.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89044.832] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89044.990] stats: seen 5713 awdl_action 2252 awdl_data 581 dropped 0 | tx action 1850 data 521 failed 0 | peers 1 | rx retry 109 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89045.855] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89047.908] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89047.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89049.990] stats: seen 5826 awdl_action 2308 awdl_data 586 dropped 0 | tx action 1898 data 532 failed 0 | peers 1 | rx retry 111 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89054.991] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 -> 3a:44:ef:12:80:59 (met 530, ctr 45381)
+[89054.992] stats: seen 5985 awdl_action 2391 awdl_data 586 dropped 0 | tx action 1947 data 533 failed 0 | peers 1 | rx retry 111 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89056.090] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89056.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[89059.990] stats: seen 6134 awdl_action 2469 awdl_data 586 dropped 0 | tx action 2000 data 534 failed 0 | peers 1 | rx retry 111 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89064.990] stats: seen 6289 awdl_action 2549 awdl_data 586 dropped 0 | tx action 2053 data 535 failed 0 | peers 1 | rx retry 111 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89069.990] stats: seen 6424 awdl_action 2619 awdl_data 590 dropped 0 | tx action 2107 data 536 failed 0 | peers 1 | rx retry 111 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89070.990] radio[7] new election tree: 8e:94:df:b4:f1:4c -> 5e:dd:24:29:34:42 (met 516, ctr 477)
+[89071.453] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89072.520] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89072.521] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89072.971] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[89073.014] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89073.565] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89074.601] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89074.990] stats: seen 6588 awdl_action 2664 awdl_data 626 dropped 0 | tx action 2160 data 566 failed 0 | peers 1 | rx retry 122 dup 8 ampdu 0 | uq drop 12 | chanseq verbatim
+[89075.664] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89076.743] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89077.803] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89078.837] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89079.841] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89079.990] stats: seen 6756 awdl_action 2679 awdl_data 676 dropped 0 | tx action 2209 data 617 failed 0 | peers 1 | rx retry 133 dup 10 ampdu 0 | uq drop 12 | chanseq verbatim
+[89081.065] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89081.957] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89083.007] radio[7] GATE slot 10 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[10]=802c -> OPEN
+[89084.282] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89084.991] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89084.991] stats: seen 6861 awdl_action 2694 awdl_data 700 dropped 0 | tx action 2258 data 647 failed 0 | peers 1 | rx retry 136 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89089.990] stats: seen 6964 awdl_action 2733 awdl_data 700 dropped 0 | tx action 2307 data 648 failed 0 | peers 1 | rx retry 136 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89092.336] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 6,0,44,0,0,0,0,0,6,0,44,0,0,0,0,0
+[89092.990] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 2/16 slots on ch 6
+[89094.990] stats: seen 7104 awdl_action 2798 awdl_data 703 dropped 0 | tx action 2358 data 649 failed 0 | peers 1 | rx retry 136 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89099.989] stats: seen 7216 awdl_action 2837 awdl_data 703 dropped 0 | tx action 2412 data 650 failed 0 | peers 1 | rx retry 136 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89104.989] stats: seen 7378 awdl_action 2878 awdl_data 706 dropped 0 | tx action 2466 data 652 failed 0 | peers 1 | rx retry 136 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89105.005] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89106.141] radio[7] GATE slot 9 own_chan 0 (enc 3) peer_chan 0 (enc 3) seq[9]=0000 -> SHUT
+[89106.971] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,44,44,44,44,44,6,44,44,44,44,44,44,44
+[89107.029] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89107.126] radio[7] GATE slot 9 own_chan 44 (enc 3) peer_chan 44 (enc 3) seq[9]=802c -> OPEN
+[89108.154] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89109.186] radio[7] GATE slot 8 own_chan 6 (enc 3) peer_chan 6 (enc 3) seq[8]=5106 -> OPEN
+[89109.989] stats: seen 7525 awdl_action 2897 awdl_data 750 dropped 0 | tx action 2517 data 693 failed 0 | peers 1 | rx retry 141 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89111.476] radio[7] peer 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) changed channel sequence to 44,44,44,0,0,0,0,0,6,44,44,0,0,0,0,0
+[89111.990] radio[6] following 5e:dd:24:29:34:42 (4aab4fe1-2a0a-454a-be3e-d39a565a03ae) [verbatim]: 1/16 slots on ch 6
+[89114.989] stats: seen 7659 awdl_action 2926 awdl_data 752 dropped 0 | tx action 2566 data 700 failed 0 | peers 1 | rx retry 141 dup 11 ampdu 0 | uq drop 12 | chanseq verbatim
+[89118.212] stopping

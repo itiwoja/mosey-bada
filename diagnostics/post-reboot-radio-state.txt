@@ -1,0 +1,7 @@
+total 0
+dr-xr-x---  2 system log  0 2022-02-05 11:25 .
+drwxr-xr-x 13 root   root 0 1970-01-01 09:00 ..
+up
+1
+ls: /mnt/fold5-mosey-runtime: No such file or directory
+ls: /mnt/fold5-mosey-service: No such file or directory

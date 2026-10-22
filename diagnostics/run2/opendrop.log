@@ -1,0 +1,198 @@
+2026-10-22 03:35:13,399 DEBUG    opendrop.config: No Apple ID Validation Record found
+2026-10-22 03:35:13,401 DEBUG    asyncio: Using selector: EpollSelector
+2026-10-22 03:35:18,410 DEBUG    opendrop.server: SO_RCVBUF = 8388608 B
+2026-10-22 03:35:18,415 INFO     opendrop.server: Announcing service: host Fold5, address fe80::8c94:dfff:feb4:f14c, port 8772
+2026-10-22 03:35:19,229 DEBUG    opendrop.server: re-announcing _airdrop._tcp every 5.0s
+2026-10-22 03:35:19,229 INFO     opendrop.server: Starting HTTPS server
+2026-10-22 03:35:26,288 DEBUG    opendrop.server: POST request at /Discover
+2026-10-22 03:35:26,302 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: close
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:35:29,359 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:35:29] "POST /Discover HTTP/1Terminated 
+--------------------------------------
+Exception occurred during processing of request from ('fe80::5cdd:24ff:fe29:3442', 49689, 0, 56)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 440, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 955, in do_POST
+    self.handle_discover()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 408, in handle_discover
+    self._set_response(len(discover_answer_binary))
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 301, in _set_response
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 546, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1223, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1192, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
+----------------------------------------
+2026-10-22 03:35:31,546 DEBUG    opendrop.server: POST request at /Discover
+2026-10-22 03:35:31,547 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: close
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:35:31,548 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:35:31] "POST /Discover HTTP/1.1" 200 -
+2026-10-22 03:35:40,990 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 03:35:40,992 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:36:10,274 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:36:10] "POST /Ask HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('fe80::5cdd:24ff:fe29:3442', 50545, 0, 56)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 440, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 957, in do_POST
+    self.handle_ask()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 518, in handle_ask
+    self._set_response(len(ask_resp_binary))
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 301, in _set_response
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 546, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1223, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1192, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
+----------------------------------------
+2026-10-22 03:37:05,883 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 03:37:05,883 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:37:06,879 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:37:06] "POST /Ask HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('fe80::5cdd:24ff:fe29:3442', 55251, 0, 56)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 440, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 957, in do_POST
+    self.handle_ask()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 518, in handle_ask
+    self._set_response(len(ask_resp_binary))
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 301, in _set_response
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 546, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1223, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1192, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
+----------------------------------------
+2026-10-22 03:37:11,127 DEBUG    opendrop.server: POST request at /Ask
+2026-10-22 03:37:11,129 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:37:31,526 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:37:31] "POST /Ask HTTP/1.1" 200 -
+2026-10-22 03:37:33,172 DEBUG    opendrop.server: POST request at /Upload
+2026-10-22 03:37:33,176 DEBUG    opendrop.server: Headers
+User-Agent: AirDrop/1.0
+TotalBytes: 6834439
+Content-Type: application/x-dvzip
+SenderPseudonym: pseud:fxgFq4+xEfGWc+5lS7WI4Q
+SenderPushToken: 2D9BCCDD9DBD40B436887B12E39860E9FFCA0105708433319C50D29795507C3E
+TransferID: D1627497-0903-48BE-AF13-8A2AF709AAAE
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+2026-10-22 03:37:33,177 INFO     opendrop.server: Receiving file(s) ...
+2026-10-22 03:39:26,478 WARNING  opendrop.server: upload stream broke (truncated or oversized chunk header) - salvaging
+2026-10-22 03:39:26,488 WARNING  opendrop.server: dvzip block truncated (wanted 128592, got 7718) - salvaging what arrived
+2026-10-22 03:39:26,492 WARNING  opendrop.server: archive ended early (None (errno=0, retcode=-30, archive_p=548603013024)) - checking what landed
+2026-10-22 03:39:26,492 WARNING  opendrop.server: incomplete, kept as .partial: 5CD5358F-E604-4182-95D6-FB3C82B433C9.JPG
+2026-10-22 03:39:26,492 WARNING  opendrop.server: Could not extract the archive (no complete file in the transfer).
+2026-10-22 03:39:26,493 WARNING  opendrop.server: The raw transfer is kept at /var/airdrop/staging/airdrop-received-1792640253.dvzip
+2026-10-22 03:39:26,493 INFO     opendrop.server: File(s) received (size 0.38 MB, speed 0.00 MB/s)
+2026-10-22 03:39:26,493 DEBUG    opendrop.server: fe80::5cdd:24ff:fe29:3442 - - [22/Oct/2026 03:39:26] "POST /Upload HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('fe80::5cdd:24ff:fe29:3442', 55092, 0, 56)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 442, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 959, in do_POST
+    self.handle_upload()
+  File "/usr/lib/python3.12/site-packages/opendrop/server.py", line 944, in handle_upload
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 546, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1223, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1192, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
+----------------------------------------
+Terminated 

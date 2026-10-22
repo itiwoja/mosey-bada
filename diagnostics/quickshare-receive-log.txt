@@ -1,0 +1,14 @@
+10-19 14:42:16.555 30767 30767 I adbd    : adbd service requested 'exec:cat '/data/local/tmp/fold5-mosey-ui.xml''
+10-19 14:42:16.786 30767 30767 I adbd    : adbd service requested 'shell,v2,raw:uiautomator dump /data/local/tmp/fold5-mosey-ui.xml'
+10-19 14:42:18.906 30767 30767 I adbd    : adbd service requested 'exec:cat '/data/local/tmp/fold5-mosey-ui.xml''
+10-19 14:42:22.743 27603 27807 W ActivityManager: Forcing bringing down service: ServiceRecord{ce66a54 u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.mosey}
+10-19 14:42:26.682 30767 30767 I adbd    : adbd service requested 'shell,v2,raw:uiautomator dump /data/local/tmp/fold5-mosey-ui.xml'
+10-19 14:42:27.021 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewState: MainActivityState(fetchStatus=Fetched, receiveMode=true, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=true, wifiDisconnectNoticeShown=false)
+10-19 14:42:27.021 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewState : MainActivityState(fetchStatus=Fetched, receiveMode=true, updatableBadge=false, profileUri=, deviceName=いっきさんのZ Fold5, protocolXSupported=true, wifiDisconnectNoticeShown=false)
+10-19 14:42:27.031 31710 31710 I ShareLive:QuickShare: [D2D][main] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:27.035 31710  9002 I ShareLive:QuickShare: [D2D][RxScheduler-18] [NearbyShareSourceImpl] NS [ isProtocolXInUse ] : false
+10-19 14:42:27.038 31710 31710 I ShareLive: [SLog][main][MainActivityViewModel] viewEffect: RelayOnPageSelected(receiveMode=true, isProtocolXInUse=false)
+10-19 14:42:27.038 31710 31710 I ShareLive: [SLog][main][MainActivity] observed viewEffect : RelayOnPageSelected(receiveMode=true, isProtocolXInUse=false)
+10-19 14:42:27.039 31710  9010 I ShareLive:QuickShare: [D2D][RxScheduler-25] [CapabilitySourceImpl] isTrustedMoseyInstall= true, FLAG_SYSTEM=true, FLAG_UPDATED_SYSTEM_APP=true
+10-19 14:42:27.045 31710  9010 I ShareLive:QuickShare: [D2D][RxScheduler-25] [ProtocolXRepository] isProtocolXAvailable: true
+10-19 14:42:29.190 30767 30767 I adbd    : adbd service requested 'exec:cat '/data/local/tmp/fold5-mosey-ui.xml''
