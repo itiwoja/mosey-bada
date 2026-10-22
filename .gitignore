@@ -5,3 +5,15 @@ mosey-enabler*
 .DS_Store
 .build/
 *.apk
+dist/
+work/
+__pycache__/
+*.pyc
+# Rebuildable diagnostic binaries; keep only the text/pcap evidence under diagnostics/
+diagnostics/libmosey_path_redirect.so
+diagnostics/framework-probe.dex
+diagnostics/fold5-awdl-bridge
+diagnostics/fold5-binder-probe
+diagnostics/fold5-monitor-session
+diagnostics/fold5-mosey-start-probe
+diagnostics/fold5-radio-probe
